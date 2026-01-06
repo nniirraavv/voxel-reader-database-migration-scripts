@@ -1,0 +1,6 @@
+for MySQL:-
+mysql -u root -p voxel < D:\Side_Projects\voxel\voxel_order_1\Backup\Dump20250625.sql
+
+for Postgres:-
+pg_restore -U postgres -d website_db_order2 D:\Side_Projects\voxel\voxel_order_1\
+Backup\dev_voxel_app_db.backup

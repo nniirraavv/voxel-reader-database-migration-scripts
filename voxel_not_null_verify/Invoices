@@ -1,0 +1,10 @@
+SELECT * FROM public."Invoices"
+ORDER BY "iId" ASC 
+
+select count(*) from public."Invoices" where "iId" is null;
+select count(*) from public."Invoices" where "invoiceType" is null;
+select count(*) from public."Invoices" where "monthNumber" is null;
+select count(*) from public."Invoices" where "yearNumber" is null;
+select count(*) from public."Invoices" where "emailedStatus" is null;
+select count(*) from public."Invoices" where "createdAt" is null;
+select count(*) from public."Invoices" where "invoiceNo" is null;

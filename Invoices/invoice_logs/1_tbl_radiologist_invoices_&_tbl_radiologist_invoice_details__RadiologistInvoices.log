@@ -1,0 +1,557 @@
+2025-07-29 10:11:53,955 - INFO - Starting RadiologistInvoices migration...
+2025-07-29 10:11:53,955 - INFO - Connecting to MySQL database...
+2025-07-29 10:11:53,959 - INFO - Successfully connected to MySQL database
+2025-07-29 10:11:53,960 - INFO - Connecting to PostgreSQL database...
+2025-07-29 10:11:53,981 - INFO - Successfully connected to PostgreSQL database
+2025-07-29 10:11:53,993 - INFO - Dropped default/sequence from RadiologistInvoices.riId to allow explicit inserts.
+2025-07-29 10:11:54,004 - INFO - Dropped trigger: radiologist_invoice_no_trigger on RadiologistInvoices
+2025-07-29 10:11:54,007 - INFO - Creating radiologist mapping...
+2025-07-29 10:11:54,009 - INFO - Found 10 radiologist mappings in PostgreSQL
+2025-07-29 10:11:54,010 - INFO - Starting radiologist invoices migration...
+2025-07-29 10:11:54,014 - INFO - Found 210 radiologist invoices in MySQL
+2025-07-29 10:11:54,030 - INFO - Migrated 50 radiologist invoices...
+2025-07-29 10:11:54,048 - INFO - Migrated 100 radiologist invoices...
+2025-07-29 10:11:54,060 - INFO - Migrated 150 radiologist invoices...
+2025-07-29 10:11:54,075 - INFO - Migrated 200 radiologist invoices...
+2025-07-29 10:11:54,081 - INFO - RadiologistInvoices migration completed:
+2025-07-29 10:11:54,081 - INFO -   Migrated: 210
+2025-07-29 10:11:54,081 - INFO -   Skipped: 0
+2025-07-29 10:11:54,081 - INFO -   Failed: 0
+2025-07-29 10:11:54,083 - INFO - Migration transaction committed
+2025-07-29 10:11:54,083 - INFO - Restoring defaults and triggers...
+2025-07-29 10:11:54,087 - INFO - Restored default/sequence for RadiologistInvoices.riId using public."RadiologistInvoices_riId_seq"
+2025-07-29 10:11:54,094 - INFO - Restored invoiceNo trigger on RadiologistInvoices table
+2025-07-29 10:11:54,095 - INFO - Defaults and triggers restored successfully
+2025-07-29 10:11:54,095 - INFO - ============================================================
+2025-07-29 10:11:54,095 - INFO - MIGRATION SUMMARY
+2025-07-29 10:11:54,095 - INFO - ============================================================
+2025-07-29 10:11:54,095 - INFO - RadiologistInvoices:
+2025-07-29 10:11:54,095 - INFO -   Total records processed: 210
+2025-07-29 10:11:54,095 - INFO -   Successfully migrated: 210
+2025-07-29 10:11:54,095 - INFO -   Skipped records: 0
+2025-07-29 10:11:54,095 - INFO -   Failed records: 0
+2025-07-29 10:11:54,095 - INFO - ============================================================
+2025-07-29 10:11:54,096 - INFO - Running verification...
+2025-07-29 10:11:54,098 - INFO - ============================================================
+2025-07-29 10:11:54,098 - INFO - MIGRATION VERIFICATION
+2025-07-29 10:11:54,098 - INFO - ============================================================
+2025-07-29 10:11:54,099 - INFO - RadiologistInvoices:
+2025-07-29 10:11:54,099 - INFO -   MySQL records: 210
+2025-07-29 10:11:54,099 - INFO -   PostgreSQL records: 210
+2025-07-29 10:11:54,099 - INFO -   ✅ Record counts match!
+2025-07-29 10:11:54,100 - INFO - 
+Sample migrated invoices:
+2025-07-29 10:11:54,100 - INFO -   riId: 34, User: None, Month: 5, Year: 2020, Invoice: INV - 200610240317
+2025-07-29 10:11:54,100 - INFO -   riId: 35, User: None, Month: 5, Year: 2020, Invoice: INV - 200610240317
+2025-07-29 10:11:54,101 - INFO -   riId: 36, User: None, Month: 5, Year: 2020, Invoice: INV - 200610240317
+2025-07-29 10:11:54,101 - INFO -   riId: 37, User: None, Month: 5, Year: 2020, Invoice: INV - 200610570416
+2025-07-29 10:11:54,101 - INFO -   riId: 38, User: None, Month: 5, Year: 2020, Invoice: INV - 200610570416
+2025-07-29 10:11:54,101 - INFO - ============================================================
+2025-07-29 10:11:54,101 - INFO - Migration completed successfully!
+2025-07-29 10:11:54,101 - INFO - MySQL connection closed
+2025-07-29 10:11:54,104 - INFO - PostgreSQL connection closed
+2026-01-06 16:22:55,870 - INFO - Starting RadiologistInvoices migration...
+2026-01-06 16:22:55,870 - INFO - Connecting to MySQL database...
+2026-01-06 16:22:55,885 - INFO - Successfully connected to MySQL database
+2026-01-06 16:22:55,885 - INFO - Connecting to PostgreSQL database...
+2026-01-06 16:22:55,906 - INFO - Successfully connected to PostgreSQL database
+2026-01-06 16:22:55,909 - INFO - Dropped default/sequence from RadiologistInvoices.riId to allow explicit inserts.
+2026-01-06 16:22:55,915 - INFO - Dropped trigger: radiologist_invoice_no_trigger on RadiologistInvoices
+2026-01-06 16:22:55,915 - INFO - Creating radiologist mapping...
+2026-01-06 16:22:55,917 - INFO - Found 10 radiologist mappings in PostgreSQL
+2026-01-06 16:22:55,917 - INFO - Starting radiologist invoices migration...
+2026-01-06 16:22:55,921 - INFO - Found 228 radiologist invoices in MySQL
+2026-01-06 16:22:55,923 - ERROR - Failed to migrate invoice 34: duplicate key value violates unique constraint "RadiologistInvoices_pkey"
+DETAIL:  Key ("riId")=(34) already exists.
+
+2026-01-06 16:22:55,923 - ERROR - Failed to migrate invoice 35: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,923 - ERROR - Failed to migrate invoice 36: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,923 - ERROR - Failed to migrate invoice 37: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,924 - ERROR - Failed to migrate invoice 38: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,924 - ERROR - Failed to migrate invoice 39: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,924 - ERROR - Failed to migrate invoice 43: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,924 - ERROR - Failed to migrate invoice 44: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,924 - ERROR - Failed to migrate invoice 45: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,924 - ERROR - Failed to migrate invoice 46: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,924 - ERROR - Failed to migrate invoice 47: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 48: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 49: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 50: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 51: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 52: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 53: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 54: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 55: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 56: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 57: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 58: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,925 - ERROR - Failed to migrate invoice 59: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,926 - ERROR - Failed to migrate invoice 60: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,926 - ERROR - Failed to migrate invoice 61: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,926 - ERROR - Failed to migrate invoice 62: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,926 - ERROR - Failed to migrate invoice 63: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,926 - ERROR - Failed to migrate invoice 64: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,926 - ERROR - Failed to migrate invoice 65: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,927 - ERROR - Failed to migrate invoice 66: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,927 - ERROR - Failed to migrate invoice 67: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,927 - ERROR - Failed to migrate invoice 68: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,927 - ERROR - Failed to migrate invoice 69: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,927 - ERROR - Failed to migrate invoice 70: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,927 - ERROR - Failed to migrate invoice 71: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,927 - ERROR - Failed to migrate invoice 72: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,928 - ERROR - Failed to migrate invoice 73: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,928 - ERROR - Failed to migrate invoice 74: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,928 - ERROR - Failed to migrate invoice 75: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,928 - ERROR - Failed to migrate invoice 76: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,928 - ERROR - Failed to migrate invoice 77: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,929 - ERROR - Failed to migrate invoice 78: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,929 - ERROR - Failed to migrate invoice 79: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,929 - ERROR - Failed to migrate invoice 80: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,929 - ERROR - Failed to migrate invoice 81: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,929 - ERROR - Failed to migrate invoice 82: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,929 - ERROR - Failed to migrate invoice 83: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,930 - ERROR - Failed to migrate invoice 84: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,930 - ERROR - Failed to migrate invoice 85: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,930 - ERROR - Failed to migrate invoice 86: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,930 - ERROR - Failed to migrate invoice 87: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,931 - ERROR - Failed to migrate invoice 88: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,931 - ERROR - Failed to migrate invoice 89: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,938 - ERROR - Failed to migrate invoice 90: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,938 - ERROR - Failed to migrate invoice 91: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,938 - ERROR - Failed to migrate invoice 92: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,938 - ERROR - Failed to migrate invoice 93: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,939 - ERROR - Failed to migrate invoice 94: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,939 - ERROR - Failed to migrate invoice 95: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,939 - ERROR - Failed to migrate invoice 96: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,939 - ERROR - Failed to migrate invoice 97: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,939 - ERROR - Failed to migrate invoice 98: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,940 - ERROR - Failed to migrate invoice 99: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,940 - ERROR - Failed to migrate invoice 100: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,942 - ERROR - Failed to migrate invoice 101: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,944 - ERROR - Failed to migrate invoice 102: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,944 - ERROR - Failed to migrate invoice 103: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,944 - ERROR - Failed to migrate invoice 104: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,944 - ERROR - Failed to migrate invoice 105: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,945 - ERROR - Failed to migrate invoice 106: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,945 - ERROR - Failed to migrate invoice 107: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,945 - ERROR - Failed to migrate invoice 108: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,945 - ERROR - Failed to migrate invoice 109: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,946 - ERROR - Failed to migrate invoice 110: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,947 - ERROR - Failed to migrate invoice 111: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,947 - ERROR - Failed to migrate invoice 112: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,947 - ERROR - Failed to migrate invoice 113: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,948 - ERROR - Failed to migrate invoice 114: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,948 - ERROR - Failed to migrate invoice 115: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,948 - ERROR - Failed to migrate invoice 116: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,949 - ERROR - Failed to migrate invoice 117: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,951 - ERROR - Failed to migrate invoice 118: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,951 - ERROR - Failed to migrate invoice 119: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,951 - ERROR - Failed to migrate invoice 120: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,952 - ERROR - Failed to migrate invoice 121: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,952 - ERROR - Failed to migrate invoice 122: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,952 - ERROR - Failed to migrate invoice 123: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,953 - ERROR - Failed to migrate invoice 124: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,953 - ERROR - Failed to migrate invoice 125: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,953 - ERROR - Failed to migrate invoice 126: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,953 - ERROR - Failed to migrate invoice 127: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,953 - ERROR - Failed to migrate invoice 128: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,953 - ERROR - Failed to migrate invoice 129: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,954 - ERROR - Failed to migrate invoice 130: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,954 - ERROR - Failed to migrate invoice 131: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,954 - ERROR - Failed to migrate invoice 132: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,954 - ERROR - Failed to migrate invoice 133: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,955 - ERROR - Failed to migrate invoice 134: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,955 - ERROR - Failed to migrate invoice 135: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,972 - ERROR - Failed to migrate invoice 136: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,973 - ERROR - Failed to migrate invoice 137: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,973 - ERROR - Failed to migrate invoice 138: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,973 - ERROR - Failed to migrate invoice 139: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,973 - ERROR - Failed to migrate invoice 140: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,973 - ERROR - Failed to migrate invoice 141: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,973 - ERROR - Failed to migrate invoice 142: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 143: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 144: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 145: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 146: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 147: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 148: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 149: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 150: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 151: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,974 - ERROR - Failed to migrate invoice 152: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 153: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 154: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 155: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 156: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 157: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 158: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 159: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 160: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 161: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 162: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 163: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 164: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,975 - ERROR - Failed to migrate invoice 165: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 166: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 167: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 168: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 169: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 170: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 171: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 172: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 173: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 174: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,976 - ERROR - Failed to migrate invoice 175: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 176: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 177: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 178: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 179: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 180: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 181: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 182: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 183: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 184: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 185: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,977 - ERROR - Failed to migrate invoice 186: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 187: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 188: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 189: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 190: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 191: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 192: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 193: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 194: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 195: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 196: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 197: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 198: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 199: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,978 - ERROR - Failed to migrate invoice 200: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 201: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 202: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 203: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 204: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 205: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 206: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 207: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 208: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 209: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 210: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 211: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 212: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 213: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,979 - ERROR - Failed to migrate invoice 214: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 215: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 216: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 217: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 218: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 219: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 220: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 221: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 222: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 223: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 224: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 225: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 226: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,980 - ERROR - Failed to migrate invoice 227: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 228: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 229: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 230: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 231: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 232: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 233: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 234: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 235: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 236: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 237: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 238: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,981 - ERROR - Failed to migrate invoice 239: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 240: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 241: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 242: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 243: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 244: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 245: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 246: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 247: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 248: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,982 - ERROR - Failed to migrate invoice 249: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 250: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 251: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 252: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 253: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 254: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 255: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 256: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,983 - ERROR - Failed to migrate invoice 257: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - ERROR - Failed to migrate invoice 258: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - ERROR - Failed to migrate invoice 259: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - ERROR - Failed to migrate invoice 260: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - ERROR - Failed to migrate invoice 261: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - ERROR - Failed to migrate invoice 262: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - ERROR - Failed to migrate invoice 263: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - ERROR - Failed to migrate invoice 264: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:55,984 - INFO - RadiologistInvoices migration completed:
+2026-01-06 16:22:55,984 - INFO -   Migrated: 0
+2026-01-06 16:22:55,984 - INFO -   Skipped: 0
+2026-01-06 16:22:55,984 - INFO -   Failed: 228
+2026-01-06 16:22:55,984 - INFO - Migration transaction committed
+2026-01-06 16:22:55,984 - INFO - Restoring defaults and triggers...
+2026-01-06 16:22:55,986 - INFO - Restored default/sequence for RadiologistInvoices.riId using public."RadiologistInvoices_riId_seq"
+2026-01-06 16:22:55,997 - INFO - Restored invoiceNo trigger on RadiologistInvoices table
+2026-01-06 16:22:55,997 - INFO - Defaults and triggers restored successfully
+2026-01-06 16:22:55,997 - INFO - ============================================================
+2026-01-06 16:22:55,997 - INFO - MIGRATION SUMMARY
+2026-01-06 16:22:55,997 - INFO - ============================================================
+2026-01-06 16:22:55,997 - INFO - RadiologistInvoices:
+2026-01-06 16:22:55,997 - INFO -   Total records processed: 228
+2026-01-06 16:22:55,997 - INFO -   Successfully migrated: 0
+2026-01-06 16:22:55,997 - INFO -   Skipped records: 0
+2026-01-06 16:22:55,997 - INFO -   Failed records: 228
+2026-01-06 16:22:55,997 - INFO - ============================================================
+2026-01-06 16:22:55,997 - INFO - Running verification...
+2026-01-06 16:22:55,999 - INFO - ============================================================
+2026-01-06 16:22:55,999 - INFO - MIGRATION VERIFICATION
+2026-01-06 16:22:55,999 - INFO - ============================================================
+2026-01-06 16:22:55,999 - INFO - RadiologistInvoices:
+2026-01-06 16:22:55,999 - INFO -   MySQL records: 228
+2026-01-06 16:22:55,999 - INFO -   PostgreSQL records: 212
+2026-01-06 16:22:55,999 - WARNING -   ⚠️  Record count mismatch. Difference: 16
+2026-01-06 16:22:55,999 - INFO - 
+Sample migrated invoices:
+2026-01-06 16:22:55,999 - INFO -   riId: 1, User: None, Month: 7, Year: 2025, Invoice: INV-20250828010001
+2026-01-06 16:22:55,999 - INFO -   riId: 2, User: 201, Month: 7, Year: 2025, Invoice: INV-20250829010002
+2026-01-06 16:22:55,999 - INFO -   riId: 34, User: None, Month: 5, Year: 2020, Invoice: INV-20250729010034
+2026-01-06 16:22:55,999 - INFO -   riId: 35, User: None, Month: 5, Year: 2020, Invoice: INV-20250729010035
+2026-01-06 16:22:55,999 - INFO -   riId: 36, User: None, Month: 5, Year: 2020, Invoice: INV-20250729010036
+2026-01-06 16:22:55,999 - INFO - ============================================================
+2026-01-06 16:22:55,999 - INFO - Migration completed successfully!
+2026-01-06 16:22:55,999 - INFO - MySQL connection closed
+2026-01-06 16:22:55,999 - INFO - PostgreSQL connection closed

@@ -1,0 +1,10 @@
+SELECT * FROM public."Cases"
+ORDER BY "cId" ASC 
+
+select count(*) from public."Cases" where "cId" is null;
+select count(*) from public."Cases" where "voxelCaseId" is null;
+select count(*) from public."Cases" where "doctorUserId" is null;
+select count(*) from public."Cases" where "status" is null;
+select count(*) from public."Cases" where "totalServiceCost" is null;
+select count(*) from public."Cases" where "createdByUserId" is null;
+select count(*) from public."Cases" where "createdAt" is null;

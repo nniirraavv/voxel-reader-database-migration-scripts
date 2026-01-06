@@ -1,0 +1,74 @@
+-- Clear existing tables:
+-- 1. Delete child records first (they reference others)
+DELETE FROM "InvoiceCaseServices";
+DELETE FROM "PaymentPlatformAccessTokens";
+DELETE FROM "PaymentTransactions";
+DELETE FROM "CaseFiles";
+DELETE FROM "CaseServices";
+DELETE FROM "CaseStudyPurposes";
+DELETE FROM "CasePatients";
+DELETE FROM "Cases";  -- FK to RadiologistInvoices
+DELETE FROM "RadiologistInvoiceCaseServices";
+DELETE FROM "Invoices";
+DELETE FROM "RadiologistInvoices";
+
+-- Phase 1 :- For Users
+
+ALTER TABLE "Users" ADD COLUMN olduserid INTEGER;
+ALTER TYPE "enum_Users_userType" ADD VALUE 'CLINIC_USERS';
+
+-- Phase 2:- For Invoices
+ALTER TYPE "enum_Invoices_invoiceType" ADD VALUE IF NOT EXISTS 'ADHOC';
+
+UPDATE "Users" SET "nameTitle"='Mr.' where "nameTitle"='Mr';
+UPDATE "Users" SET "nameTitle"='Dr.' where "nameTitle"='Dr';
+UPDATE "Users" SET "nameTitle"='Mrs.' where "nameTitle"='Mrs';
+UPDATE "Users" SET "nameTitle"='Ms.' where "nameTitle"='Ms';
+
+INSERT INTO public."Users" ("userType","email","sub","nameTitle","firstName","status","olduserid") 
+VALUES ('CMS','nirav.shah@eternalsoftsolutions.com','34983428-e031-7001-00e9-ff56c1b7a274','Mr.','Admin',TRUE, 1002 );
+
+INSERT INTO public."Users" ("userType","email","sub","nameTitle","firstName","status","olduserid")
+VALUES ('CMS','info@voxelreaders.com','444814a8-70e1-7007-6e80-6601cd63c766','Mr','CMS',TRUE,1001);
+
+
+
+
+
+UPDATE public."Users" set "olduserid"=1191 where "uId"=124
+
+
+####################################################################################################
+
+0. To load the original Database.
+
+
+sudo -u postgres /usr/lib/postgresql/16/bin/pg_restore -d voxel_filtered /home/eternal/Desktop/voxel_order_1/Backup/dev_voxel_app_db.backup
+
+
+
+1. To create a dump
+
+cd /tmp
+sudo -u postgres pg_dump voxel_filtered > voxel_filtered.sql
+mv /tmp/voxel_filtered.sql /home/eternal/Desktop/voxel_order_1/
+
+
+2. To load dump. 
+
+move to tmp folder
+sudo mv /home/eternal/Desktop/voxel_order_1/voxel_filtered.sql /tmp/
+
+sudo -u postgres psql -d finalll -f /tmp/voxel_filtered.sql
+
+move back:
+sudo mv /tmp/voxel_filtered.sql /home/eternal/Desktop/voxel_order_1/
+
+
+Three Steps:
+cd /tmp
+sudo -u postgres pg_dump voxel_filtered > voxel_filtered.sql
+sudo -u postgres psql -d finalll -f /tmp/voxel_filtered.sql
+sudo mv /tmp/voxel_filtered.sql /home/eternal/Desktop/voxel_order_1/
+
+####################################################################################################

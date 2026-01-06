@@ -1,0 +1,833 @@
+2025-07-29 10:12:47,774 - INFO - Establishing database connections...
+2025-07-29 10:12:47,799 - INFO - Truncating CaseFiles and resetting cfId sequence to 1...
+2025-07-29 10:12:47,817 - INFO - Table truncated and sequence reset.
+2025-07-29 10:12:47,819 - INFO - Built Users mapping with 96 entries
+2025-07-29 10:12:47,821 - INFO - Fetching source data from tbl_cases_files_new...
+2025-07-29 10:12:48,030 - INFO - Found 19487 records to migrate
+2025-07-29 10:12:48,030 - INFO - Starting data migration...
+2025-07-29 10:12:48,030 - INFO - Note: Foreign key validation will be performed - only records with valid caseId and uploadByUserId will be migrated
+2025-07-29 10:12:48,031 - WARNING - Skipping record 1: uploaded_by 1 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,033 - WARNING - Record 2: Case ID 3885 does not exist in Cases table - skipping
+2025-07-29 10:12:48,033 - WARNING - Skipping record 3: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,034 - WARNING - Record 4: Case ID 3886 does not exist in Cases table - skipping
+2025-07-29 10:12:48,034 - WARNING - Skipping record 7: uploaded_by 1 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,035 - WARNING - Record 8: Case ID 3891 does not exist in Cases table - skipping
+2025-07-29 10:12:48,035 - WARNING - Skipping record 9: uploaded_by 1 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,036 - WARNING - Record 10: Case ID 3892 does not exist in Cases table - skipping
+2025-07-29 10:12:48,037 - WARNING - Record 11: Case ID 3893 does not exist in Cases table - skipping
+2025-07-29 10:12:48,037 - WARNING - Skipping record 12: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,038 - WARNING - Skipping record 13: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,038 - WARNING - Skipping record 14: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,038 - WARNING - Skipping record 15: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,038 - WARNING - Skipping record 16: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,038 - WARNING - Skipping record 18: uploaded_by 3 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,038 - WARNING - Skipping record 19: uploaded_by 3 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,039 - WARNING - Skipping record 20: uploaded_by 3 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,040 - WARNING - Record 21: Case ID 3901 does not exist in Cases table - skipping
+2025-07-29 10:12:48,041 - WARNING - Record 22: Case ID 3902 does not exist in Cases table - skipping
+2025-07-29 10:12:48,042 - WARNING - Record 23: Case ID 3894 does not exist in Cases table - skipping
+2025-07-29 10:12:48,043 - WARNING - Record 24: Case ID 3903 does not exist in Cases table - skipping
+2025-07-29 10:12:48,043 - WARNING - Skipping record 25: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,044 - WARNING - Record 26: Case ID 3904 does not exist in Cases table - skipping
+2025-07-29 10:12:48,044 - WARNING - Skipping record 29: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,044 - WARNING - Skipping record 30: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,045 - WARNING - Skipping record 31: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,045 - WARNING - Skipping record 32: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,045 - WARNING - Skipping record 33: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,045 - WARNING - Skipping record 36: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,046 - WARNING - Record 37: Case ID 3905 does not exist in Cases table - skipping
+2025-07-29 10:12:48,047 - WARNING - Record 38: Case ID 3906 does not exist in Cases table - skipping
+2025-07-29 10:12:48,047 - WARNING - Skipping record 39: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,047 - WARNING - Skipping record 40: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,048 - WARNING - Skipping record 41: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,048 - WARNING - Skipping record 42: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,048 - WARNING - Skipping record 43: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,048 - WARNING - Skipping record 44: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,048 - WARNING - Skipping record 45: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,048 - WARNING - Skipping record 46: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,048 - WARNING - Skipping record 47: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,049 - WARNING - Skipping record 48: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,049 - WARNING - Record 49: Case ID 3920 does not exist in Cases table - skipping
+2025-07-29 10:12:48,050 - WARNING - Skipping record 50: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,050 - WARNING - Skipping record 51: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,050 - WARNING - Skipping record 52: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,050 - WARNING - Skipping record 54: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,050 - WARNING - Skipping record 55: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,050 - WARNING - Skipping record 56: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,050 - WARNING - Skipping record 57: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,051 - WARNING - Skipping record 58: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,051 - WARNING - Skipping record 59: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,051 - WARNING - Skipping record 60: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,051 - WARNING - Skipping record 61: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,051 - WARNING - Skipping record 62: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,053 - WARNING - Record 63: Case ID 3921 does not exist in Cases table - skipping
+2025-07-29 10:12:48,053 - WARNING - Skipping record 64: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,053 - WARNING - Skipping record 65: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,054 - WARNING - Skipping record 67: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,054 - WARNING - Skipping record 68: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,054 - WARNING - Skipping record 69: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,054 - WARNING - Skipping record 70: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,054 - WARNING - Skipping record 71: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,054 - WARNING - Skipping record 72: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,057 - WARNING - Record 73: Case ID 3944 does not exist in Cases table - skipping
+2025-07-29 10:12:48,058 - WARNING - Skipping record 74: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,059 - WARNING - Skipping record 75: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,059 - WARNING - Skipping record 76: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,060 - WARNING - Skipping record 77: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,060 - WARNING - Skipping record 78: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,060 - WARNING - Skipping record 79: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,060 - WARNING - Skipping record 80: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,061 - WARNING - Skipping record 81: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,061 - WARNING - Skipping record 82: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,061 - WARNING - Skipping record 83: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,061 - WARNING - Skipping record 84: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,061 - WARNING - Skipping record 85: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,061 - WARNING - Skipping record 86: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,061 - WARNING - Skipping record 87: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,062 - WARNING - Skipping record 88: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,067 - WARNING - Record 89: Case ID 3969 does not exist in Cases table - skipping
+2025-07-29 10:12:48,068 - WARNING - Skipping record 90: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,068 - WARNING - Skipping record 91: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,069 - WARNING - Skipping record 92: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,069 - WARNING - Skipping record 93: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,069 - WARNING - Skipping record 94: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,069 - WARNING - Skipping record 95: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,069 - WARNING - Skipping record 96: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,069 - WARNING - Skipping record 97: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,069 - WARNING - Skipping record 98: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,070 - WARNING - Record 99: Case ID 3979 does not exist in Cases table - skipping
+2025-07-29 10:12:48,070 - WARNING - Skipping record 100: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,070 - WARNING - Skipping record 101: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,072 - WARNING - Record 102: Case ID 3982 does not exist in Cases table - skipping
+2025-07-29 10:12:48,073 - WARNING - Skipping record 103: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,073 - WARNING - Skipping record 104: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,073 - WARNING - Skipping record 105: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,073 - WARNING - Skipping record 106: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,073 - WARNING - Skipping record 107: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,075 - WARNING - Record 108: Case ID 3988 does not exist in Cases table - skipping
+2025-07-29 10:12:48,075 - WARNING - Skipping record 109: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,076 - WARNING - Record 110: Case ID 3989 does not exist in Cases table - skipping
+2025-07-29 10:12:48,076 - WARNING - Skipping record 111: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,077 - WARNING - Skipping record 112: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,079 - WARNING - Record 113: Case ID 3991 does not exist in Cases table - skipping
+2025-07-29 10:12:48,079 - WARNING - Skipping record 114: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,079 - WARNING - Skipping record 115: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,081 - WARNING - Record 116: Case ID 3992 does not exist in Cases table - skipping
+2025-07-29 10:12:48,082 - WARNING - Record 117: Case ID 3990 does not exist in Cases table - skipping
+2025-07-29 10:12:48,082 - WARNING - Skipping record 118: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,083 - WARNING - Record 119: Case ID 3993 does not exist in Cases table - skipping
+2025-07-29 10:12:48,083 - WARNING - Skipping record 120: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,083 - WARNING - Skipping record 121: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,083 - WARNING - Skipping record 124: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,084 - WARNING - Skipping record 125: uploaded_by 2 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,084 - WARNING - Skipping record 126: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,084 - WARNING - Record 127: Case ID 3999 does not exist in Cases table - skipping
+2025-07-29 10:12:48,084 - WARNING - Skipping record 128: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,085 - WARNING - Skipping record 129: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,085 - WARNING - Skipping record 130: uploaded_by 7 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,085 - WARNING - Record 131: Case ID 4001 does not exist in Cases table - skipping
+2025-07-29 10:12:48,086 - WARNING - Record 132: Case ID 4000 does not exist in Cases table - skipping
+2025-07-29 10:12:48,086 - WARNING - Record 133: Case ID 3984 does not exist in Cases table - skipping
+2025-07-29 10:12:48,087 - WARNING - Skipping record 135: uploaded_by 17 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,087 - WARNING - Skipping record 136: usertype=client and uploaded_by 1107 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,088 - WARNING - Record 137: Case ID 4008 does not exist in Cases table - skipping
+2025-07-29 10:12:48,088 - WARNING - Skipping record 138: usertype=client and uploaded_by 1116 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 139: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 140: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 141: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 142: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 143: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 144: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 145: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 146: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 147: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,089 - WARNING - Skipping record 148: usertype=client and uploaded_by 1115 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 149: usertype=client and uploaded_by 1119 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 152: usertype=client and uploaded_by 1119 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 153: usertype=client and uploaded_by 1119 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 156: usertype=client and uploaded_by 1119 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 157: uploaded_by 19 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,090 - WARNING - Skipping record 158: uploaded_by 19 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,090 - WARNING - Skipping record 159: uploaded_by 19 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,090 - WARNING - Skipping record 161: usertype=client and uploaded_by 1107 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 162: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 163: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,090 - WARNING - Skipping record 165: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,091 - WARNING - Skipping record 166: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,091 - WARNING - Skipping record 167: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,091 - WARNING - Skipping record 168: uploaded_by 20 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,091 - WARNING - Skipping record 169: uploaded_by 20 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,091 - WARNING - Skipping record 170: uploaded_by 20 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,091 - WARNING - Skipping record 171: uploaded_by 20 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,091 - WARNING - Skipping record 173: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,091 - WARNING - Skipping record 174: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,093 - WARNING - Record 176: Case ID 4064 does not exist in Cases table - skipping
+2025-07-29 10:12:48,094 - WARNING - Skipping record 177: uploaded_by 21 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,097 - WARNING - Record 178: Case ID 4062 does not exist in Cases table - skipping
+2025-07-29 10:12:48,097 - WARNING - Skipping record 179: uploaded_by 21 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,097 - WARNING - Skipping record 180: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,099 - WARNING - Record 181: Case ID 4065 does not exist in Cases table - skipping
+2025-07-29 10:12:48,100 - WARNING - Skipping record 182: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,100 - WARNING - Skipping record 183: uploaded_by 21 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,100 - WARNING - Skipping record 184: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,100 - WARNING - Skipping record 185: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,100 - WARNING - Skipping record 186: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,100 - WARNING - Skipping record 187: usertype=client and uploaded_by 1122 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,100 - WARNING - Skipping record 188: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,101 - WARNING - Skipping record 189: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,101 - WARNING - Skipping record 190: usertype=client and uploaded_by 1129 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,102 - WARNING - Record 191: Case ID 4073 does not exist in Cases table - skipping
+2025-07-29 10:12:48,102 - WARNING - Skipping record 192: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,102 - WARNING - Skipping record 193: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,102 - WARNING - Skipping record 194: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,102 - WARNING - Skipping record 195: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,103 - WARNING - Skipping record 197: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,103 - WARNING - Skipping record 198: usertype=client and uploaded_by 1130 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,103 - WARNING - Skipping record 199: usertype=client and uploaded_by 1130 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,103 - WARNING - Skipping record 200: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,103 - WARNING - Skipping record 201: usertype=client and uploaded_by 1120 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,103 - WARNING - Skipping record 202: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,103 - WARNING - Skipping record 203: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,103 - WARNING - Skipping record 204: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,103 - WARNING - Skipping record 205: usertype=client and uploaded_by 1131 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,104 - WARNING - Skipping record 206: usertype=client and uploaded_by 1131 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,105 - WARNING - Record 207: Case ID 4080 does not exist in Cases table - skipping
+2025-07-29 10:12:48,105 - WARNING - Skipping record 208: usertype=client and uploaded_by 1132 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,105 - WARNING - Skipping record 210: uploaded_by 26 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,105 - WARNING - Skipping record 211: usertype=client and uploaded_by 1132 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,106 - WARNING - Skipping record 212: usertype=client and uploaded_by 1132 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,106 - WARNING - Skipping record 213: uploaded_by 26 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,106 - WARNING - Skipping record 214: uploaded_by 26 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,106 - WARNING - Skipping record 215: uploaded_by 26 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,107 - WARNING - Skipping record 216: usertype=client and uploaded_by 1131 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,107 - WARNING - Skipping record 217: usertype=client and uploaded_by 1131 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,107 - WARNING - Skipping record 218: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,107 - WARNING - Skipping record 221: usertype=client and uploaded_by 1131 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,107 - WARNING - Skipping record 222: usertype=client and uploaded_by 1135 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,107 - WARNING - Skipping record 223: usertype=client and uploaded_by 1135 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,107 - WARNING - Skipping record 224: uploaded_by 27 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,107 - WARNING - Skipping record 225: uploaded_by 27 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,107 - WARNING - Skipping record 226: usertype=client and uploaded_by 1135 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,107 - WARNING - Skipping record 228: uploaded_by 27 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,107 - WARNING - Skipping record 229: uploaded_by 27 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,108 - WARNING - Skipping record 231: usertype=client and uploaded_by 1135 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,108 - WARNING - Skipping record 232: usertype=client and uploaded_by 1135 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,108 - WARNING - Skipping record 233: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,108 - WARNING - Skipping record 234: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,109 - WARNING - Record 251: Case ID 4087 does not exist in Cases table - skipping
+2025-07-29 10:12:48,111 - WARNING - Skipping record 255: uploaded_by 31 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,111 - WARNING - Skipping record 258: uploaded_by 31 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,111 - WARNING - Skipping record 263: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,111 - WARNING - Skipping record 264: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,111 - WARNING - Skipping record 265: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,111 - WARNING - Skipping record 266: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,112 - WARNING - Skipping record 267: uploaded_by 31 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,114 - WARNING - Record 268: Case ID 4097 does not exist in Cases table - skipping
+2025-07-29 10:12:48,115 - WARNING - Record 270: Case ID 4087 does not exist in Cases table - skipping
+2025-07-29 10:12:48,116 - WARNING - Record 271: Case ID 4087 does not exist in Cases table - skipping
+2025-07-29 10:12:48,116 - WARNING - Skipping record 272: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,117 - WARNING - Record 273: Case ID 4098 does not exist in Cases table - skipping
+2025-07-29 10:12:48,117 - WARNING - Skipping record 274: uploaded_by 30 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,117 - WARNING - Skipping record 275: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,118 - WARNING - Skipping record 276: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,118 - WARNING - Skipping record 277: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,118 - WARNING - Skipping record 278: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,118 - WARNING - Skipping record 279: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,118 - WARNING - Skipping record 280: uploaded_by 32 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,118 - WARNING - Skipping record 283: uploaded_by 32 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,121 - WARNING - Record 286: Case ID 4092 does not exist in Cases table - skipping
+2025-07-29 10:12:48,127 - WARNING - Record 294: Case ID 4101 does not exist in Cases table - skipping
+2025-07-29 10:12:48,128 - WARNING - Skipping record 296: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,128 - WARNING - Skipping record 297: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,128 - WARNING - Skipping record 298: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,128 - WARNING - Skipping record 299: uploaded_by 23 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,128 - WARNING - Skipping record 300: usertype=client and uploaded_by 1137 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,133 - WARNING - Record 301: Case ID 4102 does not exist in Cases table - skipping
+2025-07-29 10:12:48,133 - WARNING - Skipping record 302: usertype=client and uploaded_by 1139 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,133 - WARNING - Skipping record 303: usertype=client and uploaded_by 1139 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,134 - WARNING - Skipping record 304: usertype=client and uploaded_by 1138 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,134 - WARNING - Skipping record 305: uploaded_by 30 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,134 - WARNING - Skipping record 306: uploaded_by 30 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,136 - WARNING - Record 307: Case ID 4076 does not exist in Cases table - skipping
+2025-07-29 10:12:48,137 - WARNING - Skipping record 308: usertype=client and uploaded_by 1135 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,137 - WARNING - Skipping record 309: usertype=client and uploaded_by 1135 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,137 - WARNING - Skipping record 310: usertype=client and uploaded_by 1140 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,137 - WARNING - Skipping record 311: usertype=client and uploaded_by 1140 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,137 - WARNING - Skipping record 312: usertype=client and uploaded_by 1140 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,137 - WARNING - Skipping record 313: usertype=client and uploaded_by 1140 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,137 - WARNING - Skipping record 314: usertype=client and uploaded_by 1141 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,137 - WARNING - Skipping record 315: usertype=client and uploaded_by 1147 not found in tbl_users or tbl_radiologist
+2025-07-29 10:12:48,138 - WARNING - Skipping record 316: uploaded_by 38 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,138 - WARNING - Skipping record 317: uploaded_by 1152 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,138 - WARNING - Skipping record 318: uploaded_by 39 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,138 - WARNING - Skipping record 319: uploaded_by 1153 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,164 - ERROR - Record 331: Migration failed - null value in column "fileName" of relation "CaseFiles" violates not-null constraint
+DETAIL:  Failing row contains (331, 4117, null, 67093, https://voxelreader.s3.us-east-2.amazonaws.com/radiologist/cases..., 194, 2025-07-29 10:12:48.163687+05:30, f, null, null).
+
+2025-07-29 10:12:48,165 - WARNING - Record 332: Case ID 4114 does not exist in Cases table - skipping
+2025-07-29 10:12:48,166 - ERROR - Record 333: Migration failed - null value in column "fileName" of relation "CaseFiles" violates not-null constraint
+DETAIL:  Failing row contains (333, 4116, null, 67093, https://voxelreader.s3.us-east-2.amazonaws.com/radiologist/cases..., 193, 2025-07-29 10:12:48.166122+05:30, f, null, null).
+
+2025-07-29 10:12:48,169 - WARNING - Skipping record 338: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,169 - WARNING - Skipping record 339: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,170 - WARNING - Skipping record 340: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,170 - WARNING - Skipping record 341: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,170 - WARNING - Record 342: Case ID 4124 does not exist in Cases table - skipping
+2025-07-29 10:12:48,171 - WARNING - Record 343: Case ID 4123 does not exist in Cases table - skipping
+2025-07-29 10:12:48,172 - WARNING - Record 344: Case ID 4122 does not exist in Cases table - skipping
+2025-07-29 10:12:48,173 - WARNING - Record 345: Case ID 4121 does not exist in Cases table - skipping
+2025-07-29 10:12:48,173 - WARNING - Skipping record 346: uploaded_by 1160 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,174 - WARNING - Record 347: Case ID 4125 does not exist in Cases table - skipping
+2025-07-29 10:12:48,174 - WARNING - Skipping record 348: uploaded_by 1161 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,174 - WARNING - Skipping record 349: uploaded_by 43 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,174 - WARNING - Skipping record 350: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,174 - WARNING - Skipping record 351: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,174 - WARNING - Skipping record 352: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,174 - WARNING - Skipping record 353: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,174 - WARNING - Skipping record 354: uploaded_by 1158 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,175 - WARNING - Record 355: Case ID 4131 does not exist in Cases table - skipping
+2025-07-29 10:12:48,176 - WARNING - Record 356: Case ID 4130 does not exist in Cases table - skipping
+2025-07-29 10:12:48,176 - WARNING - Record 357: Case ID 4129 does not exist in Cases table - skipping
+2025-07-29 10:12:48,177 - WARNING - Record 358: Case ID 4128 does not exist in Cases table - skipping
+2025-07-29 10:12:48,177 - WARNING - Record 359: Case ID 4127 does not exist in Cases table - skipping
+2025-07-29 10:12:48,178 - WARNING - Record 360: Case ID 4127 does not exist in Cases table - skipping
+2025-07-29 10:12:48,178 - WARNING - Skipping record 361: uploaded_by 1161 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,178 - WARNING - Skipping record 362: uploaded_by 1161 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,179 - WARNING - Skipping record 363: uploaded_by 43 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,181 - WARNING - Record 366: Case ID 4132 does not exist in Cases table - skipping
+2025-07-29 10:12:48,184 - WARNING - Skipping record 370: uploaded_by 1163 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,185 - WARNING - Record 371: Case ID 4136 does not exist in Cases table - skipping
+2025-07-29 10:12:48,203 - WARNING - Skipping record 436: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,203 - WARNING - Skipping record 437: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,203 - WARNING - Skipping record 438: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,244 - WARNING - Skipping record 492: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,245 - WARNING - Skipping record 493: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,245 - WARNING - Skipping record 494: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,245 - WARNING - Skipping record 495: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,245 - WARNING - Skipping record 496: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,246 - WARNING - Skipping record 497: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,246 - WARNING - Skipping record 498: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,255 - INFO - Migrated 100 records...
+2025-07-29 10:12:48,264 - WARNING - Skipping record 508: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,266 - WARNING - Skipping record 510: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,267 - WARNING - Skipping record 511: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,289 - WARNING - Skipping record 521: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,290 - WARNING - Skipping record 522: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,290 - WARNING - Skipping record 523: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,290 - WARNING - Skipping record 524: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,290 - WARNING - Skipping record 525: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,290 - WARNING - Skipping record 526: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,290 - WARNING - Skipping record 527: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,295 - WARNING - Skipping record 531: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,298 - WARNING - Skipping record 532: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,299 - WARNING - Skipping record 533: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,303 - WARNING - Skipping record 535: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,334 - WARNING - Skipping record 547: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,334 - WARNING - Skipping record 548: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,334 - WARNING - Skipping record 549: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,334 - WARNING - Skipping record 550: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,334 - WARNING - Skipping record 551: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,335 - WARNING - Skipping record 552: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,335 - WARNING - Skipping record 553: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,367 - WARNING - Skipping record 569: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,368 - WARNING - Skipping record 570: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,368 - WARNING - Skipping record 571: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,375 - WARNING - Skipping record 578: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,380 - WARNING - Skipping record 586: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,380 - WARNING - Skipping record 587: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,390 - WARNING - Skipping record 597: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,393 - WARNING - Skipping record 600: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,394 - WARNING - Skipping record 601: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,394 - WARNING - Skipping record 602: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,422 - INFO - Migrated 200 records...
+2025-07-29 10:12:48,472 - WARNING - Skipping record 675: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,472 - WARNING - Skipping record 676: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,472 - WARNING - Skipping record 677: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,480 - WARNING - Skipping record 687: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,481 - WARNING - Skipping record 688: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,481 - WARNING - Skipping record 689: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,483 - WARNING - Skipping record 694: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,484 - WARNING - Skipping record 695: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,531 - WARNING - Skipping record 707: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,532 - WARNING - Skipping record 708: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,553 - WARNING - Skipping record 715: uploaded_by 47 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,613 - INFO - Migrated 300 records...
+2025-07-29 10:12:48,615 - WARNING - Skipping record 751: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,616 - WARNING - Skipping record 752: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,616 - WARNING - Skipping record 753: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,616 - WARNING - Skipping record 754: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,628 - WARNING - Skipping record 775: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,628 - WARNING - Skipping record 776: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,629 - WARNING - Skipping record 777: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,639 - WARNING - Skipping record 796: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,695 - INFO - Migrated 400 records...
+2025-07-29 10:12:48,697 - WARNING - Skipping record 858: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,698 - WARNING - Skipping record 859: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,698 - WARNING - Skipping record 860: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,698 - WARNING - Skipping record 861: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,699 - WARNING - Skipping record 863: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,699 - WARNING - Skipping record 864: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,699 - WARNING - Skipping record 865: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,700 - WARNING - Skipping record 866: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,701 - WARNING - Skipping record 868: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,701 - WARNING - Skipping record 869: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,712 - WARNING - Skipping record 877: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,735 - WARNING - Skipping record 898: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,792 - WARNING - Skipping record 948: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,792 - WARNING - Skipping record 949: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,793 - WARNING - Skipping record 950: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,796 - WARNING - Skipping record 956: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,797 - WARNING - Skipping record 957: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,797 - WARNING - Skipping record 958: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,800 - WARNING - Skipping record 962: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,800 - WARNING - Skipping record 963: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,801 - WARNING - Skipping record 964: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,801 - WARNING - Skipping record 965: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,801 - WARNING - Skipping record 966: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,801 - WARNING - Skipping record 967: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,818 - INFO - Migrated 500 records...
+2025-07-29 10:12:48,833 - WARNING - Skipping record 993: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,833 - WARNING - Skipping record 994: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,833 - WARNING - Skipping record 995: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,833 - WARNING - Skipping record 996: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,834 - WARNING - Skipping record 997: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,834 - WARNING - Skipping record 998: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,847 - WARNING - Skipping record 1009: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,847 - WARNING - Skipping record 1010: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,891 - WARNING - Skipping record 1059: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,892 - WARNING - Skipping record 1060: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,892 - WARNING - Skipping record 1061: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,914 - WARNING - Skipping record 1089: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,918 - INFO - Migrated 600 records...
+2025-07-29 10:12:48,927 - WARNING - Skipping record 1101: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,927 - WARNING - Skipping record 1102: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,928 - WARNING - Skipping record 1103: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,996 - INFO - Migrated 700 records...
+2025-07-29 10:12:48,998 - WARNING - Skipping record 1197: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,998 - WARNING - Skipping record 1198: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,998 - WARNING - Skipping record 1199: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,998 - WARNING - Skipping record 1200: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,998 - WARNING - Skipping record 1201: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:48,998 - WARNING - Skipping record 1202: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,000 - WARNING - Skipping record 1205: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,000 - WARNING - Skipping record 1206: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,011 - WARNING - Skipping record 1223: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,023 - WARNING - Skipping record 1240: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,024 - WARNING - Skipping record 1241: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,024 - WARNING - Skipping record 1242: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,024 - WARNING - Skipping record 1243: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,044 - WARNING - Skipping record 1269: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,044 - WARNING - Skipping record 1270: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,057 - WARNING - Skipping record 1284: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,077 - WARNING - Skipping record 1310: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,077 - WARNING - Skipping record 1311: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,078 - WARNING - Skipping record 1312: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,082 - INFO - Migrated 800 records...
+2025-07-29 10:12:49,090 - WARNING - Skipping record 1323: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,101 - WARNING - Skipping record 1336: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,102 - WARNING - Skipping record 1337: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,102 - WARNING - Skipping record 1338: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,102 - WARNING - Skipping record 1339: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,113 - WARNING - Skipping record 1355: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,114 - WARNING - Skipping record 1356: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,114 - WARNING - Skipping record 1357: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,114 - WARNING - Skipping record 1358: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,114 - WARNING - Skipping record 1359: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,114 - WARNING - Skipping record 1360: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,114 - WARNING - Skipping record 1361: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,134 - WARNING - Skipping record 1389: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,134 - WARNING - Skipping record 1390: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,142 - WARNING - Skipping record 1405: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,164 - WARNING - Skipping record 1429: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,164 - WARNING - Skipping record 1430: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,164 - WARNING - Skipping record 1431: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,164 - WARNING - Skipping record 1432: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,166 - INFO - Migrated 900 records...
+2025-07-29 10:12:49,167 - WARNING - Skipping record 1436: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,168 - WARNING - Skipping record 1437: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,174 - WARNING - Skipping record 1443: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,174 - WARNING - Skipping record 1444: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,174 - WARNING - Skipping record 1445: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,174 - WARNING - Skipping record 1446: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,174 - WARNING - Skipping record 1447: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,208 - WARNING - Skipping record 1488: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,208 - WARNING - Skipping record 1489: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,236 - WARNING - Skipping record 1527: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,236 - WARNING - Skipping record 1528: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,236 - WARNING - Skipping record 1529: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,245 - WARNING - Skipping record 1542: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,245 - WARNING - Skipping record 1543: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,245 - WARNING - Skipping record 1544: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,245 - WARNING - Skipping record 1545: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,249 - INFO - Migrated 1000 records...
+2025-07-29 10:12:49,324 - INFO - Migrated 1100 records...
+2025-07-29 10:12:49,337 - WARNING - Skipping record 1665: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,337 - WARNING - Skipping record 1666: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,337 - WARNING - Skipping record 1667: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,337 - WARNING - Skipping record 1668: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,340 - WARNING - Skipping record 1672: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,340 - WARNING - Skipping record 1673: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,340 - WARNING - Skipping record 1674: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,340 - WARNING - Skipping record 1675: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,340 - WARNING - Skipping record 1676: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,340 - WARNING - Skipping record 1677: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,341 - WARNING - Skipping record 1678: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,341 - WARNING - Skipping record 1679: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,341 - WARNING - Skipping record 1680: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,341 - WARNING - Skipping record 1681: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,398 - WARNING - Skipping record 1751: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,399 - WARNING - Skipping record 1752: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,416 - INFO - Migrated 1200 records...
+2025-07-29 10:12:49,426 - WARNING - Skipping record 1777: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,426 - WARNING - Skipping record 1778: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,427 - WARNING - Skipping record 1779: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,448 - WARNING - Skipping record 1801: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,448 - WARNING - Skipping record 1802: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,448 - WARNING - Skipping record 1803: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,462 - WARNING - Skipping record 1818: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,462 - WARNING - Skipping record 1819: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,463 - WARNING - Skipping record 1820: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,463 - WARNING - Skipping record 1821: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,481 - WARNING - Skipping record 1842: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,482 - WARNING - Skipping record 1843: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,482 - WARNING - Skipping record 1844: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,508 - WARNING - Skipping record 1868: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,514 - WARNING - Skipping record 1872: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,514 - WARNING - Skipping record 1873: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,526 - INFO - Migrated 1300 records...
+2025-07-29 10:12:49,590 - WARNING - Skipping record 1964: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,591 - WARNING - Skipping record 1965: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,602 - WARNING - Skipping record 1977: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,606 - WARNING - Skipping record 1984: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,607 - WARNING - Skipping record 1985: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,607 - WARNING - Skipping record 1986: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,607 - WARNING - Skipping record 1987: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,610 - INFO - Migrated 1400 records...
+2025-07-29 10:12:49,616 - WARNING - Skipping record 2001: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,617 - WARNING - Skipping record 2002: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,617 - WARNING - Skipping record 2003: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,617 - WARNING - Skipping record 2004: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,617 - WARNING - Skipping record 2005: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,624 - WARNING - Skipping record 2014: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,625 - WARNING - Skipping record 2015: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,625 - WARNING - Skipping record 2016: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,625 - WARNING - Skipping record 2017: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,625 - WARNING - Skipping record 2018: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,645 - WARNING - Skipping record 2043: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,645 - WARNING - Skipping record 2044: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,645 - WARNING - Skipping record 2045: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,681 - WARNING - Skipping record 2076: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,681 - WARNING - Skipping record 2077: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,710 - INFO - Migrated 1500 records...
+2025-07-29 10:12:49,768 - WARNING - Skipping record 2178: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,768 - WARNING - Skipping record 2179: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,768 - WARNING - Skipping record 2180: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,769 - WARNING - Skipping record 2181: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,769 - WARNING - Skipping record 2182: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,769 - WARNING - Skipping record 2183: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,793 - WARNING - Skipping record 2211: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,794 - WARNING - Skipping record 2212: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,794 - WARNING - Skipping record 2213: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,794 - WARNING - Skipping record 2214: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,794 - WARNING - Skipping record 2215: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,799 - WARNING - Skipping record 2220: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,800 - INFO - Migrated 1600 records...
+2025-07-29 10:12:49,873 - WARNING - Skipping record 2312: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,882 - INFO - Migrated 1700 records...
+2025-07-29 10:12:49,965 - INFO - Migrated 1800 records...
+2025-07-29 10:12:49,971 - WARNING - Skipping record 2432: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,971 - WARNING - Skipping record 2433: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,972 - WARNING - Skipping record 2435: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,972 - WARNING - Skipping record 2436: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,979 - WARNING - Skipping record 2446: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,979 - WARNING - Skipping record 2447: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,980 - WARNING - Skipping record 2448: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,980 - WARNING - Skipping record 2449: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,980 - WARNING - Skipping record 2450: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:49,999 - WARNING - Skipping record 2473: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,000 - WARNING - Skipping record 2474: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,000 - WARNING - Skipping record 2475: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,000 - WARNING - Skipping record 2476: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,000 - WARNING - Skipping record 2477: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,000 - WARNING - Skipping record 2478: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,028 - WARNING - Skipping record 2505: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2506: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2507: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2508: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2509: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2510: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2511: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2512: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2513: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,029 - WARNING - Skipping record 2514: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2515: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2516: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2517: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2518: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2519: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2520: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2521: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2522: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,030 - WARNING - Skipping record 2523: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,031 - WARNING - Skipping record 2525: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,031 - WARNING - Skipping record 2526: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,031 - WARNING - Skipping record 2527: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,031 - WARNING - Skipping record 2528: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,036 - WARNING - Skipping record 2533: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,036 - WARNING - Skipping record 2534: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,036 - WARNING - Skipping record 2535: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,050 - WARNING - Skipping record 2546: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,051 - WARNING - Skipping record 2547: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,051 - WARNING - Skipping record 2548: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,051 - WARNING - Skipping record 2549: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,051 - WARNING - Skipping record 2550: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,070 - INFO - Migrated 1900 records...
+2025-07-29 10:12:50,117 - WARNING - Skipping record 2626: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,118 - WARNING - Skipping record 2627: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,118 - WARNING - Skipping record 2628: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,121 - WARNING - Skipping record 2634: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,121 - WARNING - Skipping record 2635: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,121 - WARNING - Skipping record 2636: uploaded_by 46 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,121 - WARNING - Skipping record 2637: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,121 - WARNING - Skipping record 2638: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,122 - WARNING - Skipping record 2639: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,122 - WARNING - Skipping record 2640: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,122 - WARNING - Skipping record 2641: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,122 - WARNING - Skipping record 2642: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,154 - INFO - Migrated 2000 records...
+2025-07-29 10:12:50,159 - WARNING - Skipping record 2686: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,159 - WARNING - Skipping record 2687: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,159 - WARNING - Skipping record 2688: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,160 - WARNING - Skipping record 2689: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,160 - WARNING - Skipping record 2690: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,160 - WARNING - Skipping record 2691: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,191 - WARNING - Skipping record 2737: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,200 - WARNING - Skipping record 2754: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,200 - WARNING - Skipping record 2755: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,200 - WARNING - Skipping record 2756: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,200 - WARNING - Skipping record 2757: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,201 - WARNING - Skipping record 2758: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,204 - WARNING - Skipping record 2766: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,235 - INFO - Migrated 2100 records...
+2025-07-29 10:12:50,279 - WARNING - Skipping record 2852: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,284 - WARNING - Skipping record 2859: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,284 - WARNING - Skipping record 2860: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,284 - WARNING - Skipping record 2861: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,284 - WARNING - Skipping record 2862: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,284 - WARNING - Skipping record 2863: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,284 - WARNING - Skipping record 2864: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,313 - INFO - Migrated 2200 records...
+2025-07-29 10:12:50,394 - INFO - Migrated 2300 records...
+2025-07-29 10:12:50,466 - INFO - Migrated 2400 records...
+2025-07-29 10:12:50,543 - INFO - Migrated 2500 records...
+2025-07-29 10:12:50,569 - WARNING - Skipping record 3233: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,570 - WARNING - Skipping record 3234: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,570 - WARNING - Skipping record 3235: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,570 - WARNING - Skipping record 3236: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,570 - WARNING - Skipping record 3237: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,570 - WARNING - Skipping record 3238: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:50,624 - INFO - Migrated 2600 records...
+2025-07-29 10:12:50,703 - INFO - Migrated 2700 records...
+2025-07-29 10:12:50,777 - INFO - Migrated 2800 records...
+2025-07-29 10:12:50,842 - INFO - Migrated 2900 records...
+2025-07-29 10:12:50,915 - INFO - Migrated 3000 records...
+2025-07-29 10:12:50,988 - INFO - Migrated 3100 records...
+2025-07-29 10:12:51,065 - INFO - Migrated 3200 records...
+2025-07-29 10:12:51,143 - INFO - Migrated 3300 records...
+2025-07-29 10:12:51,217 - INFO - Migrated 3400 records...
+2025-07-29 10:12:51,292 - INFO - Migrated 3500 records...
+2025-07-29 10:12:51,370 - INFO - Migrated 3600 records...
+2025-07-29 10:12:51,439 - INFO - Migrated 3700 records...
+2025-07-29 10:12:51,514 - INFO - Migrated 3800 records...
+2025-07-29 10:12:51,586 - INFO - Migrated 3900 records...
+2025-07-29 10:12:51,656 - INFO - Migrated 4000 records...
+2025-07-29 10:12:51,728 - INFO - Migrated 4100 records...
+2025-07-29 10:12:51,802 - INFO - Migrated 4200 records...
+2025-07-29 10:12:51,882 - INFO - Migrated 4300 records...
+2025-07-29 10:12:51,959 - INFO - Migrated 4400 records...
+2025-07-29 10:12:52,037 - INFO - Migrated 4500 records...
+2025-07-29 10:12:52,111 - INFO - Migrated 4600 records...
+2025-07-29 10:12:52,175 - INFO - Migrated 4700 records...
+2025-07-29 10:12:52,246 - INFO - Migrated 4800 records...
+2025-07-29 10:12:52,311 - INFO - Migrated 4900 records...
+2025-07-29 10:12:52,375 - INFO - Migrated 5000 records...
+2025-07-29 10:12:52,446 - INFO - Migrated 5100 records...
+2025-07-29 10:12:52,519 - INFO - Migrated 5200 records...
+2025-07-29 10:12:52,591 - INFO - Migrated 5300 records...
+2025-07-29 10:12:52,658 - INFO - Migrated 5400 records...
+2025-07-29 10:12:52,729 - INFO - Migrated 5500 records...
+2025-07-29 10:12:52,794 - INFO - Migrated 5600 records...
+2025-07-29 10:12:52,867 - INFO - Migrated 5700 records...
+2025-07-29 10:12:52,940 - INFO - Migrated 5800 records...
+2025-07-29 10:12:53,011 - INFO - Migrated 5900 records...
+2025-07-29 10:12:53,078 - INFO - Migrated 6000 records...
+2025-07-29 10:12:53,145 - INFO - Migrated 6100 records...
+2025-07-29 10:12:53,217 - INFO - Migrated 6200 records...
+2025-07-29 10:12:53,293 - INFO - Migrated 6300 records...
+2025-07-29 10:12:53,370 - INFO - Migrated 6400 records...
+2025-07-29 10:12:53,444 - INFO - Migrated 6500 records...
+2025-07-29 10:12:53,512 - INFO - Migrated 6600 records...
+2025-07-29 10:12:53,581 - INFO - Migrated 6700 records...
+2025-07-29 10:12:53,644 - INFO - Migrated 6800 records...
+2025-07-29 10:12:53,718 - INFO - Migrated 6900 records...
+2025-07-29 10:12:53,792 - INFO - Migrated 7000 records...
+2025-07-29 10:12:53,867 - INFO - Migrated 7100 records...
+2025-07-29 10:12:53,945 - INFO - Migrated 7200 records...
+2025-07-29 10:12:54,013 - INFO - Migrated 7300 records...
+2025-07-29 10:12:54,087 - INFO - Migrated 7400 records...
+2025-07-29 10:12:54,159 - INFO - Migrated 7500 records...
+2025-07-29 10:12:54,230 - INFO - Migrated 7600 records...
+2025-07-29 10:12:54,308 - INFO - Migrated 7700 records...
+2025-07-29 10:12:54,375 - INFO - Migrated 7800 records...
+2025-07-29 10:12:54,445 - INFO - Migrated 7900 records...
+2025-07-29 10:12:54,518 - INFO - Migrated 8000 records...
+2025-07-29 10:12:54,586 - INFO - Migrated 8100 records...
+2025-07-29 10:12:54,659 - INFO - Migrated 8200 records...
+2025-07-29 10:12:54,732 - INFO - Migrated 8300 records...
+2025-07-29 10:12:54,809 - INFO - Migrated 8400 records...
+2025-07-29 10:12:54,881 - INFO - Migrated 8500 records...
+2025-07-29 10:12:54,956 - INFO - Migrated 8600 records...
+2025-07-29 10:12:55,027 - INFO - Migrated 8700 records...
+2025-07-29 10:12:55,093 - INFO - Migrated 8800 records...
+2025-07-29 10:12:55,159 - INFO - Migrated 8900 records...
+2025-07-29 10:12:55,233 - INFO - Migrated 9000 records...
+2025-07-29 10:12:55,296 - WARNING - Skipping record 10049: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:55,299 - WARNING - Skipping record 10054: uploaded_by 44 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:12:55,308 - INFO - Migrated 9100 records...
+2025-07-29 10:12:55,379 - INFO - Migrated 9200 records...
+2025-07-29 10:12:55,448 - INFO - Migrated 9300 records...
+2025-07-29 10:12:55,518 - INFO - Migrated 9400 records...
+2025-07-29 10:12:55,590 - INFO - Migrated 9500 records...
+2025-07-29 10:12:55,662 - INFO - Migrated 9600 records...
+2025-07-29 10:12:55,732 - INFO - Migrated 9700 records...
+2025-07-29 10:12:55,802 - INFO - Migrated 9800 records...
+2025-07-29 10:12:55,877 - INFO - Migrated 9900 records...
+2025-07-29 10:12:55,960 - INFO - Migrated 10000 records...
+2025-07-29 10:12:56,030 - INFO - Migrated 10100 records...
+2025-07-29 10:12:56,098 - INFO - Migrated 10200 records...
+2025-07-29 10:12:56,164 - INFO - Migrated 10300 records...
+2025-07-29 10:12:56,234 - INFO - Migrated 10400 records...
+2025-07-29 10:12:56,300 - INFO - Migrated 10500 records...
+2025-07-29 10:12:56,377 - INFO - Migrated 10600 records...
+2025-07-29 10:12:56,455 - INFO - Migrated 10700 records...
+2025-07-29 10:12:56,531 - INFO - Migrated 10800 records...
+2025-07-29 10:12:56,608 - INFO - Migrated 10900 records...
+2025-07-29 10:12:56,683 - INFO - Migrated 11000 records...
+2025-07-29 10:12:56,757 - INFO - Migrated 11100 records...
+2025-07-29 10:12:56,831 - INFO - Migrated 11200 records...
+2025-07-29 10:12:56,900 - INFO - Migrated 11300 records...
+2025-07-29 10:12:56,972 - INFO - Migrated 11400 records...
+2025-07-29 10:12:57,043 - INFO - Migrated 11500 records...
+2025-07-29 10:12:57,115 - INFO - Migrated 11600 records...
+2025-07-29 10:12:57,185 - INFO - Migrated 11700 records...
+2025-07-29 10:12:57,262 - INFO - Migrated 11800 records...
+2025-07-29 10:12:57,329 - INFO - Migrated 11900 records...
+2025-07-29 10:12:57,392 - INFO - Migrated 12000 records...
+2025-07-29 10:12:57,462 - INFO - Migrated 12100 records...
+2025-07-29 10:12:57,542 - INFO - Migrated 12200 records...
+2025-07-29 10:12:57,623 - INFO - Migrated 12300 records...
+2025-07-29 10:12:57,690 - INFO - Migrated 12400 records...
+2025-07-29 10:12:57,759 - INFO - Migrated 12500 records...
+2025-07-29 10:12:57,827 - INFO - Migrated 12600 records...
+2025-07-29 10:12:57,899 - INFO - Migrated 12700 records...
+2025-07-29 10:12:57,977 - INFO - Migrated 12800 records...
+2025-07-29 10:12:58,055 - INFO - Migrated 12900 records...
+2025-07-29 10:12:58,125 - INFO - Migrated 13000 records...
+2025-07-29 10:12:58,195 - INFO - Migrated 13100 records...
+2025-07-29 10:12:58,261 - INFO - Migrated 13200 records...
+2025-07-29 10:12:58,329 - INFO - Migrated 13300 records...
+2025-07-29 10:12:58,398 - INFO - Migrated 13400 records...
+2025-07-29 10:12:58,463 - INFO - Migrated 13500 records...
+2025-07-29 10:12:58,535 - INFO - Migrated 13600 records...
+2025-07-29 10:12:58,601 - INFO - Migrated 13700 records...
+2025-07-29 10:12:58,670 - INFO - Migrated 13800 records...
+2025-07-29 10:12:58,740 - INFO - Migrated 13900 records...
+2025-07-29 10:12:58,812 - INFO - Migrated 14000 records...
+2025-07-29 10:12:58,878 - INFO - Migrated 14100 records...
+2025-07-29 10:12:58,946 - INFO - Migrated 14200 records...
+2025-07-29 10:12:59,013 - INFO - Migrated 14300 records...
+2025-07-29 10:12:59,083 - INFO - Migrated 14400 records...
+2025-07-29 10:12:59,168 - INFO - Migrated 14500 records...
+2025-07-29 10:12:59,239 - INFO - Migrated 14600 records...
+2025-07-29 10:12:59,310 - INFO - Migrated 14700 records...
+2025-07-29 10:12:59,384 - INFO - Migrated 14800 records...
+2025-07-29 10:12:59,457 - INFO - Migrated 14900 records...
+2025-07-29 10:12:59,529 - INFO - Migrated 15000 records...
+2025-07-29 10:12:59,596 - INFO - Migrated 15100 records...
+2025-07-29 10:12:59,659 - INFO - Migrated 15200 records...
+2025-07-29 10:12:59,728 - INFO - Migrated 15300 records...
+2025-07-29 10:12:59,798 - INFO - Migrated 15400 records...
+2025-07-29 10:12:59,873 - INFO - Migrated 15500 records...
+2025-07-29 10:12:59,943 - INFO - Migrated 15600 records...
+2025-07-29 10:13:00,020 - INFO - Migrated 15700 records...
+2025-07-29 10:13:00,092 - INFO - Migrated 15800 records...
+2025-07-29 10:13:00,166 - INFO - Migrated 15900 records...
+2025-07-29 10:13:00,241 - INFO - Migrated 16000 records...
+2025-07-29 10:13:00,310 - INFO - Migrated 16100 records...
+2025-07-29 10:13:00,386 - INFO - Migrated 16200 records...
+2025-07-29 10:13:00,460 - INFO - Migrated 16300 records...
+2025-07-29 10:13:00,537 - INFO - Migrated 16400 records...
+2025-07-29 10:13:00,581 - WARNING - Skipping record 17625: uploaded_by 1263 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:00,581 - WARNING - Skipping record 17626: uploaded_by 1263 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:00,581 - WARNING - Skipping record 17628: uploaded_by 1263 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:00,587 - WARNING - Skipping record 17636: uploaded_by 1263 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:00,587 - WARNING - Skipping record 17638: uploaded_by 1263 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:00,588 - WARNING - Record 17639: Case ID 10772 does not exist in Cases table - skipping
+2025-07-29 10:13:00,616 - INFO - Migrated 16500 records...
+2025-07-29 10:13:00,682 - INFO - Migrated 16600 records...
+2025-07-29 10:13:00,758 - INFO - Migrated 16700 records...
+2025-07-29 10:13:00,836 - INFO - Migrated 16800 records...
+2025-07-29 10:13:00,910 - INFO - Migrated 16900 records...
+2025-07-29 10:13:00,979 - INFO - Migrated 17000 records...
+2025-07-29 10:13:01,052 - INFO - Migrated 17100 records...
+2025-07-29 10:13:01,122 - INFO - Migrated 17200 records...
+2025-07-29 10:13:01,189 - INFO - Migrated 17300 records...
+2025-07-29 10:13:01,260 - INFO - Migrated 17400 records...
+2025-07-29 10:13:01,330 - INFO - Migrated 17500 records...
+2025-07-29 10:13:01,379 - WARNING - Skipping record 18761: uploaded_by 1263 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:01,401 - INFO - Migrated 17600 records...
+2025-07-29 10:13:01,428 - WARNING - Record 18826: Case ID 11231 does not exist in Cases table - skipping
+2025-07-29 10:13:01,472 - INFO - Migrated 17700 records...
+2025-07-29 10:13:01,541 - INFO - Migrated 17800 records...
+2025-07-29 10:13:01,594 - WARNING - Skipping record 19067: uploaded_by 1266 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:01,614 - INFO - Migrated 17900 records...
+2025-07-29 10:13:01,628 - WARNING - Record 19107: Case ID 11372 does not exist in Cases table - skipping
+2025-07-29 10:13:01,698 - INFO - Migrated 18000 records...
+2025-07-29 10:13:01,702 - WARNING - Skipping record 19209: uploaded_by 1266 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:01,702 - WARNING - Skipping record 19210: uploaded_by 1266 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:01,721 - WARNING - Record 19239: Case ID 11390 does not exist in Cases table - skipping
+2025-07-29 10:13:01,727 - WARNING - Record 19248: Case ID 11416 does not exist in Cases table - skipping
+2025-07-29 10:13:01,756 - WARNING - Skipping record 19293: uploaded_by 1266 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:01,758 - WARNING - Skipping record 19296: uploaded_by 1266 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:01,771 - INFO - Migrated 18100 records...
+2025-07-29 10:13:01,793 - WARNING - Record 19341: Case ID 11452 does not exist in Cases table - skipping
+2025-07-29 10:13:01,794 - WARNING - Record 19342: Case ID 11454 does not exist in Cases table - skipping
+2025-07-29 10:13:01,848 - INFO - Migrated 18200 records...
+2025-07-29 10:13:01,917 - INFO - Migrated 18300 records...
+2025-07-29 10:13:01,947 - WARNING - Skipping record 19553: uploaded_by 1263 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:02,006 - INFO - Migrated 18400 records...
+2025-07-29 10:13:02,037 - WARNING - Record 19656: Case ID 11555 does not exist in Cases table - skipping
+2025-07-29 10:13:02,087 - INFO - Migrated 18500 records...
+2025-07-29 10:13:02,147 - WARNING - Skipping record 19821: uploaded_by 1268 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:02,150 - INFO - Migrated 18600 records...
+2025-07-29 10:13:02,164 - WARNING - Record 19842: Case ID 11656 does not exist in Cases table - skipping
+2025-07-29 10:13:02,224 - INFO - Migrated 18700 records...
+2025-07-29 10:13:02,244 - WARNING - Skipping record 19963: uploaded_by 1268 not found in Users mapping, uploadByUserId would be NULL
+2025-07-29 10:13:02,279 - WARNING - Record 20009: Case ID 11710 does not exist in Cases table - skipping
+2025-07-29 10:13:02,297 - INFO - Migrated 18800 records...
+2025-07-29 10:13:02,349 - INFO - ✅ Transaction committed successfully
+2025-07-29 10:13:02,349 - INFO - ============================================================
+2025-07-29 10:13:02,350 - INFO - MIGRATION SUMMARY
+2025-07-29 10:13:02,350 - INFO - ============================================================
+2025-07-29 10:13:02,350 - INFO - Total records processed: 19487
+2025-07-29 10:13:02,350 - INFO - Successful migrations: 18870
+2025-07-29 10:13:02,350 - INFO - Failed migrations: 477
+2025-07-29 10:13:02,350 - INFO - Skipped client records (user not found): 73
+2025-07-29 10:13:02,350 - INFO - Foreign key violations: 67
+2025-07-29 10:13:02,350 - INFO - Success rate: 96.83%
+2025-07-29 10:13:02,350 - INFO - ============================================================
+2025-07-29 10:13:02,350 - WARNING - ⚠️  477 records failed to migrate. Check logs for details.
+2025-07-29 10:13:02,350 - WARNING - ⚠️  67 records had foreign key violations (missing caseId or uploadByUserId).
+2025-07-29 10:13:02,350 - INFO - Foreign key constraints are maintained - only records with valid relationships were migrated
+2025-07-29 10:13:02,351 - INFO - MySQL connection closed
+2025-07-29 10:13:02,351 - INFO - PostgreSQL connection closed

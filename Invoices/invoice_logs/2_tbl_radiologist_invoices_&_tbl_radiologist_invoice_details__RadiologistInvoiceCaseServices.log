@@ -1,0 +1,883 @@
+2025-07-29 10:11:58,645 - INFO - Starting migration process...
+2025-07-29 10:11:58,645 - INFO - Log file location: invoice_logs/2_tbl_radiologist_invoices_&_tbl_radiologist_invoice_details__RadiologistInvoiceCaseServices.log
+2025-07-29 10:11:58,645 - INFO - Note: Foreign key constraints will be kept intact during migration
+2025-07-29 10:11:58,649 - INFO - Successfully connected to MySQL database
+2025-07-29 10:11:58,672 - INFO - Successfully connected to PostgreSQL database
+2025-07-29 10:11:58,688 - INFO - Table truncated and sequence reset.
+2025-07-29 10:11:58,691 - INFO - Dropped default from ricsId to allow explicit inserts
+2025-07-29 10:11:58,775 - INFO - Fetched 3888 records from source tables
+2025-07-29 10:11:58,808 - INFO - Validated 3888 out of 3888 records (with correct caseId mapping)
+2025-07-29 10:11:58,809 - INFO - Note: Foreign key validation will be handled during insert - invalid records will be skipped
+2025-07-29 10:11:58,816 - WARNING - Skipping record 128: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3933) is not present in table "Cases".
+
+2025-07-29 10:11:58,818 - WARNING - Skipping record 131: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3940) is not present in table "Cases".
+
+2025-07-29 10:11:58,820 - WARNING - Skipping record 134: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3930) is not present in table "Cases".
+
+2025-07-29 10:11:58,823 - WARNING - Skipping record 129: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3933) is not present in table "Cases".
+
+2025-07-29 10:11:58,824 - WARNING - Skipping record 132: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3940) is not present in table "Cases".
+
+2025-07-29 10:11:58,826 - WARNING - Skipping record 135: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3930) is not present in table "Cases".
+
+2025-07-29 10:11:58,828 - WARNING - Skipping record 130: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3933) is not present in table "Cases".
+
+2025-07-29 10:11:58,829 - WARNING - Skipping record 133: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3940) is not present in table "Cases".
+
+2025-07-29 10:11:58,831 - WARNING - Skipping record 136: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3930) is not present in table "Cases".
+
+2025-07-29 10:11:58,832 - WARNING - Skipping record 137: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3942) is not present in table "Cases".
+
+2025-07-29 10:11:58,833 - WARNING - Skipping record 138: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3942) is not present in table "Cases".
+
+2025-07-29 10:11:58,834 - WARNING - Skipping record 139: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3942) is not present in table "Cases".
+
+2025-07-29 10:11:58,835 - WARNING - Skipping record 170: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3952) is not present in table "Cases".
+
+2025-07-29 10:11:58,835 - WARNING - Skipping record 173: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3961) is not present in table "Cases".
+
+2025-07-29 10:11:58,836 - WARNING - Skipping record 176: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3961) is not present in table "Cases".
+
+2025-07-29 10:11:58,837 - WARNING - Skipping record 185: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3953) is not present in table "Cases".
+
+2025-07-29 10:11:58,839 - WARNING - Skipping record 188: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3967) is not present in table "Cases".
+
+2025-07-29 10:11:58,842 - WARNING - Skipping record 191: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3964) is not present in table "Cases".
+
+2025-07-29 10:11:58,845 - WARNING - Skipping record 194: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3954) is not present in table "Cases".
+
+2025-07-29 10:11:58,846 - WARNING - Skipping record 197: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3965) is not present in table "Cases".
+
+2025-07-29 10:11:58,848 - WARNING - Skipping record 209: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3975) is not present in table "Cases".
+
+2025-07-29 10:11:58,850 - WARNING - Skipping record 212: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3974) is not present in table "Cases".
+
+2025-07-29 10:11:58,853 - WARNING - Skipping record 215: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3956) is not present in table "Cases".
+
+2025-07-29 10:11:58,856 - WARNING - Skipping record 230: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3983) is not present in table "Cases".
+
+2025-07-29 10:11:58,858 - WARNING - Skipping record 233: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3976) is not present in table "Cases".
+
+2025-07-29 10:11:58,860 - WARNING - Skipping record 236: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3985) is not present in table "Cases".
+
+2025-07-29 10:11:58,862 - WARNING - Skipping record 239: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3987) is not present in table "Cases".
+
+2025-07-29 10:11:58,864 - WARNING - Skipping record 248: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3986) is not present in table "Cases".
+
+2025-07-29 10:11:58,865 - WARNING - Skipping record 251: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3991) is not present in table "Cases".
+
+2025-07-29 10:11:58,867 - WARNING - Skipping record 254: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3992) is not present in table "Cases".
+
+2025-07-29 10:11:58,868 - WARNING - Skipping record 257: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3990) is not present in table "Cases".
+
+2025-07-29 10:11:58,869 - WARNING - Skipping record 260: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3993) is not present in table "Cases".
+
+2025-07-29 10:11:58,869 - WARNING - Skipping record 275: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3999) is not present in table "Cases".
+
+2025-07-29 10:11:58,870 - WARNING - Skipping record 278: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4001) is not present in table "Cases".
+
+2025-07-29 10:11:58,871 - WARNING - Skipping record 281: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4000) is not present in table "Cases".
+
+2025-07-29 10:11:58,873 - WARNING - Skipping record 284: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3984) is not present in table "Cases".
+
+2025-07-29 10:11:58,875 - WARNING - Skipping record 171: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3952) is not present in table "Cases".
+
+2025-07-29 10:11:58,877 - WARNING - Skipping record 174: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3961) is not present in table "Cases".
+
+2025-07-29 10:11:58,879 - WARNING - Skipping record 177: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3961) is not present in table "Cases".
+
+2025-07-29 10:11:58,882 - WARNING - Skipping record 186: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3953) is not present in table "Cases".
+
+2025-07-29 10:11:58,884 - WARNING - Skipping record 189: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3967) is not present in table "Cases".
+
+2025-07-29 10:11:58,885 - WARNING - Skipping record 192: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3964) is not present in table "Cases".
+
+2025-07-29 10:11:58,886 - WARNING - Skipping record 195: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3954) is not present in table "Cases".
+
+2025-07-29 10:11:58,887 - WARNING - Skipping record 198: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3965) is not present in table "Cases".
+
+2025-07-29 10:11:58,888 - WARNING - Skipping record 210: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3975) is not present in table "Cases".
+
+2025-07-29 10:11:58,889 - WARNING - Skipping record 213: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3974) is not present in table "Cases".
+
+2025-07-29 10:11:58,890 - WARNING - Skipping record 216: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3956) is not present in table "Cases".
+
+2025-07-29 10:11:58,891 - WARNING - Skipping record 231: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3983) is not present in table "Cases".
+
+2025-07-29 10:11:58,892 - WARNING - Skipping record 234: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3976) is not present in table "Cases".
+
+2025-07-29 10:11:58,893 - WARNING - Skipping record 237: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3985) is not present in table "Cases".
+
+2025-07-29 10:11:58,894 - WARNING - Skipping record 240: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3987) is not present in table "Cases".
+
+2025-07-29 10:11:58,895 - WARNING - Skipping record 249: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3986) is not present in table "Cases".
+
+2025-07-29 10:11:58,896 - WARNING - Skipping record 252: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3991) is not present in table "Cases".
+
+2025-07-29 10:11:58,897 - WARNING - Skipping record 255: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3992) is not present in table "Cases".
+
+2025-07-29 10:11:58,898 - WARNING - Skipping record 258: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3990) is not present in table "Cases".
+
+2025-07-29 10:11:58,899 - WARNING - Skipping record 261: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3993) is not present in table "Cases".
+
+2025-07-29 10:11:58,900 - WARNING - Skipping record 276: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3999) is not present in table "Cases".
+
+2025-07-29 10:11:58,903 - WARNING - Skipping record 279: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4001) is not present in table "Cases".
+
+2025-07-29 10:11:58,905 - WARNING - Skipping record 282: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4000) is not present in table "Cases".
+
+2025-07-29 10:11:58,907 - WARNING - Skipping record 285: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3984) is not present in table "Cases".
+
+2025-07-29 10:11:58,909 - WARNING - Skipping record 172: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3952) is not present in table "Cases".
+
+2025-07-29 10:11:58,910 - WARNING - Skipping record 175: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3961) is not present in table "Cases".
+
+2025-07-29 10:11:58,911 - WARNING - Skipping record 178: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3961) is not present in table "Cases".
+
+2025-07-29 10:11:58,912 - WARNING - Skipping record 187: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3953) is not present in table "Cases".
+
+2025-07-29 10:11:58,913 - WARNING - Skipping record 190: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3967) is not present in table "Cases".
+
+2025-07-29 10:11:58,914 - WARNING - Skipping record 193: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3964) is not present in table "Cases".
+
+2025-07-29 10:11:58,915 - WARNING - Skipping record 196: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3954) is not present in table "Cases".
+
+2025-07-29 10:11:58,916 - WARNING - Skipping record 199: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3965) is not present in table "Cases".
+
+2025-07-29 10:11:58,917 - WARNING - Skipping record 211: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3975) is not present in table "Cases".
+
+2025-07-29 10:11:58,918 - WARNING - Skipping record 214: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3974) is not present in table "Cases".
+
+2025-07-29 10:11:58,920 - WARNING - Skipping record 217: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3956) is not present in table "Cases".
+
+2025-07-29 10:11:58,921 - WARNING - Skipping record 232: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3983) is not present in table "Cases".
+
+2025-07-29 10:11:58,921 - WARNING - Skipping record 235: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3976) is not present in table "Cases".
+
+2025-07-29 10:11:58,923 - WARNING - Skipping record 238: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3985) is not present in table "Cases".
+
+2025-07-29 10:11:58,926 - WARNING - Skipping record 241: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3987) is not present in table "Cases".
+
+2025-07-29 10:11:58,928 - WARNING - Skipping record 250: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3986) is not present in table "Cases".
+
+2025-07-29 10:11:58,929 - WARNING - Skipping record 253: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3991) is not present in table "Cases".
+
+2025-07-29 10:11:58,930 - WARNING - Skipping record 256: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3992) is not present in table "Cases".
+
+2025-07-29 10:11:58,931 - WARNING - Skipping record 259: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3990) is not present in table "Cases".
+
+2025-07-29 10:11:58,931 - WARNING - Skipping record 262: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3993) is not present in table "Cases".
+
+2025-07-29 10:11:58,932 - WARNING - Skipping record 277: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3999) is not present in table "Cases".
+
+2025-07-29 10:11:58,933 - WARNING - Skipping record 280: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4001) is not present in table "Cases".
+
+2025-07-29 10:11:58,935 - WARNING - Skipping record 283: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4000) is not present in table "Cases".
+
+2025-07-29 10:11:58,936 - WARNING - Skipping record 286: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3984) is not present in table "Cases".
+
+2025-07-29 10:11:58,937 - WARNING - Skipping record 158: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3949) is not present in table "Cases".
+
+2025-07-29 10:11:58,938 - WARNING - Skipping record 161: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3950) is not present in table "Cases".
+
+2025-07-29 10:11:58,939 - WARNING - Skipping record 179: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3962) is not present in table "Cases".
+
+2025-07-29 10:11:58,940 - WARNING - Skipping record 182: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3963) is not present in table "Cases".
+
+2025-07-29 10:11:58,941 - WARNING - Skipping record 200: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3970) is not present in table "Cases".
+
+2025-07-29 10:11:58,942 - WARNING - Skipping record 203: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3971) is not present in table "Cases".
+
+2025-07-29 10:11:58,942 - WARNING - Skipping record 206: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3972) is not present in table "Cases".
+
+2025-07-29 10:11:58,943 - WARNING - Skipping record 218: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3977) is not present in table "Cases".
+
+2025-07-29 10:11:58,944 - WARNING - Skipping record 221: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3978) is not present in table "Cases".
+
+2025-07-29 10:11:58,945 - WARNING - Skipping record 224: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3979) is not present in table "Cases".
+
+2025-07-29 10:11:58,947 - WARNING - Skipping record 227: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3982) is not present in table "Cases".
+
+2025-07-29 10:11:58,949 - WARNING - Skipping record 242: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3988) is not present in table "Cases".
+
+2025-07-29 10:11:58,952 - WARNING - Skipping record 245: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3989) is not present in table "Cases".
+
+2025-07-29 10:11:58,955 - WARNING - Skipping record 263: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3995) is not present in table "Cases".
+
+2025-07-29 10:11:58,956 - WARNING - Skipping record 266: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3996) is not present in table "Cases".
+
+2025-07-29 10:11:58,957 - WARNING - Skipping record 269: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3997) is not present in table "Cases".
+
+2025-07-29 10:11:58,958 - WARNING - Skipping record 272: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3998) is not present in table "Cases".
+
+2025-07-29 10:11:58,960 - WARNING - Skipping record 159: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3949) is not present in table "Cases".
+
+2025-07-29 10:11:58,962 - WARNING - Skipping record 162: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3950) is not present in table "Cases".
+
+2025-07-29 10:11:58,963 - WARNING - Skipping record 180: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3962) is not present in table "Cases".
+
+2025-07-29 10:11:58,963 - WARNING - Skipping record 183: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3963) is not present in table "Cases".
+
+2025-07-29 10:11:58,964 - WARNING - Skipping record 201: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3970) is not present in table "Cases".
+
+2025-07-29 10:11:58,965 - WARNING - Skipping record 204: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3971) is not present in table "Cases".
+
+2025-07-29 10:11:58,966 - WARNING - Skipping record 207: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3972) is not present in table "Cases".
+
+2025-07-29 10:11:58,967 - WARNING - Skipping record 219: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3977) is not present in table "Cases".
+
+2025-07-29 10:11:58,968 - WARNING - Skipping record 222: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3978) is not present in table "Cases".
+
+2025-07-29 10:11:58,970 - WARNING - Skipping record 225: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3979) is not present in table "Cases".
+
+2025-07-29 10:11:58,973 - WARNING - Skipping record 228: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3982) is not present in table "Cases".
+
+2025-07-29 10:11:58,974 - WARNING - Skipping record 243: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3988) is not present in table "Cases".
+
+2025-07-29 10:11:58,975 - WARNING - Skipping record 246: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3989) is not present in table "Cases".
+
+2025-07-29 10:11:58,976 - WARNING - Skipping record 264: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3995) is not present in table "Cases".
+
+2025-07-29 10:11:58,978 - WARNING - Skipping record 267: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3996) is not present in table "Cases".
+
+2025-07-29 10:11:58,979 - WARNING - Skipping record 270: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3997) is not present in table "Cases".
+
+2025-07-29 10:11:58,980 - WARNING - Skipping record 273: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3998) is not present in table "Cases".
+
+2025-07-29 10:11:58,981 - WARNING - Skipping record 160: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3949) is not present in table "Cases".
+
+2025-07-29 10:11:58,982 - WARNING - Skipping record 163: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3950) is not present in table "Cases".
+
+2025-07-29 10:11:58,983 - WARNING - Skipping record 181: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3962) is not present in table "Cases".
+
+2025-07-29 10:11:58,985 - WARNING - Skipping record 184: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3963) is not present in table "Cases".
+
+2025-07-29 10:11:58,986 - WARNING - Skipping record 202: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3970) is not present in table "Cases".
+
+2025-07-29 10:11:58,987 - WARNING - Skipping record 205: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3971) is not present in table "Cases".
+
+2025-07-29 10:11:58,988 - WARNING - Skipping record 208: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3972) is not present in table "Cases".
+
+2025-07-29 10:11:58,988 - WARNING - Skipping record 220: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3977) is not present in table "Cases".
+
+2025-07-29 10:11:58,989 - WARNING - Skipping record 223: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3978) is not present in table "Cases".
+
+2025-07-29 10:11:58,990 - WARNING - Skipping record 226: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3979) is not present in table "Cases".
+
+2025-07-29 10:11:58,990 - WARNING - Skipping record 229: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3982) is not present in table "Cases".
+
+2025-07-29 10:11:58,991 - WARNING - Skipping record 244: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3988) is not present in table "Cases".
+
+2025-07-29 10:11:58,992 - WARNING - Skipping record 247: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3989) is not present in table "Cases".
+
+2025-07-29 10:11:58,992 - WARNING - Skipping record 265: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3995) is not present in table "Cases".
+
+2025-07-29 10:11:58,993 - WARNING - Skipping record 268: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3996) is not present in table "Cases".
+
+2025-07-29 10:11:58,994 - WARNING - Skipping record 271: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3997) is not present in table "Cases".
+
+2025-07-29 10:11:58,994 - WARNING - Skipping record 274: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(3998) is not present in table "Cases".
+
+2025-07-29 10:11:58,996 - WARNING - Skipping record 287: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4010) is not present in table "Cases".
+
+2025-07-29 10:11:58,998 - WARNING - Skipping record 288: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4010) is not present in table "Cases".
+
+2025-07-29 10:11:59,000 - WARNING - Skipping record 289: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4010) is not present in table "Cases".
+
+2025-07-29 10:11:59,002 - WARNING - Skipping record 290: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4051) is not present in table "Cases".
+
+2025-07-29 10:11:59,004 - WARNING - Skipping record 293: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4050) is not present in table "Cases".
+
+2025-07-29 10:11:59,006 - WARNING - Skipping record 296: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4049) is not present in table "Cases".
+
+2025-07-29 10:11:59,008 - WARNING - Skipping record 291: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4051) is not present in table "Cases".
+
+2025-07-29 10:11:59,010 - WARNING - Skipping record 294: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4050) is not present in table "Cases".
+
+2025-07-29 10:11:59,012 - WARNING - Skipping record 297: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4049) is not present in table "Cases".
+
+2025-07-29 10:11:59,014 - WARNING - Skipping record 292: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4051) is not present in table "Cases".
+
+2025-07-29 10:11:59,015 - WARNING - Skipping record 295: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4050) is not present in table "Cases".
+
+2025-07-29 10:11:59,017 - WARNING - Skipping record 298: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4049) is not present in table "Cases".
+
+2025-07-29 10:11:59,019 - WARNING - Skipping record 299: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4056) is not present in table "Cases".
+
+2025-07-29 10:11:59,020 - WARNING - Skipping record 302: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4055) is not present in table "Cases".
+
+2025-07-29 10:11:59,022 - WARNING - Skipping record 300: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4056) is not present in table "Cases".
+
+2025-07-29 10:11:59,023 - WARNING - Skipping record 303: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4055) is not present in table "Cases".
+
+2025-07-29 10:11:59,025 - WARNING - Skipping record 301: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4056) is not present in table "Cases".
+
+2025-07-29 10:11:59,026 - WARNING - Skipping record 304: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4055) is not present in table "Cases".
+
+2025-07-29 10:11:59,028 - WARNING - Skipping record 305: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4062) is not present in table "Cases".
+
+2025-07-29 10:11:59,029 - WARNING - Skipping record 308: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4062) is not present in table "Cases".
+
+2025-07-29 10:11:59,030 - WARNING - Skipping record 311: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4059) is not present in table "Cases".
+
+2025-07-29 10:11:59,031 - WARNING - Skipping record 306: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4062) is not present in table "Cases".
+
+2025-07-29 10:11:59,034 - WARNING - Skipping record 309: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4062) is not present in table "Cases".
+
+2025-07-29 10:11:59,036 - WARNING - Skipping record 312: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4059) is not present in table "Cases".
+
+2025-07-29 10:11:59,038 - WARNING - Skipping record 307: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4062) is not present in table "Cases".
+
+2025-07-29 10:11:59,040 - WARNING - Skipping record 310: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4062) is not present in table "Cases".
+
+2025-07-29 10:11:59,043 - WARNING - Skipping record 313: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4059) is not present in table "Cases".
+
+2025-07-29 10:11:59,044 - WARNING - Skipping record 314: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4075) is not present in table "Cases".
+
+2025-07-29 10:11:59,047 - WARNING - Skipping record 317: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4079) is not present in table "Cases".
+
+2025-07-29 10:11:59,049 - WARNING - Skipping record 320: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4077) is not present in table "Cases".
+
+2025-07-29 10:11:59,050 - WARNING - Skipping record 329: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4086) is not present in table "Cases".
+
+2025-07-29 10:11:59,052 - WARNING - Skipping record 315: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4075) is not present in table "Cases".
+
+2025-07-29 10:11:59,054 - WARNING - Skipping record 318: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4079) is not present in table "Cases".
+
+2025-07-29 10:11:59,056 - WARNING - Skipping record 321: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4077) is not present in table "Cases".
+
+2025-07-29 10:11:59,058 - WARNING - Skipping record 330: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4086) is not present in table "Cases".
+
+2025-07-29 10:11:59,060 - WARNING - Skipping record 316: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4075) is not present in table "Cases".
+
+2025-07-29 10:11:59,061 - WARNING - Skipping record 319: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4079) is not present in table "Cases".
+
+2025-07-29 10:11:59,062 - WARNING - Skipping record 322: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4077) is not present in table "Cases".
+
+2025-07-29 10:11:59,064 - WARNING - Skipping record 331: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4086) is not present in table "Cases".
+
+2025-07-29 10:11:59,066 - WARNING - Skipping record 323: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4082) is not present in table "Cases".
+
+2025-07-29 10:11:59,067 - WARNING - Skipping record 326: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4083) is not present in table "Cases".
+
+2025-07-29 10:11:59,069 - WARNING - Skipping record 324: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4082) is not present in table "Cases".
+
+2025-07-29 10:11:59,070 - WARNING - Skipping record 327: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4083) is not present in table "Cases".
+
+2025-07-29 10:11:59,071 - WARNING - Skipping record 325: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4082) is not present in table "Cases".
+
+2025-07-29 10:11:59,072 - WARNING - Skipping record 328: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4083) is not present in table "Cases".
+
+2025-07-29 10:11:59,073 - WARNING - Skipping record 332: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4089) is not present in table "Cases".
+
+2025-07-29 10:11:59,074 - WARNING - Skipping record 335: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4090) is not present in table "Cases".
+
+2025-07-29 10:11:59,075 - WARNING - Skipping record 338: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4088) is not present in table "Cases".
+
+2025-07-29 10:11:59,076 - WARNING - Skipping record 333: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4089) is not present in table "Cases".
+
+2025-07-29 10:11:59,078 - WARNING - Skipping record 336: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4090) is not present in table "Cases".
+
+2025-07-29 10:11:59,081 - WARNING - Skipping record 339: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4088) is not present in table "Cases".
+
+2025-07-29 10:11:59,083 - WARNING - Skipping record 334: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4089) is not present in table "Cases".
+
+2025-07-29 10:11:59,087 - WARNING - Skipping record 337: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4090) is not present in table "Cases".
+
+2025-07-29 10:11:59,088 - WARNING - Skipping record 340: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4088) is not present in table "Cases".
+
+2025-07-29 10:11:59,090 - WARNING - Skipping record 341: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4095) is not present in table "Cases".
+
+2025-07-29 10:11:59,093 - WARNING - Skipping record 344: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4097) is not present in table "Cases".
+
+2025-07-29 10:11:59,094 - WARNING - Skipping record 342: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4095) is not present in table "Cases".
+
+2025-07-29 10:11:59,095 - WARNING - Skipping record 345: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4097) is not present in table "Cases".
+
+2025-07-29 10:11:59,097 - WARNING - Skipping record 343: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4095) is not present in table "Cases".
+
+2025-07-29 10:11:59,099 - WARNING - Skipping record 346: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4097) is not present in table "Cases".
+
+2025-07-29 10:11:59,101 - WARNING - Skipping record 347: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4096) is not present in table "Cases".
+
+2025-07-29 10:11:59,104 - WARNING - Skipping record 368: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4105) is not present in table "Cases".
+
+2025-07-29 10:11:59,107 - WARNING - Skipping record 371: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4103) is not present in table "Cases".
+
+2025-07-29 10:11:59,109 - WARNING - Skipping record 348: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4096) is not present in table "Cases".
+
+2025-07-29 10:11:59,111 - WARNING - Skipping record 369: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4105) is not present in table "Cases".
+
+2025-07-29 10:11:59,113 - WARNING - Skipping record 372: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4103) is not present in table "Cases".
+
+2025-07-29 10:11:59,114 - WARNING - Skipping record 349: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4096) is not present in table "Cases".
+
+2025-07-29 10:11:59,115 - WARNING - Skipping record 370: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4105) is not present in table "Cases".
+
+2025-07-29 10:11:59,116 - WARNING - Skipping record 373: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4103) is not present in table "Cases".
+
+2025-07-29 10:11:59,116 - WARNING - Skipping record 353: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4085) is not present in table "Cases".
+
+2025-07-29 10:11:59,117 - WARNING - Skipping record 356: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4081) is not present in table "Cases".
+
+2025-07-29 10:11:59,118 - WARNING - Skipping record 362: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4094) is not present in table "Cases".
+
+2025-07-29 10:11:59,119 - WARNING - Skipping record 365: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4093) is not present in table "Cases".
+
+2025-07-29 10:11:59,121 - WARNING - Skipping record 374: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4076) is not present in table "Cases".
+
+2025-07-29 10:11:59,124 - WARNING - Skipping record 354: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4085) is not present in table "Cases".
+
+2025-07-29 10:11:59,126 - WARNING - Skipping record 357: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4081) is not present in table "Cases".
+
+2025-07-29 10:11:59,127 - WARNING - Skipping record 363: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4094) is not present in table "Cases".
+
+2025-07-29 10:11:59,128 - WARNING - Skipping record 366: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4093) is not present in table "Cases".
+
+2025-07-29 10:11:59,129 - WARNING - Skipping record 375: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4076) is not present in table "Cases".
+
+2025-07-29 10:11:59,129 - WARNING - Skipping record 355: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4085) is not present in table "Cases".
+
+2025-07-29 10:11:59,130 - WARNING - Skipping record 358: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4081) is not present in table "Cases".
+
+2025-07-29 10:11:59,131 - WARNING - Skipping record 364: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4094) is not present in table "Cases".
+
+2025-07-29 10:11:59,131 - WARNING - Skipping record 367: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4093) is not present in table "Cases".
+
+2025-07-29 10:11:59,132 - WARNING - Skipping record 376: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4076) is not present in table "Cases".
+
+2025-07-29 10:11:59,133 - WARNING - Skipping record 359: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4100) is not present in table "Cases".
+
+2025-07-29 10:11:59,134 - WARNING - Skipping record 360: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4100) is not present in table "Cases".
+
+2025-07-29 10:11:59,135 - WARNING - Skipping record 361: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4100) is not present in table "Cases".
+
+2025-07-29 10:11:59,136 - WARNING - Skipping record 377: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4112) is not present in table "Cases".
+
+2025-07-29 10:11:59,137 - WARNING - Skipping record 378: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4112) is not present in table "Cases".
+
+2025-07-29 10:11:59,138 - WARNING - Skipping record 379: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4112) is not present in table "Cases".
+
+2025-07-29 10:11:59,140 - WARNING - Skipping record 380: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4113) is not present in table "Cases".
+
+2025-07-29 10:11:59,141 - WARNING - Skipping record 381: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4113) is not present in table "Cases".
+
+2025-07-29 10:11:59,142 - WARNING - Skipping record 382: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4113) is not present in table "Cases".
+
+2025-07-29 10:11:59,150 - WARNING - Skipping record 392: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4114) is not present in table "Cases".
+
+2025-07-29 10:11:59,153 - WARNING - Skipping record 393: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4114) is not present in table "Cases".
+
+2025-07-29 10:11:59,155 - WARNING - Skipping record 394: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4114) is not present in table "Cases".
+
+2025-07-29 10:11:59,169 - WARNING - Skipping record 395: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4124) is not present in table "Cases".
+
+2025-07-29 10:11:59,170 - WARNING - Skipping record 398: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4121) is not present in table "Cases".
+
+2025-07-29 10:11:59,171 - WARNING - Skipping record 401: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4122) is not present in table "Cases".
+
+2025-07-29 10:11:59,171 - WARNING - Skipping record 404: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4123) is not present in table "Cases".
+
+2025-07-29 10:11:59,172 - WARNING - Skipping record 410: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4127) is not present in table "Cases".
+
+2025-07-29 10:11:59,173 - WARNING - Skipping record 413: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4128) is not present in table "Cases".
+
+2025-07-29 10:11:59,174 - WARNING - Skipping record 416: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4129) is not present in table "Cases".
+
+2025-07-29 10:11:59,175 - WARNING - Skipping record 419: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4130) is not present in table "Cases".
+
+2025-07-29 10:11:59,177 - WARNING - Skipping record 422: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4131) is not present in table "Cases".
+
+2025-07-29 10:11:59,178 - WARNING - Skipping record 428: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4132) is not present in table "Cases".
+
+2025-07-29 10:11:59,183 - WARNING - Skipping record 396: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4124) is not present in table "Cases".
+
+2025-07-29 10:11:59,184 - WARNING - Skipping record 399: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4121) is not present in table "Cases".
+
+2025-07-29 10:11:59,185 - WARNING - Skipping record 402: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4122) is not present in table "Cases".
+
+2025-07-29 10:11:59,186 - WARNING - Skipping record 405: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4123) is not present in table "Cases".
+
+2025-07-29 10:11:59,187 - WARNING - Skipping record 411: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4127) is not present in table "Cases".
+
+2025-07-29 10:11:59,189 - WARNING - Skipping record 414: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4128) is not present in table "Cases".
+
+2025-07-29 10:11:59,191 - WARNING - Skipping record 417: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4129) is not present in table "Cases".
+
+2025-07-29 10:11:59,193 - WARNING - Skipping record 420: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4130) is not present in table "Cases".
+
+2025-07-29 10:11:59,194 - WARNING - Skipping record 423: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4131) is not present in table "Cases".
+
+2025-07-29 10:11:59,195 - WARNING - Skipping record 429: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4132) is not present in table "Cases".
+
+2025-07-29 10:11:59,201 - WARNING - Skipping record 397: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4124) is not present in table "Cases".
+
+2025-07-29 10:11:59,202 - WARNING - Skipping record 400: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4121) is not present in table "Cases".
+
+2025-07-29 10:11:59,203 - WARNING - Skipping record 403: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4122) is not present in table "Cases".
+
+2025-07-29 10:11:59,203 - WARNING - Skipping record 406: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4123) is not present in table "Cases".
+
+2025-07-29 10:11:59,206 - WARNING - Skipping record 412: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4127) is not present in table "Cases".
+
+2025-07-29 10:11:59,207 - WARNING - Skipping record 415: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4128) is not present in table "Cases".
+
+2025-07-29 10:11:59,208 - WARNING - Skipping record 418: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4129) is not present in table "Cases".
+
+2025-07-29 10:11:59,210 - WARNING - Skipping record 421: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4130) is not present in table "Cases".
+
+2025-07-29 10:11:59,211 - WARNING - Skipping record 424: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4131) is not present in table "Cases".
+
+2025-07-29 10:11:59,213 - WARNING - Skipping record 430: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4132) is not present in table "Cases".
+
+2025-07-29 10:11:59,219 - WARNING - Skipping record 407: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4126) is not present in table "Cases".
+
+2025-07-29 10:11:59,220 - WARNING - Skipping record 425: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4133) is not present in table "Cases".
+
+2025-07-29 10:11:59,221 - WARNING - Skipping record 408: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4126) is not present in table "Cases".
+
+2025-07-29 10:11:59,222 - WARNING - Skipping record 426: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4133) is not present in table "Cases".
+
+2025-07-29 10:11:59,223 - WARNING - Skipping record 409: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4126) is not present in table "Cases".
+
+2025-07-29 10:11:59,225 - WARNING - Skipping record 427: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4133) is not present in table "Cases".
+
+2025-07-29 10:11:59,226 - WARNING - Skipping record 437: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4136) is not present in table "Cases".
+
+2025-07-29 10:11:59,233 - WARNING - Skipping record 438: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4136) is not present in table "Cases".
+
+2025-07-29 10:11:59,239 - WARNING - Skipping record 439: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(4136) is not present in table "Cases".
+
+2025-07-29 10:11:59,356 - INFO - Inserted 100 records...
+2025-07-29 10:11:59,516 - INFO - Inserted 200 records...
+2025-07-29 10:11:59,629 - INFO - Inserted 300 records...
+2025-07-29 10:11:59,768 - INFO - Inserted 400 records...
+2025-07-29 10:11:59,975 - INFO - Inserted 500 records...
+2025-07-29 10:12:00,096 - INFO - Inserted 600 records...
+2025-07-29 10:12:00,223 - INFO - Inserted 700 records...
+2025-07-29 10:12:00,348 - INFO - Inserted 800 records...
+2025-07-29 10:12:00,476 - INFO - Inserted 900 records...
+2025-07-29 10:12:00,599 - INFO - Inserted 1000 records...
+2025-07-29 10:12:00,730 - INFO - Inserted 1100 records...
+2025-07-29 10:12:00,858 - INFO - Inserted 1200 records...
+2025-07-29 10:12:00,990 - INFO - Inserted 1300 records...
+2025-07-29 10:12:01,126 - INFO - Inserted 1400 records...
+2025-07-29 10:12:01,232 - INFO - Inserted 1500 records...
+2025-07-29 10:12:01,360 - INFO - Inserted 1600 records...
+2025-07-29 10:12:01,469 - INFO - Inserted 1700 records...
+2025-07-29 10:12:01,598 - INFO - Inserted 1800 records...
+2025-07-29 10:12:01,731 - INFO - Inserted 1900 records...
+2025-07-29 10:12:01,856 - INFO - Inserted 2000 records...
+2025-07-29 10:12:01,998 - INFO - Inserted 2100 records...
+2025-07-29 10:12:02,129 - INFO - Inserted 2200 records...
+2025-07-29 10:12:02,263 - INFO - Inserted 2300 records...
+2025-07-29 10:12:02,393 - INFO - Inserted 2400 records...
+2025-07-29 10:12:02,499 - INFO - Inserted 2500 records...
+2025-07-29 10:12:02,604 - WARNING - Skipping record 3020: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(10772) is not present in table "Cases".
+
+2025-07-29 10:12:02,609 - INFO - Inserted 2600 records...
+2025-07-29 10:12:02,671 - WARNING - Skipping record 3021: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(10772) is not present in table "Cases".
+
+2025-07-29 10:12:02,741 - INFO - Inserted 2700 records...
+2025-07-29 10:12:02,744 - WARNING - Skipping record 3022: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(10772) is not present in table "Cases".
+
+2025-07-29 10:12:02,869 - INFO - Inserted 2800 records...
+2025-07-29 10:12:02,994 - INFO - Inserted 2900 records...
+2025-07-29 10:12:03,040 - WARNING - Skipping record 3449: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(11231) is not present in table "Cases".
+
+2025-07-29 10:12:03,095 - WARNING - Skipping record 3450: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(11231) is not present in table "Cases".
+
+2025-07-29 10:12:03,123 - INFO - Inserted 3000 records...
+2025-07-29 10:12:03,154 - WARNING - Skipping record 3451: Foreign key violation - insert or update on table "RadiologistInvoiceCaseServices" violates foreign key constraint "RadiologistInvoiceCaseServices_caseId_fkey"
+DETAIL:  Key (caseId)=(11231) is not present in table "Cases".
+
+2025-07-29 10:12:03,254 - INFO - Inserted 3100 records...
+2025-07-29 10:12:03,387 - INFO - Inserted 3200 records...
+2025-07-29 10:12:03,518 - INFO - Inserted 3300 records...
+2025-07-29 10:12:03,641 - INFO - Inserted 3400 records...
+2025-07-29 10:12:03,769 - INFO - Inserted 3500 records...
+2025-07-29 10:12:03,903 - INFO - Inserted 3600 records...
+2025-07-29 10:12:03,922 - INFO - Successfully inserted 3612 records into RadiologistInvoiceCaseServices
+2025-07-29 10:12:03,922 - INFO - Skipped 276 records due to foreign key violations
+2025-07-29 10:12:03,925 - INFO - Source records: 3888, Target records: 3612
+2025-07-29 10:12:03,929 - INFO - Migration verification: PASSED - Records were successfully migrated
+2025-07-29 10:12:03,930 - INFO - Note: 276 records were skipped due to foreign key violations
+2025-07-29 10:12:03,930 - INFO - Migration completed successfully!
+2025-07-29 10:12:03,930 - INFO - Foreign key constraints were respected - invalid records were skipped
+2025-07-29 10:12:03,930 - INFO - MySQL connection closed
+2025-07-29 10:12:03,930 - INFO - PostgreSQL connection closed

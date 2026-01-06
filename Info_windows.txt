@@ -1,0 +1,1 @@
+psql -U postgres -d new_voxel2 -h localhost -p 5432 -f D:\Side_Projects\voxel\voxel_order_1\voxel_new.sql

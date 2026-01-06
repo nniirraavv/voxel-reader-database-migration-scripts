@@ -1,0 +1,6 @@
+SELECT * FROM public."CaseStudyPurposes"
+ORDER BY "cspId" ASC 
+
+select count(*) from public."CaseStudyPurposes" where "cspId" is null;
+select count(*) from public."CaseStudyPurposes" where "caseId" is null;
+select count(*) from "CaseStudyPurposes";

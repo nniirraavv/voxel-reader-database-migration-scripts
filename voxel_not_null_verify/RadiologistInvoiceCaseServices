@@ -1,0 +1,8 @@
+SELECT * FROM public."RadiologistInvoiceCaseServices"
+ORDER BY "ricsId" ASC 
+
+select count(*) from public."RadiologistInvoiceCaseServices" where "ricsId" is null;
+select count(*) from public."RadiologistInvoiceCaseServices" where "invoiceId" is null;
+select count(*) from public."RadiologistInvoiceCaseServices" where "caseId" is null;
+select count(*) from public."RadiologistInvoiceCaseServices" where "amount" is null;
+select count(*) from public."RadiologistInvoiceCaseServices" where "createdAt" is null;

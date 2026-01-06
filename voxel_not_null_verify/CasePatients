@@ -1,0 +1,6 @@
+SELECT * FROM public."CasePatients"
+ORDER BY "cpId" ASC 
+
+select count(*) from public."CasePatients" where "cpId" is null;
+select count(*) from public."CasePatients" where "caseId" is null;
+select count(*) from public."CasePatients" where "clinicPatientId" is null;

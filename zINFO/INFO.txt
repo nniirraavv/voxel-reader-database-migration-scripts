@@ -1,0 +1,127 @@
+FOR LOADING THE FIRST DATABASE: website_db.sql <old one>
+
+
+
+
+THIS IS FOR MYSQL
+1. Run this command:-
+   sed -i '/@@GLOBAL.GTID_PURGED=/d' your_file.sql
+
+2. Run this command:-
+   sed -i 's/utf8mb4_unicode_520_ci/utf8mb4_unicode_ci/g' website_db.sql
+
+3. And Replace all word :- 
+    utf8mb4_0900_ai_ci with utf8mb4_unicode_ci
+
+4. Run command to load all tables from db.
+   mysql -u root -p voxel_backup < Backup/voxel_mysql.sql
+
+################################################################################################################
+THIS IS FOR POSTGRES
+FOR LOADING THE dev_voxel_app_db.backup <new one>
+sudo -u postgres /usr/lib/postgresql/16/bin/pg_restore -v -d website_db_order2 Backup/dev_voxel_app_db.backup
+################################################################################################################
+
+To create a dump
+cd 
+cd /tmp
+sudo -u postgres pg_dump website_db_order2 > new_voxel.sql
+sudo mv /tmp/new_voxel_1.sql /home/eternal/Desktop/voxel_order_1/
+
+To load database. 
+sudo -u postgres psql -d again_voxel -f /tmp/new_voxel_1.sql
+
+move back:
+sudo mv /tmp/new_voxel_1.sql /home/eternal/Desktop/voxel_order_1/
+
+
+################################################################################################################
+ INFO FOR LLM; -
+
+ but before that there are migration rules, 
+
+-> Data migration
+
+User Mapping (4 hours)
+Based on email, first name & last name we add the existing live user ID to new database as oldUserId (create this column on the new database user table).
+This addition will help us to map the different entities from the old database to new one.
+
+Case Mapping (16 hours)
+Old table has doctor_id which is the user who created the case.
+Case ID used for display is voxel_cases_id where as ID used for relationship between table is cases_id.
+Old table tbl_cases_files (case_id used for case reference) mapping to new table CaseFiles
+New table CasePatients is mapped from tbl_cases old table. The new CasePatients table requires a clinicPatientId which can be obtained by first querying into ClinicPatients with combination of first name, last name & gender. if not available then create a new entry into it.
+New table CaseServices gets mapped from old table tbl_cases_report.
+New table CaseStudyPurposes gets mapped from old table tbl_study_purposes.
+
+Invoice Mapping (8 hours)
+New table Invoices get mapped to tbl_client_invoices and InvoiceCaseServices gets mapped to tbl_client_invoice_details & tbl_client_invoice_reports
+There are 2 tables for invoices in the old database. One has data entries from year 2021 and the other has previous entries. We will consider the entries only from the table having entries from 2021.
+
+Radiologist Invoice Mapping (8 hours)
+New tables RadiologistInvoices & RadiologistInvoiceCaseServices get mapped to old tables tbl_radiologist_invoices & tbl_radiologist_invoice_details.
+
+Payments Mapping (X)
+Payment data isn’t available on the old database tables.
+
+
+#####################################################################################
+DEFAULT VALUES in NEW TABLES
+
+3 Cases
+     column_name      |            column_default            
+----------------------+--------------------------------------
+ cId                  | nextval('"Cases_cId_seq"'::regclass)
+ voxelCaseId          | 
+ clinicLocationId     | 
+ doctorUserId         | 
+ radioLogistUserId    | 
+ scannedAt            | 
+ status               | 
+ reviewStatus         | 
+ totalServiceCost     | 
+ createdByUserId      | 
+ isDeleted            | false
+ createdAt            | now()
+ updatedAt            | 
+ deletedAt            | 
+ nextAppointmentAt    | 
+ revenueAmount        | 
+ internalComments     | 
+ caseResultSummary    | 
+ invoiceId            | 
+ submittedAt          | 
+ radiologistInvoiceId | 
+ completedAt          | 
+
+ 4. CaseFiles
+    column_name   |              column_default               
+-----------------+-------------------------------------------
+ cfId            | nextval('"CaseFiles_cfId_seq"'::regclass)
+ caseId          | 
+ fileName        | 
+ fileSize        | 
+ objectKey       | 
+ uploadByUserId  | 
+ createdAt       | now()
+ isDeleted       | false
+ deletedAt       | 
+ deletedByUserId | 
+(10 rows)
+
+10 Invoices
+   column_name    |             column_default              
+------------------+-----------------------------------------
+ iId              | nextval('"Invoices_iId_seq"'::regclass)
+ invoiceType      | 
+ clinicLocationId | 
+ monthNumber      | 
+ yearNumber       | 
+ emailedStatus    | false
+ createdAt        | now()
+ updatedAt        | 
+ isDeleted        | false
+ deletedAt        | 
+ invoiceNo        | 
+(11 rows)
+

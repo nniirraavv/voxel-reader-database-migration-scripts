@@ -1,0 +1,10 @@
+SELECT * FROM public."RadiologistInvoices"
+ORDER BY "riId" ASC 
+
+select count(*) from public."RadiologistInvoices" where "riId" is null;
+select count(*) from public."RadiologistInvoices" where "monthNumber" is null;
+select count(*) from public."RadiologistInvoices" where "yearNumber" is null;
+select count(*) from public."RadiologistInvoices" where "paymentStatus" is null;
+select count(*) from public."RadiologistInvoices" where "emailedStatus" is null;
+select count(*) from public."RadiologistInvoices" where "emailedStatus" is null;
+select count(*) from public."RadiologistInvoices" where "invoiceNo" is null;

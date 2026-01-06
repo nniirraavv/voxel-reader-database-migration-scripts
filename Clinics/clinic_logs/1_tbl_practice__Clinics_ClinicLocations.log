@@ -1,0 +1,589 @@
+INFO:__main__:Running in LIVE mode - changes will be made to the database
+INFO:__main__:Starting tbl_practice to Clinics & ClinicLocations migration
+INFO:__main__:Database connections established successfully
+INFO:__main__:Built olduserid mapping: 118 mapped users
+INFO:__main__:Found 0 direct uId matches
+INFO:__main__:Total user mapping built: 118 mapped users
+INFO:__main__:Available users for clinic assignment: 55
+INFO:__main__:Default user ID for unmapped practices: 86
+INFO:__main__:Fetched 171 practices from MySQL
+INFO:__main__:Starting migration of 171 practices...
+INFO:__main__:Migrating practice 1001: Test Practice
+WARNING:__main__:Skipping practice 1001 - no user mapping found for user_id 1001
+WARNING:__main__:Failed to create clinic for practice 1001 - skipping
+INFO:__main__:Migrating practice 1002: hfgfhf
+WARNING:__main__:Skipping practice 1002 - no user mapping found for user_id 1002
+WARNING:__main__:Failed to create clinic for practice 1002 - skipping
+INFO:__main__:Migrating practice 1003: Dental Excellence
+WARNING:__main__:Skipping practice 1003 - no user mapping found for user_id 1003
+WARNING:__main__:Failed to create clinic for practice 1003 - skipping
+INFO:__main__:Migrating practice 1004: arshiya
+WARNING:__main__:Skipping practice 1004 - no user mapping found for user_id 1005
+WARNING:__main__:Failed to create clinic for practice 1004 - skipping
+INFO:__main__:Migrating practice 1005: TESTING PURPOSE ONLY
+WARNING:__main__:Skipping practice 1005 - no user mapping found for user_id 1006
+WARNING:__main__:Failed to create clinic for practice 1005 - skipping
+INFO:__main__:Migrating practice 1006: Kumar Implant dentistry
+WARNING:__main__:Skipping practice 1006 - no user mapping found for user_id 1007
+WARNING:__main__:Failed to create clinic for practice 1006 - skipping
+INFO:__main__:Migrating practice 1007: Pinamonti Orthodontics
+WARNING:__main__:Skipping practice 1007 - no user mapping found for user_id 1008
+WARNING:__main__:Failed to create clinic for practice 1007 - skipping
+INFO:__main__:Migrating practice 1008: Cosmetic and Implant Dentistry of Kansas City
+WARNING:__main__:Skipping practice 1008 - no user mapping found for user_id 1009
+WARNING:__main__:Failed to create clinic for practice 1008 - skipping
+INFO:__main__:Migrating practice 1009: Dr. Adela Casa
+WARNING:__main__:Skipping practice 1009 - no user mapping found for user_id 1013
+WARNING:__main__:Failed to create clinic for practice 1009 - skipping
+INFO:__main__:Migrating practice 1010: Jenkins & Leblanc
+WARNING:__main__:Skipping practice 1010 - no user mapping found for user_id 1014
+WARNING:__main__:Failed to create clinic for practice 1010 - skipping
+INFO:__main__:Processed 10/171 practices...
+INFO:__main__:Migrating practice 1011: Dr. John LaBarca
+WARNING:__main__:Skipping practice 1011 - no user mapping found for user_id 1015
+WARNING:__main__:Failed to create clinic for practice 1011 - skipping
+INFO:__main__:Migrating practice 1012: Dr Carr-Dental Excellence
+WARNING:__main__:Skipping practice 1012 - no user mapping found for user_id 1016
+WARNING:__main__:Failed to create clinic for practice 1012 - skipping
+INFO:__main__:Migrating practice 1013: DSouza Diagnostics
+WARNING:__main__:Skipping practice 1013 - no user mapping found for user_id 1018
+WARNING:__main__:Failed to create clinic for practice 1013 - skipping
+INFO:__main__:Migrating practice 1014: UMKC School of Dentisry
+WARNING:__main__:Skipping practice 1014 - no user mapping found for user_id 1019
+WARNING:__main__:Failed to create clinic for practice 1014 - skipping
+INFO:__main__:Migrating practice 1015: Paul Jones
+WARNING:__main__:Skipping practice 1015 - no user mapping found for user_id 1020
+WARNING:__main__:Failed to create clinic for practice 1015 - skipping
+INFO:__main__:Migrating practice 1016: Dental Excellence
+WARNING:__main__:Skipping practice 1016 - no user mapping found for user_id 1021
+WARNING:__main__:Failed to create clinic for practice 1016 - skipping
+INFO:__main__:Migrating practice 1017: Dental Execellence
+WARNING:__main__:Skipping practice 1017 - no user mapping found for user_id 1012
+WARNING:__main__:Failed to create clinic for practice 1017 - skipping
+INFO:__main__:Migrating practice 1018: Periodontal Specialists
+WARNING:__main__:Skipping practice 1018 - no user mapping found for user_id 1022
+WARNING:__main__:Failed to create clinic for practice 1018 - skipping
+INFO:__main__:Migrating practice 1019: Dr.Amit Kumar DDS, LLC
+WARNING:__main__:Skipping practice 1019 - no user mapping found for user_id 1023
+WARNING:__main__:Failed to create clinic for practice 1019 - skipping
+INFO:__main__:Migrating practice 1020: Ravi
+WARNING:__main__:Skipping practice 1020 - no user mapping found for user_id 1010
+WARNING:__main__:Failed to create clinic for practice 1020 - skipping
+INFO:__main__:Processed 20/171 practices...
+INFO:__main__:Migrating practice 1021: Kallsnick & Careswell DDS PC
+WARNING:__main__:Skipping practice 1021 - no user mapping found for user_id 1025
+WARNING:__main__:Failed to create clinic for practice 1021 - skipping
+INFO:__main__:Migrating practice 1022: Arora Periodontics
+WARNING:__main__:Skipping practice 1022 - no user mapping found for user_id 1028
+WARNING:__main__:Failed to create clinic for practice 1022 - skipping
+INFO:__main__:Migrating practice 1023: Dr Aaron Sharky
+WARNING:__main__:Skipping practice 1023 - no user mapping found for user_id 1026
+WARNING:__main__:Failed to create clinic for practice 1023 - skipping
+INFO:__main__:Migrating practice 1024: Flint Hills Dental PA
+WARNING:__main__:Skipping practice 1024 - no user mapping found for user_id 1029
+WARNING:__main__:Failed to create clinic for practice 1024 - skipping
+INFO:__main__:Migrating practice 1025: Test
+WARNING:__main__:Skipping practice 1025 - no user mapping found for user_id 1031
+WARNING:__main__:Failed to create clinic for practice 1025 - skipping
+INFO:__main__:Migrating practice 1026: pracktice name
+WARNING:__main__:Skipping practice 1026 - no user mapping found for user_id 1032
+WARNING:__main__:Failed to create clinic for practice 1026 - skipping
+INFO:__main__:Migrating practice 1027: Wichita State University
+WARNING:__main__:Skipping practice 1027 - no user mapping found for user_id 1033
+WARNING:__main__:Failed to create clinic for practice 1027 - skipping
+INFO:__main__:Migrating practice 1028: fsdfsdf
+WARNING:__main__:Skipping practice 1028 - no user mapping found for user_id 1035
+WARNING:__main__:Failed to create clinic for practice 1028 - skipping
+INFO:__main__:Migrating practice 1029: Huber Dental
+WARNING:__main__:Skipping practice 1029 - no user mapping found for user_id 1030
+WARNING:__main__:Failed to create clinic for practice 1029 - skipping
+INFO:__main__:Migrating practice 1030: TLC Family Dentistry
+WARNING:__main__:Skipping practice 1030 - no user mapping found for user_id 1038
+WARNING:__main__:Failed to create clinic for practice 1030 - skipping
+INFO:__main__:Processed 30/171 practices...
+INFO:__main__:Migrating practice 1031: Practice Name-Mandatory
+WARNING:__main__:Skipping practice 1031 - no user mapping found for user_id 1041
+WARNING:__main__:Failed to create clinic for practice 1031 - skipping
+INFO:__main__:Migrating practice 1032: Dental Excellence
+WARNING:__main__:Skipping practice 1032 - no user mapping found for user_id 1043
+WARNING:__main__:Failed to create clinic for practice 1032 - skipping
+INFO:__main__:Migrating practice 1033: Newhouse Periodontics
+WARNING:__main__:Skipping practice 1033 - no user mapping found for user_id 1044
+WARNING:__main__:Failed to create clinic for practice 1033 - skipping
+INFO:__main__:Migrating practice 1034: Test Facility
+WARNING:__main__:Skipping practice 1034 - no user mapping found for user_id 1045
+WARNING:__main__:Failed to create clinic for practice 1034 - skipping
+INFO:__main__:Migrating practice 1035: Sai New facility
+WARNING:__main__:Skipping practice 1035 - no user mapping found for user_id 1050
+WARNING:__main__:Failed to create clinic for practice 1035 - skipping
+INFO:__main__:Migrating practice 1036: D Hospital
+WARNING:__main__:Skipping practice 1036 - no user mapping found for user_id 1051
+WARNING:__main__:Failed to create clinic for practice 1036 - skipping
+INFO:__main__:Migrating practice 1037: Test Facility
+WARNING:__main__:Skipping practice 1037 - no user mapping found for user_id 1052
+WARNING:__main__:Failed to create clinic for practice 1037 - skipping
+INFO:__main__:Migrating practice 1038: Practice Name-Mandatory
+WARNING:__main__:Skipping practice 1038 - no user mapping found for user_id 1053
+WARNING:__main__:Failed to create clinic for practice 1038 - skipping
+INFO:__main__:Migrating practice 1039: Practice Test Name
+WARNING:__main__:Skipping practice 1039 - no user mapping found for user_id 1055
+WARNING:__main__:Failed to create clinic for practice 1039 - skipping
+INFO:__main__:Migrating practice 1040: Bromley & Broyles Dental
+WARNING:__main__:Skipping practice 1040 - no user mapping found for user_id 1056
+WARNING:__main__:Failed to create clinic for practice 1040 - skipping
+INFO:__main__:Processed 40/171 practices...
+INFO:__main__:Migrating practice 1041: Smile Doctors
+WARNING:__main__:Skipping practice 1041 - no user mapping found for user_id 1058
+WARNING:__main__:Failed to create clinic for practice 1041 - skipping
+INFO:__main__:Migrating practice 1042: Blackburn & Elrod Orthodontics
+WARNING:__main__:Skipping practice 1042 - no user mapping found for user_id 1047
+WARNING:__main__:Failed to create clinic for practice 1042 - skipping
+INFO:__main__:Migrating practice 1043: hdwgfkdw
+WARNING:__main__:Skipping practice 1043 - no user mapping found for user_id 1061
+WARNING:__main__:Failed to create clinic for practice 1043 - skipping
+INFO:__main__:Migrating practice 1044: Grant Gastineau, D.D.S., LLC
+WARNING:__main__:Skipping practice 1044 - no user mapping found for user_id 1062
+WARNING:__main__:Failed to create clinic for practice 1044 - skipping
+INFO:__main__:Migrating practice 1045: Four Rivers Periodontics and Implant Specialists
+WARNING:__main__:Skipping practice 1045 - no user mapping found for user_id 1063
+WARNING:__main__:Failed to create clinic for practice 1045 - skipping
+INFO:__main__:Migrating practice 1046: Kristen Schreiner D.D.S, LLC
+WARNING:__main__:Skipping practice 1046 - no user mapping found for user_id 1065
+WARNING:__main__:Failed to create clinic for practice 1046 - skipping
+INFO:__main__:Migrating practice 1047: Dental Excellence
+WARNING:__main__:Skipping practice 1047 - no user mapping found for user_id 1066
+WARNING:__main__:Failed to create clinic for practice 1047 - skipping
+INFO:__main__:Migrating practice 1048: Masud Rana
+WARNING:__main__:Skipping practice 1048 - no user mapping found for user_id 1068
+WARNING:__main__:Failed to create clinic for practice 1048 - skipping
+INFO:__main__:Migrating practice 1049: Dental Excellence
+WARNING:__main__:Skipping practice 1049 - no user mapping found for user_id 1069
+WARNING:__main__:Failed to create clinic for practice 1049 - skipping
+INFO:__main__:Migrating practice 1050: Central Ave Dental
+WARNING:__main__:Skipping practice 1050 - no user mapping found for user_id 1070
+WARNING:__main__:Failed to create clinic for practice 1050 - skipping
+INFO:__main__:Processed 50/171 practices...
+INFO:__main__:Migrating practice 1051: Love Dentistry
+WARNING:__main__:Skipping practice 1051 - no user mapping found for user_id 1071
+WARNING:__main__:Failed to create clinic for practice 1051 - skipping
+INFO:__main__:Migrating practice 1052: Westrock Orthodontics
+WARNING:__main__:Skipping practice 1052 - no user mapping found for user_id 1072
+WARNING:__main__:Failed to create clinic for practice 1052 - skipping
+INFO:__main__:Migrating practice 1053: Stephenson Dental
+WARNING:__main__:Skipping practice 1053 - no user mapping found for user_id 1074
+WARNING:__main__:Failed to create clinic for practice 1053 - skipping
+INFO:__main__:Migrating practice 1054: Maryland Endodontic Group
+WARNING:__main__:Skipping practice 1054 - no user mapping found for user_id 1075
+WARNING:__main__:Failed to create clinic for practice 1054 - skipping
+INFO:__main__:Migrating practice 1055: kumar
+WARNING:__main__:Skipping practice 1055 - no user mapping found for user_id 1076
+WARNING:__main__:Failed to create clinic for practice 1055 - skipping
+INFO:__main__:Migrating practice 1056: Five Pines Dental
+WARNING:__main__:Skipping practice 1056 - no user mapping found for user_id 1077
+WARNING:__main__:Failed to create clinic for practice 1056 - skipping
+INFO:__main__:Migrating practice 1057: demo
+WARNING:__main__:Skipping practice 1057 - no user mapping found for user_id 1079
+WARNING:__main__:Failed to create clinic for practice 1057 - skipping
+INFO:__main__:Migrating practice 1058: test Practice
+WARNING:__main__:Skipping practice 1058 - no user mapping found for user_id 1080
+WARNING:__main__:Failed to create clinic for practice 1058 - skipping
+INFO:__main__:Migrating practice 1059: test
+WARNING:__main__:Skipping practice 1059 - no user mapping found for user_id 1078
+WARNING:__main__:Failed to create clinic for practice 1059 - skipping
+INFO:__main__:Migrating practice 1060: abcd
+WARNING:__main__:Skipping practice 1060 - no user mapping found for user_id 1081
+WARNING:__main__:Failed to create clinic for practice 1060 - skipping
+INFO:__main__:Processed 60/171 practices...
+INFO:__main__:Migrating practice 1061: ABCD
+WARNING:__main__:Skipping practice 1061 - no user mapping found for user_id 1084
+WARNING:__main__:Failed to create clinic for practice 1061 - skipping
+INFO:__main__:Migrating practice 1062: Test practice
+WARNING:__main__:Skipping practice 1062 - no user mapping found for user_id 1086
+WARNING:__main__:Failed to create clinic for practice 1062 - skipping
+INFO:__main__:Migrating practice 1063: demo
+WARNING:__main__:Skipping practice 1063 - no user mapping found for user_id 1087
+WARNING:__main__:Failed to create clinic for practice 1063 - skipping
+INFO:__main__:Migrating practice 1064: demo
+WARNING:__main__:Skipping practice 1064 - no user mapping found for user_id 1089
+WARNING:__main__:Failed to create clinic for practice 1064 - skipping
+INFO:__main__:Migrating practice 1065: test doctor
+WARNING:__main__:Skipping practice 1065 - no user mapping found for user_id 1090
+WARNING:__main__:Failed to create clinic for practice 1065 - skipping
+INFO:__main__:Migrating practice 1066: Demo
+WARNING:__main__:Skipping practice 1066 - no user mapping found for user_id 1091
+WARNING:__main__:Failed to create clinic for practice 1066 - skipping
+INFO:__main__:Migrating practice 1067: Hello world
+WARNING:__main__:Skipping practice 1067 - no user mapping found for user_id 1103
+WARNING:__main__:Failed to create clinic for practice 1067 - skipping
+INFO:__main__:Migrating practice 1068: Demo
+WARNING:__main__:Skipping practice 1068 - no user mapping found for user_id 1105
+WARNING:__main__:Failed to create clinic for practice 1068 - skipping
+INFO:__main__:Migrating practice 1069: Hello world
+WARNING:__main__:Skipping practice 1069 - no user mapping found for user_id 1106
+WARNING:__main__:Failed to create clinic for practice 1069 - skipping
+INFO:__main__:Migrating practice 1070: demo
+WARNING:__main__:Skipping practice 1070 - no user mapping found for user_id 1107
+WARNING:__main__:Failed to create clinic for practice 1070 - skipping
+INFO:__main__:Processed 70/171 practices...
+INFO:__main__:Migrating practice 1071: Demo
+WARNING:__main__:Skipping practice 1071 - no user mapping found for user_id 1111
+WARNING:__main__:Failed to create clinic for practice 1071 - skipping
+INFO:__main__:Migrating practice 1072: demo
+WARNING:__main__:Skipping practice 1072 - no user mapping found for user_id 1112
+WARNING:__main__:Failed to create clinic for practice 1072 - skipping
+INFO:__main__:Migrating practice 1073: demo
+WARNING:__main__:Skipping practice 1073 - no user mapping found for user_id 1113
+WARNING:__main__:Failed to create clinic for practice 1073 - skipping
+INFO:__main__:Migrating practice 1074: demo
+WARNING:__main__:Skipping practice 1074 - no user mapping found for user_id 1114
+WARNING:__main__:Failed to create clinic for practice 1074 - skipping
+INFO:__main__:Migrating practice 1075: hello
+WARNING:__main__:Skipping practice 1075 - no user mapping found for user_id 1110
+WARNING:__main__:Failed to create clinic for practice 1075 - skipping
+INFO:__main__:Migrating practice 1076: hello
+WARNING:__main__:Skipping practice 1076 - no user mapping found for user_id 1115
+WARNING:__main__:Failed to create clinic for practice 1076 - skipping
+INFO:__main__:Migrating practice 1077: demo
+WARNING:__main__:Skipping practice 1077 - no user mapping found for user_id 1116
+WARNING:__main__:Failed to create clinic for practice 1077 - skipping
+INFO:__main__:Migrating practice 1078: E care
+WARNING:__main__:Skipping practice 1078 - no user mapping found for user_id 1119
+WARNING:__main__:Failed to create clinic for practice 1078 - skipping
+INFO:__main__:Migrating practice 1079: am ku
+WARNING:__main__:Skipping practice 1079 - no user mapping found for user_id 1120
+WARNING:__main__:Failed to create clinic for practice 1079 - skipping
+INFO:__main__:Migrating practice 1080: user test
+WARNING:__main__:Skipping practice 1080 - no user mapping found for user_id 1121
+WARNING:__main__:Failed to create clinic for practice 1080 - skipping
+INFO:__main__:Processed 80/171 practices...
+INFO:__main__:Migrating practice 1081: Smith Lee Practice
+WARNING:__main__:Skipping practice 1081 - no user mapping found for user_id 1122
+WARNING:__main__:Failed to create clinic for practice 1081 - skipping
+INFO:__main__:Migrating practice 1082: demo
+WARNING:__main__:Skipping practice 1082 - no user mapping found for user_id 1129
+WARNING:__main__:Failed to create clinic for practice 1082 - skipping
+INFO:__main__:Migrating practice 1083: hello banta
+WARNING:__main__:Skipping practice 1083 - no user mapping found for user_id 1130
+WARNING:__main__:Failed to create clinic for practice 1083 - skipping
+INFO:__main__:Migrating practice 1084: demo
+WARNING:__main__:Skipping practice 1084 - no user mapping found for user_id 1128
+WARNING:__main__:Failed to create clinic for practice 1084 - skipping
+INFO:__main__:Migrating practice 1085: Test Practice
+WARNING:__main__:Skipping practice 1085 - no user mapping found for user_id 1131
+WARNING:__main__:Failed to create clinic for practice 1085 - skipping
+INFO:__main__:Migrating practice 1086: Bansal
+WARNING:__main__:Skipping practice 1086 - no user mapping found for user_id 1132
+WARNING:__main__:Failed to create clinic for practice 1086 - skipping
+INFO:__main__:Migrating practice 1087: Test Practice
+WARNING:__main__:Skipping practice 1087 - no user mapping found for user_id 1135
+WARNING:__main__:Failed to create clinic for practice 1087 - skipping
+INFO:__main__:Migrating practice 1088: Test Practice
+WARNING:__main__:Skipping practice 1088 - no user mapping found for user_id 1136
+WARNING:__main__:Failed to create clinic for practice 1088 - skipping
+INFO:__main__:Migrating practice 1089: Test 1 Practice 1
+WARNING:__main__:Skipping practice 1089 - no user mapping found for user_id 1137
+WARNING:__main__:Failed to create clinic for practice 1089 - skipping
+INFO:__main__:Migrating practice 1090: Test Practice
+WARNING:__main__:Skipping practice 1090 - no user mapping found for user_id 1139
+WARNING:__main__:Failed to create clinic for practice 1090 - skipping
+INFO:__main__:Processed 90/171 practices...
+INFO:__main__:Migrating practice 1091: demo
+WARNING:__main__:Skipping practice 1091 - no user mapping found for user_id 1138
+WARNING:__main__:Failed to create clinic for practice 1091 - skipping
+INFO:__main__:Migrating practice 1092: Testing Oncemore
+WARNING:__main__:Skipping practice 1092 - no user mapping found for user_id 1140
+WARNING:__main__:Failed to create clinic for practice 1092 - skipping
+INFO:__main__:Migrating practice 1093: Baldwin Periodontics and Implant Dentistry
+WARNING:__main__:Skipping practice 1093 - no user mapping found for user_id 1141
+WARNING:__main__:Failed to create clinic for practice 1093 - skipping
+INFO:__main__:Migrating practice 1094: Smith Lee Practice
+WARNING:__main__:Skipping practice 1094 - no user mapping found for user_id 1147
+WARNING:__main__:Failed to create clinic for practice 1094 - skipping
+INFO:__main__:Migrating practice 1095: test december
+INFO:__main__:Assigned mapped user 247 to practice 1095
+INFO:__main__:Created clinic: test december with ID: 178
+INFO:__main__:Created clinic location for clinic 178 with location ID: 195
+INFO:__main__:Successfully migrated practice 1095 to clinic 178 and location 195
+INFO:__main__:Migrating practice 1096: hello Dear
+WARNING:__main__:Skipping practice 1096 - no user mapping found for user_id 1153
+WARNING:__main__:Failed to create clinic for practice 1096 - skipping
+INFO:__main__:Migrating practice 1097: Adam Apple
+WARNING:__main__:Skipping practice 1097 - no user mapping found for user_id 1154
+WARNING:__main__:Failed to create clinic for practice 1097 - skipping
+INFO:__main__:Migrating practice 1098: Testo Test
+INFO:__main__:Assigned mapped user 196 to practice 1098
+INFO:__main__:Created clinic: Testo Test with ID: 179
+INFO:__main__:Created clinic location for clinic 179 with location ID: 196
+INFO:__main__:Successfully migrated practice 1098 to clinic 179 and location 196
+INFO:__main__:Migrating practice 1099: demo
+INFO:__main__:Assigned mapped user 250 to practice 1099
+INFO:__main__:Created clinic: demo with ID: 180
+INFO:__main__:Created clinic location for clinic 180 with location ID: 197
+INFO:__main__:Successfully migrated practice 1099 to clinic 180 and location 197
+INFO:__main__:Migrating practice 1100: TEST
+INFO:__main__:Assigned mapped user 251 to practice 1100
+INFO:__main__:Created clinic: TEST with ID: 181
+INFO:__main__:Created clinic location for clinic 181 with location ID: 198
+INFO:__main__:Successfully migrated practice 1100 to clinic 181 and location 198
+INFO:__main__:Processed 100/171 practices...
+INFO:__main__:Migrating practice 1101: Test Practice
+INFO:__main__:Assigned mapped user 252 to practice 1101
+INFO:__main__:Created clinic: Test Practice with ID: 182
+INFO:__main__:Created clinic location for clinic 182 with location ID: 199
+INFO:__main__:Successfully migrated practice 1101 to clinic 182 and location 199
+INFO:__main__:Migrating practice 1102: Dr
+WARNING:__main__:Skipping practice 1102 - no user mapping found for user_id 1167
+WARNING:__main__:Failed to create clinic for practice 1102 - skipping
+INFO:__main__:Migrating practice 1103: Test
+WARNING:__main__:Skipping practice 1103 - no user mapping found for user_id 1170
+WARNING:__main__:Failed to create clinic for practice 1103 - skipping
+INFO:__main__:Migrating practice 1104: P1
+WARNING:__main__:Skipping practice 1104 - no user mapping found for user_id 1169
+WARNING:__main__:Failed to create clinic for practice 1104 - skipping
+INFO:__main__:Migrating practice 1105: Matt Wiley
+WARNING:__main__:Skipping practice 1105 - no user mapping found for user_id 1171
+WARNING:__main__:Failed to create clinic for practice 1105 - skipping
+INFO:__main__:Migrating practice 1106: Grain Valley Family Dental
+WARNING:__main__:Skipping practice 1106 - no user mapping found for user_id 1168
+WARNING:__main__:Failed to create clinic for practice 1106 - skipping
+INFO:__main__:Migrating practice 1107: Denver Dentistry
+WARNING:__main__:Skipping practice 1107 - no user mapping found for user_id 1173
+WARNING:__main__:Failed to create clinic for practice 1107 - skipping
+INFO:__main__:Migrating practice 1108: Dental Excellence
+WARNING:__main__:Skipping practice 1108 - no user mapping found for user_id 1172
+WARNING:__main__:Failed to create clinic for practice 1108 - skipping
+INFO:__main__:Migrating practice 1109: Faerber Surgical Arts
+WARNING:__main__:Skipping practice 1109 - no user mapping found for user_id 1181
+WARNING:__main__:Failed to create clinic for practice 1109 - skipping
+INFO:__main__:Migrating practice 1110: Pinamonti Orthdontics
+INFO:__main__:Assigned mapped user 261 to practice 1110
+INFO:__main__:Created clinic: Pinamonti Orthdontics with ID: 183
+INFO:__main__:Created clinic location for clinic 183 with location ID: 200
+INFO:__main__:Successfully migrated practice 1110 to clinic 183 and location 200
+INFO:__main__:Processed 110/171 practices...
+INFO:__main__:Migrating practice 1111: Blackburn Orthodontics
+WARNING:__main__:Skipping practice 1111 - no user mapping found for user_id 1188
+WARNING:__main__:Failed to create clinic for practice 1111 - skipping
+INFO:__main__:Migrating practice 1112: Pinamonti Orthdontics
+INFO:__main__:Assigned mapped user 262 to practice 1112
+INFO:__main__:Created clinic: Pinamonti Orthdontics with ID: 184
+INFO:__main__:Created clinic location for clinic 184 with location ID: 201
+INFO:__main__:Successfully migrated practice 1112 to clinic 184 and location 201
+INFO:__main__:Migrating practice 1113: Dental Excellence
+WARNING:__main__:Skipping practice 1113 - no user mapping found for user_id 1192
+WARNING:__main__:Failed to create clinic for practice 1113 - skipping
+INFO:__main__:Migrating practice 1114: Toby practice
+WARNING:__main__:Skipping practice 1114 - no user mapping found for user_id 1193
+WARNING:__main__:Failed to create clinic for practice 1114 - skipping
+INFO:__main__:Migrating practice 1115: Dental Excellence
+WARNING:__main__:Skipping practice 1115 - no user mapping found for user_id 1194
+WARNING:__main__:Failed to create clinic for practice 1115 - skipping
+INFO:__main__:Migrating practice 1116: Arora Periodontics
+WARNING:__main__:Skipping practice 1116 - no user mapping found for user_id 1197
+WARNING:__main__:Failed to create clinic for practice 1116 - skipping
+INFO:__main__:Migrating practice 1117: Kansas City Facial & Oral Surgery
+WARNING:__main__:Skipping practice 1117 - no user mapping found for user_id 1198
+WARNING:__main__:Failed to create clinic for practice 1117 - skipping
+INFO:__main__:Migrating practice 1118: Bela Dentistry of Wagener
+WARNING:__main__:Skipping practice 1118 - no user mapping found for user_id 1200
+WARNING:__main__:Failed to create clinic for practice 1118 - skipping
+INFO:__main__:Migrating practice 1119: Dental Excellence
+WARNING:__main__:Skipping practice 1119 - no user mapping found for user_id 1210
+WARNING:__main__:Failed to create clinic for practice 1119 - skipping
+INFO:__main__:Migrating practice 1120: Hamilton Wilson Hendrickson Orthodontics
+WARNING:__main__:Skipping practice 1120 - no user mapping found for user_id 1209
+WARNING:__main__:Failed to create clinic for practice 1120 - skipping
+INFO:__main__:Processed 120/171 practices...
+INFO:__main__:Migrating practice 1121: Wichita State University Advanced Education in General Dentistry
+WARNING:__main__:Skipping practice 1121 - no user mapping found for user_id 1212
+WARNING:__main__:Failed to create clinic for practice 1121 - skipping
+INFO:__main__:Migrating practice 1122: Olathe Endodontics
+WARNING:__main__:Skipping practice 1122 - no user mapping found for user_id 1213
+WARNING:__main__:Failed to create clinic for practice 1122 - skipping
+INFO:__main__:Migrating practice 1123: Dental Excellence
+WARNING:__main__:Skipping practice 1123 - no user mapping found for user_id 1214
+WARNING:__main__:Failed to create clinic for practice 1123 - skipping
+INFO:__main__:Migrating practice 1124: Lindsborg Family Dental Care
+WARNING:__main__:Skipping practice 1124 - no user mapping found for user_id 1215
+WARNING:__main__:Failed to create clinic for practice 1124 - skipping
+INFO:__main__:Migrating practice 1125: Test
+WARNING:__main__:Skipping practice 1125 - no user mapping found for user_id 1205
+WARNING:__main__:Failed to create clinic for practice 1125 - skipping
+INFO:__main__:Migrating practice 1126: Carson Dental Care
+WARNING:__main__:Skipping practice 1126 - no user mapping found for user_id 1216
+WARNING:__main__:Failed to create clinic for practice 1126 - skipping
+INFO:__main__:Migrating practice 1127: keith + associates dentistry
+WARNING:__main__:Skipping practice 1127 - no user mapping found for user_id 1217
+WARNING:__main__:Failed to create clinic for practice 1127 - skipping
+INFO:__main__:Migrating practice 1128: Fort Collins Periodontics and Dental Implants
+WARNING:__main__:Skipping practice 1128 - no user mapping found for user_id 1218
+WARNING:__main__:Failed to create clinic for practice 1128 - skipping
+INFO:__main__:Migrating practice 1129: Four Rivers Periodontics and Implant Specialists
+WARNING:__main__:Skipping practice 1129 - no user mapping found for user_id 1219
+WARNING:__main__:Failed to create clinic for practice 1129 - skipping
+INFO:__main__:Migrating practice 1130: Valley Endodontics and Microsurgery
+WARNING:__main__:Skipping practice 1130 - no user mapping found for user_id 1221
+WARNING:__main__:Failed to create clinic for practice 1130 - skipping
+INFO:__main__:Processed 130/171 practices...
+INFO:__main__:Migrating practice 1131: Accent Dental LLC
+WARNING:__main__:Skipping practice 1131 - no user mapping found for user_id 1222
+WARNING:__main__:Failed to create clinic for practice 1131 - skipping
+INFO:__main__:Migrating practice 1132: Maryland Endodontic Group
+WARNING:__main__:Skipping practice 1132 - no user mapping found for user_id 1223
+WARNING:__main__:Failed to create clinic for practice 1132 - skipping
+INFO:__main__:Migrating practice 1133: Kanning Orthodontics
+WARNING:__main__:Skipping practice 1133 - no user mapping found for user_id 1220
+WARNING:__main__:Failed to create clinic for practice 1133 - skipping
+INFO:__main__:Migrating practice 1134: Center for TMJ and Sleep Apnea
+WARNING:__main__:Skipping practice 1134 - no user mapping found for user_id 1211
+WARNING:__main__:Failed to create clinic for practice 1134 - skipping
+INFO:__main__:Migrating practice 1135: Cosmetic and Implant Dentistry of Kansas City
+WARNING:__main__:Skipping practice 1135 - no user mapping found for user_id 1189
+WARNING:__main__:Failed to create clinic for practice 1135 - skipping
+INFO:__main__:Migrating practice 1136: Newhouse Periodontics LLC
+WARNING:__main__:Skipping practice 1136 - no user mapping found for user_id 1224
+WARNING:__main__:Failed to create clinic for practice 1136 - skipping
+INFO:__main__:Migrating practice 1137: Stephenson Dental
+WARNING:__main__:Skipping practice 1137 - no user mapping found for user_id 1225
+WARNING:__main__:Failed to create clinic for practice 1137 - skipping
+INFO:__main__:Migrating practice 1138: Westwood Aesthetic Dentistry
+WARNING:__main__:Skipping practice 1138 - no user mapping found for user_id 1226
+WARNING:__main__:Failed to create clinic for practice 1138 - skipping
+INFO:__main__:Migrating practice 1139: Baldwin Periodontics and Implant Dentistry
+WARNING:__main__:Skipping practice 1139 - no user mapping found for user_id 1227
+WARNING:__main__:Failed to create clinic for practice 1139 - skipping
+INFO:__main__:Migrating practice 1140: McLean Family Dentistry
+WARNING:__main__:Skipping practice 1140 - no user mapping found for user_id 1228
+WARNING:__main__:Failed to create clinic for practice 1140 - skipping
+INFO:__main__:Processed 140/171 practices...
+INFO:__main__:Migrating practice 1141: McLean Family Dentistry
+WARNING:__main__:Skipping practice 1141 - no user mapping found for user_id 1229
+WARNING:__main__:Failed to create clinic for practice 1141 - skipping
+INFO:__main__:Migrating practice 1142: McDaniel Family Dental
+WARNING:__main__:Skipping practice 1142 - no user mapping found for user_id 1230
+WARNING:__main__:Failed to create clinic for practice 1142 - skipping
+INFO:__main__:Migrating practice 1143: Burr Oak Family Dental
+WARNING:__main__:Skipping practice 1143 - no user mapping found for user_id 1232
+WARNING:__main__:Failed to create clinic for practice 1143 - skipping
+INFO:__main__:Migrating practice 1144: Burr Oak Family Dental
+WARNING:__main__:Skipping practice 1144 - no user mapping found for user_id 1231
+WARNING:__main__:Failed to create clinic for practice 1144 - skipping
+INFO:__main__:Migrating practice 1145: Family first dental
+WARNING:__main__:Skipping practice 1145 - no user mapping found for user_id 1233
+WARNING:__main__:Failed to create clinic for practice 1145 - skipping
+INFO:__main__:Migrating practice 1146: HT Complete Family Dentistry
+WARNING:__main__:Skipping practice 1146 - no user mapping found for user_id 1234
+WARNING:__main__:Failed to create clinic for practice 1146 - skipping
+INFO:__main__:Migrating practice 1147: Medley Smiles
+WARNING:__main__:Skipping practice 1147 - no user mapping found for user_id 1235
+WARNING:__main__:Failed to create clinic for practice 1147 - skipping
+INFO:__main__:Migrating practice 1148: waters davidson dentistry
+WARNING:__main__:Skipping practice 1148 - no user mapping found for user_id 1240
+WARNING:__main__:Failed to create clinic for practice 1148 - skipping
+INFO:__main__:Migrating practice 1149: Kansas City Facial and Oral Surgery
+WARNING:__main__:Skipping practice 1149 - no user mapping found for user_id 1239
+WARNING:__main__:Failed to create clinic for practice 1149 - skipping
+INFO:__main__:Migrating practice 1150: Oltjen Orthodontics
+WARNING:__main__:Skipping practice 1150 - no user mapping found for user_id 1242
+WARNING:__main__:Failed to create clinic for practice 1150 - skipping
+INFO:__main__:Processed 150/171 practices...
+INFO:__main__:Migrating practice 1151: Audra Ward
+WARNING:__main__:Skipping practice 1151 - no user mapping found for user_id 1243
+WARNING:__main__:Failed to create clinic for practice 1151 - skipping
+INFO:__main__:Migrating practice 1152: Overland Park Dental Design
+WARNING:__main__:Skipping practice 1152 - no user mapping found for user_id 1248
+WARNING:__main__:Failed to create clinic for practice 1152 - skipping
+INFO:__main__:Migrating practice 1153: Bear Creek Family Dental
+WARNING:__main__:Skipping practice 1153 - no user mapping found for user_id 1249
+WARNING:__main__:Failed to create clinic for practice 1153 - skipping
+INFO:__main__:Migrating practice 1154: Rome McClellan Dental Group Prairie Village
+WARNING:__main__:Skipping practice 1154 - no user mapping found for user_id 1246
+WARNING:__main__:Failed to create clinic for practice 1154 - skipping
+INFO:__main__:Migrating practice 1155: Cosmetic and Implant Dentistry of KC
+WARNING:__main__:Skipping practice 1155 - no user mapping found for user_id 1250
+WARNING:__main__:Failed to create clinic for practice 1155 - skipping
+INFO:__main__:Migrating practice 1156: Grain Valley Family Dental
+WARNING:__main__:Skipping practice 1156 - no user mapping found for user_id 1251
+WARNING:__main__:Failed to create clinic for practice 1156 - skipping
+INFO:__main__:Migrating practice 1157: dental care olathe
+WARNING:__main__:Skipping practice 1157 - no user mapping found for user_id 1252
+WARNING:__main__:Failed to create clinic for practice 1157 - skipping
+INFO:__main__:Migrating practice 1158: Kansas City Dental Implants and Oral Surgery
+WARNING:__main__:Skipping practice 1158 - no user mapping found for user_id 1253
+WARNING:__main__:Failed to create clinic for practice 1158 - skipping
+INFO:__main__:Migrating practice 1159: Waters Davidson Dentistry
+WARNING:__main__:Skipping practice 1159 - no user mapping found for user_id 1254
+WARNING:__main__:Failed to create clinic for practice 1159 - skipping
+INFO:__main__:Migrating practice 1160: Strange Family Dental
+WARNING:__main__:Skipping practice 1160 - no user mapping found for user_id 1255
+WARNING:__main__:Failed to create clinic for practice 1160 - skipping
+INFO:__main__:Processed 160/171 practices...
+INFO:__main__:Migrating practice 1161: Facial Spectrum, Inc
+WARNING:__main__:Skipping practice 1161 - no user mapping found for user_id 1195
+WARNING:__main__:Failed to create clinic for practice 1161 - skipping
+INFO:__main__:Migrating practice 1162: Georgetown Dental Associates
+WARNING:__main__:Skipping practice 1162 - no user mapping found for user_id 1257
+WARNING:__main__:Failed to create clinic for practice 1162 - skipping
+INFO:__main__:Migrating practice 1163: Test Doctor
+INFO:__main__:Assigned mapped user 206 to practice 1163
+INFO:__main__:Created clinic: Test Doctor with ID: 185
+INFO:__main__:Created clinic location for clinic 185 with location ID: 202
+INFO:__main__:Successfully migrated practice 1163 to clinic 185 and location 202
+INFO:__main__:Migrating practice 1164: Test Doctor
+WARNING:__main__:Skipping practice 1164 - no user mapping found for user_id 1260
+WARNING:__main__:Failed to create clinic for practice 1164 - skipping
+INFO:__main__:Migrating practice 1165: Affordable Dentures and Implant Solutions
+INFO:__main__:Assigned mapped user 264 to practice 1165
+INFO:__main__:Created clinic: Affordable Dentures and Implant Solutions with ID: 186
+INFO:__main__:Created clinic location for clinic 186 with location ID: 203
+INFO:__main__:Successfully migrated practice 1165 to clinic 186 and location 203
+INFO:__main__:Migrating practice 1166: Noor Mehta
+WARNING:__main__:Skipping practice 1166 - no user mapping found for user_id 1262
+WARNING:__main__:Failed to create clinic for practice 1166 - skipping
+INFO:__main__:Migrating practice 1167: Newhouse Periodontics
+INFO:__main__:Assigned mapped user 265 to practice 1167
+INFO:__main__:Created clinic: Newhouse Periodontics with ID: 187
+INFO:__main__:Created clinic location for clinic 187 with location ID: 204
+INFO:__main__:Successfully migrated practice 1167 to clinic 187 and location 204
+INFO:__main__:Migrating practice 1168: Leawood Commons Endodontics
+WARNING:__main__:Skipping practice 1168 - no user mapping found for user_id 1247
+WARNING:__main__:Failed to create clinic for practice 1168 - skipping
+INFO:__main__:Migrating practice 1169: Noemi Taguinod Dental Corp
+INFO:__main__:Assigned mapped user 268 to practice 1169
+INFO:__main__:Created clinic: Noemi Taguinod Dental Corp with ID: 188
+INFO:__main__:Created clinic location for clinic 188 with location ID: 205
+INFO:__main__:Successfully migrated practice 1169 to clinic 188 and location 205
+INFO:__main__:Migrating practice 1170: Victor Koval DDS PC
+INFO:__main__:Assigned mapped user 269 to practice 1170
+INFO:__main__:Created clinic: Victor Koval DDS PC with ID: 189
+INFO:__main__:Created clinic location for clinic 189 with location ID: 206
+INFO:__main__:Successfully migrated practice 1170 to clinic 189 and location 206
+INFO:__main__:Processed 170/171 practices...
+INFO:__main__:Migrating practice 1171: Modern Oral & Facial Surgery
+INFO:__main__:Assigned mapped user 270 to practice 1171
+INFO:__main__:Created clinic: Modern Oral & Facial Surgery with ID: 190
+INFO:__main__:Created clinic location for clinic 190 with location ID: 207
+INFO:__main__:Successfully migrated practice 1171 to clinic 190 and location 207
+INFO:__main__:Data migration completed
+INFO:__main__:Migration completed!
+INFO:__main__:=== MIGRATION STATISTICS ===
+INFO:__main__:Total MySQL practices processed: 171
+INFO:__main__:Clinics migrated: 13
+INFO:__main__:Clinic locations migrated: 13
+INFO:__main__:Skipped duplicates: 0
+INFO:__main__:Skipped no user: 158
+INFO:__main__:Failed: 0
+INFO:__main__:============================
+INFO:__main__:Database connections closed
+INFO:__main__:Validating migration...
+INFO:__main__:Database connections established successfully
+INFO:__main__:MySQL practices: 171
+INFO:__main__:PostgreSQL Clinics: 124
+INFO:__main__:PostgreSQL ClinicLocations: 128
+INFO:__main__:Sample migrated records:
+INFO:__main__:  Clinic: Accent Dental LLC (APPROVED) -> Location: 2002 S. Rouse st, Pittsburg, KS 66762 in 66762
+INFO:__main__:  Clinic: Adam Apple Clinic (APPROVED) -> Location: office 1, street 2, somewhere,  Mars - 12345 in 12345
+INFO:__main__:  Clinic: Affordable Dentures and Implant Solutions (APPROVED) -> Location: 19401 E Valley View Pkwy, Independence, United States in 64055
+INFO:__main__:  Clinic: Ahmedabad clinic (APPROVED) -> Location: a 33 sentossa greenland , bhadaj. in 00000
+INFO:__main__:  Clinic: ak (APPROVED) -> Location: 123, abc street, Overland Park, KS in 00000
+INFO:__main__:Database connections closed

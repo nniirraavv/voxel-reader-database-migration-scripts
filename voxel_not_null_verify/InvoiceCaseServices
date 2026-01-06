@@ -1,0 +1,9 @@
+SELECT * FROM public."InvoiceCaseServices"
+ORDER BY "icsId" ASC 
+
+select count(*) from public."InvoiceCaseServices" where "icsId" is null;
+select count(*) from public."InvoiceCaseServices" where "invoiceId" is null;
+select count(*) from public."InvoiceCaseServices" where "caseId" is null;
+select count(*) from public."InvoiceCaseServices" where "amount" is null;
+select count(*) from public."InvoiceCaseServices" where "rushFee" is null;
+select count(*) from public."InvoiceCaseServices" where "createdAt" is null;

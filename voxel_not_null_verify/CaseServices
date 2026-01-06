@@ -1,0 +1,10 @@
+SELECT * FROM public."CaseServices"
+ORDER BY "csId" ASC 
+
+select count(*) from public."CaseServices" where "csId" is null;
+select count(*) from public."CaseServices" where "caseId" is null;
+select count(*) from public."CaseServices" where "serviceId" is null;
+select count(*) from public."CaseServices" where "hasRush" is null;
+select count(*) from public."CaseServices" where "amount" is null;
+select count(*) from public."CaseServices" where "rushFee" is null;
+select count(*) from public."CaseServices" where "createdAt" is null;

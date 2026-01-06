@@ -1,0 +1,110 @@
+2025-07-29 10:12:30,009 - INFO - Establishing database connections...
+2025-07-29 10:12:30,035 - INFO - Truncating ClinicLocationServiceCharges and resetting clscId sequence to 1...
+2025-07-29 10:12:30,050 - INFO - Table truncated and sequence reset.
+2025-07-29 10:12:30,052 - INFO - Dropped default/sequence from ClinicLocationServiceCharges.clscId to allow explicit inserts.
+2025-07-29 10:12:30,053 - INFO - Building clinic location mapping...
+2025-07-29 10:12:30,056 - INFO - Built mappings: olduserid->uId: 96, uId->cId: 111, cId->clId: 111
+2025-07-29 10:12:30,056 - INFO - user_id=1023 NOT found in olduserid_to_uid mapping - this is correct, should be skipped
+2025-07-29 10:12:30,057 - INFO - Sample olduserid values in mapping: [1230, 1234, 1240, 1243, 1246]
+2025-07-29 10:12:30,057 - INFO - Fetching source data from tbl_user_service_charge...
+2025-07-29 10:12:30,062 - INFO - Found 282 records to migrate
+2025-07-29 10:12:30,062 - INFO - Starting data migration...
+2025-07-29 10:12:30,063 - INFO - Note: Foreign key validation will be performed - only records with valid clinicLocationId and serviceId will be migrated
+2025-07-29 10:12:30,063 - INFO - Processing record 1 with user_id=1023
+2025-07-29 10:12:30,063 - WARNING - Skipping record 1: user_id 1023 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,063 - INFO - Processing record 2 with user_id=1023
+2025-07-29 10:12:30,063 - WARNING - Skipping record 2: user_id 1023 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,063 - INFO - Processing record 3 with user_id=1023
+2025-07-29 10:12:30,063 - WARNING - Skipping record 3: user_id 1023 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,063 - WARNING - Skipping record 4: user_id 1053 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 5: user_id 1053 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 6: user_id 1053 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 7: user_id 1047 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 8: user_id 1047 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 9: user_id 1047 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 10: user_id 1033 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 11: user_id 1033 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 12: user_id 1033 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 13: user_id 1084 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,064 - WARNING - Skipping record 14: user_id 1084 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 15: user_id 1084 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 16: user_id 1086 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 17: user_id 1086 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 18: user_id 1086 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 19: user_id 1086 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 20: user_id 1086 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 21: user_id 1086 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 22: user_id 1117 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 23: user_id 1117 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 24: user_id 1117 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,065 - WARNING - Skipping record 25: user_id 1120 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 26: user_id 1120 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 27: user_id 1120 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 28: user_id 1135 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 29: user_id 1135 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 30: user_id 1135 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 31: user_id 1137 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 32: user_id 1137 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 33: user_id 1137 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 34: user_id 1136 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 35: user_id 1136 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,066 - WARNING - Skipping record 36: user_id 1136 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,067 - WARNING - Skipping record 37: user_id 1139 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,067 - WARNING - Skipping record 38: user_id 1139 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,067 - WARNING - Skipping record 39: user_id 1139 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,067 - WARNING - Skipping record 40: user_id 1142 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,067 - WARNING - Skipping record 41: user_id 1142 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,067 - WARNING - Skipping record 42: user_id 1142 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,072 - WARNING - Skipping record 46: user_id 1158 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,072 - WARNING - Skipping record 47: user_id 1158 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,072 - WARNING - Skipping record 48: user_id 1158 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,072 - WARNING - Skipping record 49: user_id 1159 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,072 - WARNING - Skipping record 50: user_id 1159 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,072 - WARNING - Skipping record 51: user_id 1159 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,100 - WARNING - Skipping record 73: user_id 1187 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,100 - WARNING - Skipping record 74: user_id 1187 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,101 - WARNING - Skipping record 75: user_id 1187 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,128 - WARNING - Skipping record 103: user_id 1199 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,128 - WARNING - Skipping record 104: user_id 1199 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,129 - WARNING - Skipping record 105: user_id 1199 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,164 - INFO - Migrated 100 records...
+2025-07-29 10:12:30,231 - INFO - Migrated 200 records...
+2025-07-29 10:12:30,235 - WARNING - Skipping record 259: user_id 1259 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,235 - WARNING - Skipping record 260: user_id 1259 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,235 - WARNING - Skipping record 261: user_id 1259 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 262: user_id 1261 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 263: user_id 1261 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 264: user_id 1261 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 265: user_id 1262 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 266: user_id 1262 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 267: user_id 1262 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 268: user_id 1263 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 269: user_id 1263 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 270: user_id 1263 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 271: user_id 1265 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,236 - WARNING - Skipping record 272: user_id 1265 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 273: user_id 1265 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 274: user_id 1266 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 275: user_id 1266 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 276: user_id 1266 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 277: user_id 1267 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 278: user_id 1267 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 279: user_id 1267 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 280: user_id 1268 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 281: user_id 1268 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,237 - WARNING - Skipping record 282: user_id 1268 could not be mapped to a valid clinicLocationId
+2025-07-29 10:12:30,238 - INFO - ✅ Transaction committed successfully
+2025-07-29 10:12:30,238 - INFO - ============================================================
+2025-07-29 10:12:30,238 - INFO - MIGRATION SUMMARY
+2025-07-29 10:12:30,238 - INFO - ============================================================
+2025-07-29 10:12:30,238 - INFO - Total records processed: 282
+2025-07-29 10:12:30,239 - INFO - Successful migrations: 204
+2025-07-29 10:12:30,239 - INFO - Failed migrations: 0
+2025-07-29 10:12:30,239 - INFO - Skipped invalid mapping: 78
+2025-07-29 10:12:30,239 - INFO - Foreign key violations: 0
+2025-07-29 10:12:30,239 - INFO - Success rate: 72.34%
+2025-07-29 10:12:30,239 - INFO - ============================================================
+2025-07-29 10:12:30,239 - WARNING - ⚠️  78 records had invalid user_id mapping (could not find clinicLocationId).
+2025-07-29 10:12:30,239 - INFO - Foreign key constraints are maintained - only records with valid relationships were migrated
+2025-07-29 10:12:30,239 - INFO - MySQL connection closed
+2025-07-29 10:12:30,239 - INFO - PostgreSQL connection closed

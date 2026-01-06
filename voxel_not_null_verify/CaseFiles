@@ -1,0 +1,10 @@
+SELECT * FROM public."CaseFiles"
+ORDER BY "cfId" ASC 
+
+select count(*) from public."CaseFiles" where "cfId" is null;
+select count(*) from public."CaseFiles" where "caseId" is null;
+select count(*) from public."CaseFiles" where "fileName" is null;
+select count(*) from public."CaseFiles" where "fileSize" is null;
+select count(*) from public."CaseFiles" where "objectKey" is null;
+select count(*) from public."CaseFiles" where "uploadByUserId" is null;
+select count(*) from public."CaseFiles" where "createdAt" is null;

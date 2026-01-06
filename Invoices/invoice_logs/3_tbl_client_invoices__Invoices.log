@@ -1,0 +1,1624 @@
+2025-07-29 10:07:47,960 - INFO - 🚀 Starting LIVE MIGRATION: tbl_client_invoices -> Invoices
+2025-07-29 10:07:47,960 - INFO - 📋 Strategy: USE DEFAULT CLINIC ID (None)
+2025-07-29 10:07:47,960 - INFO - Connecting to MySQL database...
+2025-07-29 10:07:47,963 - INFO - ✅ MySQL connection established
+2025-07-29 10:07:47,964 - INFO - Connecting to PostgreSQL database...
+2025-07-29 10:07:47,986 - INFO - ✅ PostgreSQL connection established
+2025-07-29 10:07:47,986 - INFO - Disabling triggers on Invoices table...
+2025-07-29 10:07:47,991 - INFO - Building clinic location mapping...
+2025-07-29 10:07:47,995 - INFO - Created 84 clinic location mappings
+2025-07-29 10:07:47,996 - INFO - Sample clinic location mappings: [(1154, 80), (1167, 81), (1168, 82), (1169, 83), (1170, 84)]
+2025-07-29 10:07:47,996 - INFO - User ID range in mapping: 1154 to 1260
+2025-07-29 10:07:47,996 - INFO - Using default clinic ID: None
+2025-07-29 10:07:47,999 - INFO - Available invoiceType enum values: ['PAY_AS_YOU_GO', 'MONTHLY', 'ADHOC']
+2025-07-29 10:07:48,000 - INFO - Fetching source data from MySQL...
+2025-07-29 10:07:48,015 - INFO - Found 618 records to migrate
+2025-07-29 10:07:48,016 - INFO - User ID range in source: 1154 - 1268
+2025-07-29 10:07:48,016 - INFO - Users with clinic location mappings: 606/56 unique users
+2025-07-29 10:07:48,017 - INFO - Sample mapped user_ids: [1154, 1168, 1169, 1171, 1172]
+2025-07-29 10:07:48,017 - INFO - Starting PostgreSQL transaction...
+2025-07-29 10:07:48,017 - WARNING - No clinic location ID available for record 67; setting clinicLocationId to NULL
+2025-07-29 10:07:48,020 - WARNING - No clinic location ID available for record 68; setting clinicLocationId to NULL
+2025-07-29 10:07:48,022 - WARNING - No clinic location ID available for record 69; setting clinicLocationId to NULL
+2025-07-29 10:07:48,025 - WARNING - No clinic location ID available for record 70; setting clinicLocationId to NULL
+2025-07-29 10:07:48,026 - WARNING - No clinic location ID available for record 71; setting clinicLocationId to NULL
+2025-07-29 10:07:48,027 - WARNING - No clinic location ID available for record 72; setting clinicLocationId to NULL
+2025-07-29 10:07:48,029 - WARNING - No clinic location ID available for record 74; setting clinicLocationId to NULL
+2025-07-29 10:07:48,063 - INFO - Progress: 100/618 records processed
+2025-07-29 10:07:48,098 - INFO - Progress: 200/618 records processed
+2025-07-29 10:07:48,129 - INFO - Progress: 300/618 records processed
+2025-07-29 10:07:48,157 - INFO - Progress: 400/618 records processed
+2025-07-29 10:07:48,188 - INFO - Progress: 500/618 records processed
+2025-07-29 10:07:48,200 - WARNING - No clinic location ID available for record 608; setting clinicLocationId to NULL
+2025-07-29 10:07:48,209 - WARNING - No clinic location ID available for record 644; setting clinicLocationId to NULL
+2025-07-29 10:07:48,214 - WARNING - No clinic location ID available for record 657; setting clinicLocationId to NULL
+2025-07-29 10:07:48,216 - INFO - Progress: 600/618 records processed
+2025-07-29 10:07:48,218 - WARNING - No clinic location ID available for record 672; setting clinicLocationId to NULL
+2025-07-29 10:07:48,222 - WARNING - No clinic location ID available for record 682; setting clinicLocationId to NULL
+2025-07-29 10:07:48,231 - INFO - ✅ Transaction committed successfully
+2025-07-29 10:07:48,232 - INFO - Re-enabling triggers on Invoices table...
+2025-07-29 10:07:48,236 - INFO - 
+============================================================
+2025-07-29 10:07:48,236 - INFO - LIVE MIGRATION SUMMARY
+2025-07-29 10:07:48,236 - INFO - ============================================================
+2025-07-29 10:07:48,236 - INFO - Total records in source: 618
+2025-07-29 10:07:48,236 - INFO - Successfully processed: 618
+2025-07-29 10:07:48,236 - INFO - Skipped records: 0
+2025-07-29 10:07:48,236 - INFO - Failed records: 0
+2025-07-29 10:07:48,237 - INFO - Success rate: 100.00%
+2025-07-29 10:07:48,237 - INFO - Total warnings: 12
+2025-07-29 10:07:48,237 - INFO - Total errors: 0
+2025-07-29 10:07:48,237 - INFO - 
+First 5 warnings:
+2025-07-29 10:07:48,237 - INFO - 1. No clinic location ID available for record 67; setting clinicLocationId to NULL
+2025-07-29 10:07:48,237 - INFO - 2. No clinic location ID available for record 68; setting clinicLocationId to NULL
+2025-07-29 10:07:48,237 - INFO - 3. No clinic location ID available for record 69; setting clinicLocationId to NULL
+2025-07-29 10:07:48,237 - INFO - 4. No clinic location ID available for record 70; setting clinicLocationId to NULL
+2025-07-29 10:07:48,237 - INFO - 5. No clinic location ID available for record 71; setting clinicLocationId to NULL
+2025-07-29 10:07:48,237 - INFO - ... and 7 more warnings
+2025-07-29 10:07:48,238 - INFO - ============================================================
+2025-07-29 10:07:48,238 - INFO - 🎉 Migration completed successfully!
+2025-07-29 10:07:48,243 - INFO - MySQL connection closed
+2025-07-29 10:07:48,245 - INFO - PostgreSQL connection closed
+2026-01-06 16:22:57,062 - INFO - 🚀 Starting LIVE MIGRATION: tbl_client_invoices -> Invoices
+2026-01-06 16:22:57,062 - INFO - 📋 Strategy: USE DEFAULT CLINIC ID (None)
+2026-01-06 16:22:57,062 - INFO - Connecting to MySQL database...
+2026-01-06 16:22:57,078 - INFO - ✅ MySQL connection established
+2026-01-06 16:22:57,079 - INFO - Connecting to PostgreSQL database...
+2026-01-06 16:22:57,091 - INFO - ✅ PostgreSQL connection established
+2026-01-06 16:22:57,091 - INFO - Disabling triggers on Invoices table...
+2026-01-06 16:22:57,092 - INFO - Building clinic location mapping...
+2026-01-06 16:22:57,094 - INFO - Created 83 clinic location mappings
+2026-01-06 16:22:57,094 - INFO - Sample clinic location mappings: [(1154, 80), (1167, 81), (1168, 82), (1169, 83), (1170, 84)]
+2026-01-06 16:22:57,094 - INFO - User ID range in mapping: 1154 to 1260
+2026-01-06 16:22:57,094 - INFO - Using default clinic ID: None
+2026-01-06 16:22:57,094 - INFO - Available invoiceType enum values: ['PAY_AS_YOU_GO', 'MONTHLY']
+2026-01-06 16:22:57,094 - INFO - Fetching source data from MySQL...
+2026-01-06 16:22:57,098 - INFO - Found 700 records to migrate
+2026-01-06 16:22:57,098 - INFO - User ID range in source: 1154 - 1273
+2026-01-06 16:22:57,098 - INFO - Users with clinic location mappings: 630/57 unique users
+2026-01-06 16:22:57,098 - INFO - Sample mapped user_ids: [1154, 1168, 1169, 1171, 1172]
+2026-01-06 16:22:57,098 - INFO - Starting PostgreSQL transaction...
+2026-01-06 16:22:57,098 - WARNING - No clinic location ID available for record 67; setting clinicLocationId to NULL
+2026-01-06 16:22:57,098 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,098 - ERROR - ❌ Failed to insert record 67: duplicate key value violates unique constraint "Invoices_pkey"
+DETAIL:  Key ("iId")=(67) already exists.
+
+2026-01-06 16:22:57,098 - WARNING - No clinic location ID available for record 68; setting clinicLocationId to NULL
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 68: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - WARNING - No clinic location ID available for record 69; setting clinicLocationId to NULL
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 69: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - WARNING - No clinic location ID available for record 70; setting clinicLocationId to NULL
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 70: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - WARNING - No clinic location ID available for record 71; setting clinicLocationId to NULL
+2026-01-06 16:22:57,099 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 71: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - WARNING - No clinic location ID available for record 72; setting clinicLocationId to NULL
+2026-01-06 16:22:57,099 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 72: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 73: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - WARNING - No clinic location ID available for record 74; setting clinicLocationId to NULL
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 74: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 75: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 76: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - ERROR - ❌ Failed to insert record 77: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,099 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 78: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 79: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 80: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 81: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 82: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 83: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 84: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 85: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 86: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 87: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - WARNING - No clinic location ID available for record 88; setting clinicLocationId to NULL
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 88: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 89: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - WARNING - No clinic location ID available for record 90; setting clinicLocationId to NULL
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 90: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,100 - ERROR - ❌ Failed to insert record 91: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 92: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 93: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 94: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 95: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 96: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 97: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - WARNING - No clinic location ID available for record 98; setting clinicLocationId to NULL
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 98: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 99: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 100: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 101: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 102: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 103: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 104: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,101 - ERROR - ❌ Failed to insert record 105: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 106: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - WARNING - No clinic location ID available for record 107; setting clinicLocationId to NULL
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 107: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 108: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 109: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 110: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 111: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 112: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - WARNING - No clinic location ID available for record 113; setting clinicLocationId to NULL
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 113: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 114: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 115: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 116: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 117: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 118: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,102 - ERROR - ❌ Failed to insert record 119: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 120: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - WARNING - No clinic location ID available for record 122; setting clinicLocationId to NULL
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 122: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 123: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 124: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 125: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 126: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 127: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 128: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 129: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 130: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 131: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - WARNING - No clinic location ID available for record 132; setting clinicLocationId to NULL
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 132: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 133: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 134: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,103 - ERROR - ❌ Failed to insert record 135: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 136: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 137: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 138: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 139: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - WARNING - No clinic location ID available for record 140; setting clinicLocationId to NULL
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 140: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 141: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 142: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 143: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 144: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 145: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 146: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 147: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 148: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 149: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,104 - ERROR - ❌ Failed to insert record 150: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 151: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 152: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 153: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 154: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 155: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 156: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 157: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - WARNING - No clinic location ID available for record 158; setting clinicLocationId to NULL
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 158: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 159: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 160: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 161: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 162: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 163: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 164: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,105 - ERROR - ❌ Failed to insert record 165: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 166: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - WARNING - No clinic location ID available for record 167; setting clinicLocationId to NULL
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 167: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - INFO - Progress: 100/700 records processed
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 168: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 169: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 170: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 171: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 172: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 173: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - WARNING - No clinic location ID available for record 174; setting clinicLocationId to NULL
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 174: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 175: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 176: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 177: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 178: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,106 - ERROR - ❌ Failed to insert record 179: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 180: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 181: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 182: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 183: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 184: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - WARNING - No clinic location ID available for record 185; setting clinicLocationId to NULL
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 185: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 186: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 187: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 188: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 189: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 190: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - WARNING - No clinic location ID available for record 191; setting clinicLocationId to NULL
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 191: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,107 - ERROR - ❌ Failed to insert record 192: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,108 - ERROR - ❌ Failed to insert record 193: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,108 - ERROR - ❌ Failed to insert record 194: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,108 - ERROR - ❌ Failed to insert record 195: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,108 - ERROR - ❌ Failed to insert record 196: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,108 - ERROR - ❌ Failed to insert record 197: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,108 - ERROR - ❌ Failed to insert record 198: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,108 - ERROR - ❌ Failed to insert record 199: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 200: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 201: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 202: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - WARNING - No clinic location ID available for record 203; setting clinicLocationId to NULL
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 203: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 204: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 205: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 206: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 207: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 208: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 209: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 210: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 211: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 212: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,109 - WARNING - No clinic location ID available for record 213; setting clinicLocationId to NULL
+2026-01-06 16:22:57,109 - ERROR - ❌ Failed to insert record 213: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 214: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 215: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 216: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 217: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - WARNING - No clinic location ID available for record 218; setting clinicLocationId to NULL
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 218: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 219: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 220: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 221: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 222: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 223: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 224: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 225: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 226: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 227: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,110 - ERROR - ❌ Failed to insert record 228: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 229: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 230: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 231: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 232: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - WARNING - No clinic location ID available for record 233; setting clinicLocationId to NULL
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 233: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 234: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 235: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 236: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 237: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 238: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 239: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 240: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 241: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 242: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,111 - ERROR - ❌ Failed to insert record 243: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 244: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - WARNING - No clinic location ID available for record 245; setting clinicLocationId to NULL
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 245: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 246: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 247: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 248: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 249: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 250: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 251: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 252: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 253: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 254: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 255: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 256: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 257: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,112 - ERROR - ❌ Failed to insert record 258: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 259: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - WARNING - No clinic location ID available for record 260; setting clinicLocationId to NULL
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 260: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 261: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 262: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 263: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 264: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 265: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 266: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - WARNING - No clinic location ID available for record 267; setting clinicLocationId to NULL
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 267: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - INFO - Progress: 200/700 records processed
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 268: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 269: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 270: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 271: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 272: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,113 - ERROR - ❌ Failed to insert record 273: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 274: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 275: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 276: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 277: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 278: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 279: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - WARNING - No clinic location ID available for record 280; setting clinicLocationId to NULL
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 280: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 281: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 282: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 283: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 284: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 285: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 286: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 287: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,114 - ERROR - ❌ Failed to insert record 288: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 289: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 290: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 291: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - WARNING - No clinic location ID available for record 292; setting clinicLocationId to NULL
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 292: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 293: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 294: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 295: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 296: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 297: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 298: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 299: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 300: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 301: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 302: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,115 - WARNING - No clinic location ID available for record 303; setting clinicLocationId to NULL
+2026-01-06 16:22:57,115 - ERROR - ❌ Failed to insert record 303: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 304: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 305: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 306: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 307: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 308: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 309: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 310: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 311: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 312: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 313: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 314: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 315: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 316: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 317: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - WARNING - No clinic location ID available for record 318; setting clinicLocationId to NULL
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 318: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,116 - ERROR - ❌ Failed to insert record 319: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 320: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 321: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 322: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 323: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 324: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 325: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 326: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 327: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 328: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 329: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 330: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 331: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 332: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,117 - ERROR - ❌ Failed to insert record 333: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 334: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 335: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - WARNING - No clinic location ID available for record 336; setting clinicLocationId to NULL
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 336: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 337: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 338: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 339: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 340: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 341: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 342: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 343: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 344: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 345: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 346: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 347: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - WARNING - No clinic location ID available for record 348; setting clinicLocationId to NULL
+2026-01-06 16:22:57,118 - ERROR - ❌ Failed to insert record 348: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,118 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 349: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 350: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 351: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 352: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 353: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 354: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 355: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 356: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 357: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 358: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 359: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 360: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 361: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - WARNING - No clinic location ID available for record 362; setting clinicLocationId to NULL
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 362: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,119 - ERROR - ❌ Failed to insert record 363: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 364: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 365: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 366: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 367: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - INFO - Progress: 300/700 records processed
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 368: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 369: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 370: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 371: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 372: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 373: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 374: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 375: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 376: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 377: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - ERROR - ❌ Failed to insert record 378: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,120 - WARNING - No clinic location ID available for record 379; setting clinicLocationId to NULL
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 379: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 380: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 381: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 382: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 383: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 384: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 385: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 386: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 387: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 388: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 389: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 390: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 391: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 392: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 393: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - ERROR - ❌ Failed to insert record 394: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,121 - WARNING - No clinic location ID available for record 395; setting clinicLocationId to NULL
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 395: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 396: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 397: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 398: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 399: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 400: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 401: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 402: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 403: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 404: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 405: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 406: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,122 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,122 - ERROR - ❌ Failed to insert record 407: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 408: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 409: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 410: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 411: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 412: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 413: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 414: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,123 - WARNING - No clinic location ID available for record 415; setting clinicLocationId to NULL
+2026-01-06 16:22:57,123 - ERROR - ❌ Failed to insert record 415: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 416: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 417: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 418: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 419: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 420: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 421: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 422: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 423: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 424: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 425: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 426: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,124 - ERROR - ❌ Failed to insert record 427: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 428: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 429: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - WARNING - No clinic location ID available for record 430; setting clinicLocationId to NULL
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 430: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 431: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 432: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 433: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 434: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 435: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 436: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 437: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 438: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 439: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 440: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 441: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - ERROR - ❌ Failed to insert record 442: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,125 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 443: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 444: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 445: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 446: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 447: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 448: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 449: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - WARNING - No clinic location ID available for record 450; setting clinicLocationId to NULL
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 450: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 451: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 452: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 453: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 454: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 455: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,126 - ERROR - ❌ Failed to insert record 456: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 457: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 458: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 459: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 460: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 461: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 462: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 463: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - WARNING - No clinic location ID available for record 464; setting clinicLocationId to NULL
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 464: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 465: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 466: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 467: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - INFO - Progress: 400/700 records processed
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 468: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,127 - ERROR - ❌ Failed to insert record 469: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 470: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 471: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 472: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 473: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 474: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 475: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 476: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 477: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 478: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 479: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 480: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 481: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - WARNING - No clinic location ID available for record 482; setting clinicLocationId to NULL
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 482: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 483: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,128 - ERROR - ❌ Failed to insert record 484: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 485: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 486: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 487: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 488: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 489: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 490: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 491: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 492: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 493: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 494: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 495: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 496: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 497: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - WARNING - No clinic location ID available for record 498; setting clinicLocationId to NULL
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 498: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 499: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,129 - ERROR - ❌ Failed to insert record 500: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 501: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 502: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 503: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 504: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 505: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 506: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 507: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 508: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 509: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 510: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 511: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 512: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 513: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 514: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - ERROR - ❌ Failed to insert record 515: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,130 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 516: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 517: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 518: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 519: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - WARNING - No clinic location ID available for record 520; setting clinicLocationId to NULL
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 520: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 521: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 522: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 523: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 524: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 525: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 526: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 527: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 528: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - WARNING - No clinic location ID available for record 529; setting clinicLocationId to NULL
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 529: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,131 - ERROR - ❌ Failed to insert record 530: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 531: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 532: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 533: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 534: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 535: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 536: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 537: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 538: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 539: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 540: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 541: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 542: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,132 - ERROR - ❌ Failed to insert record 543: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 544: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 545: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 546: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 547: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 548: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 549: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 550: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 551: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - WARNING - No clinic location ID available for record 552; setting clinicLocationId to NULL
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 552: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 553: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 554: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 555: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 556: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,133 - ERROR - ❌ Failed to insert record 557: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 558: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 559: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - WARNING - No clinic location ID available for record 560; setting clinicLocationId to NULL
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 560: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 561: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 562: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 563: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 564: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 565: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 566: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 567: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - INFO - Progress: 500/700 records processed
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 568: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 569: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 570: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 571: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 572: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,134 - ERROR - ❌ Failed to insert record 573: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - WARNING - No clinic location ID available for record 574; setting clinicLocationId to NULL
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 574: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 575: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 576: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 577: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 578: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 579: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 580: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 581: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 582: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 583: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 584: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 585: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 586: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,135 - ERROR - ❌ Failed to insert record 587: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 588: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 589: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 590: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 591: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - WARNING - No clinic location ID available for record 592; setting clinicLocationId to NULL
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 592: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 593: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 594: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 595: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 596: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 597: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 598: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 599: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 600: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 601: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 602: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,136 - ERROR - ❌ Failed to insert record 603: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 604: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 605: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 606: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - WARNING - No clinic location ID available for record 607; setting clinicLocationId to NULL
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 607: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - WARNING - No clinic location ID available for record 608; setting clinicLocationId to NULL
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 608: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 609: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 610: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 611: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 612: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 613: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 614: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 615: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 616: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,137 - ERROR - ❌ Failed to insert record 617: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 618: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 619: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 620: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 621: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 622: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - WARNING - No clinic location ID available for record 623; setting clinicLocationId to NULL
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 623: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 624: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 625: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 626: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 627: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 628: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 629: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - WARNING - No clinic location ID available for record 630; setting clinicLocationId to NULL
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 630: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 631: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,138 - ERROR - ❌ Failed to insert record 632: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 633: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 634: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 635: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 636: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 637: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 638: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 639: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 640: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 641: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 642: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 643: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - WARNING - No clinic location ID available for record 644; setting clinicLocationId to NULL
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 644: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 645: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 646: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,139 - ERROR - ❌ Failed to insert record 647: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 648: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 649: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - WARNING - No clinic location ID available for record 650; setting clinicLocationId to NULL
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 650: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 651: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 652: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 653: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 654: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 655: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 656: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - WARNING - No clinic location ID available for record 657; setting clinicLocationId to NULL
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 657: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 658: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - ERROR - ❌ Failed to insert record 659: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,140 - WARNING - No clinic location ID available for record 660; setting clinicLocationId to NULL
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 660: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 661: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 662: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 663: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 664: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 665: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 666: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 667: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - INFO - Progress: 600/700 records processed
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 668: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 669: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 670: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - ERROR - ❌ Failed to insert record 671: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,141 - WARNING - No clinic location ID available for record 672; setting clinicLocationId to NULL
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 672: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 673: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 674: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 675: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 676: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 677: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 678: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - WARNING - No clinic location ID available for record 679; setting clinicLocationId to NULL
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 679: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 680: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 681: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - WARNING - No clinic location ID available for record 682; setting clinicLocationId to NULL
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 682: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 683: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,142 - ERROR - ❌ Failed to insert record 684: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 685: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 686: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - WARNING - Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 687: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 688: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 689: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 690: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 691: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - WARNING - No clinic location ID available for record 692; setting clinicLocationId to NULL
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 692: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 693: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 694: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - WARNING - No clinic location ID available for record 695; setting clinicLocationId to NULL
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 695: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 696: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 697: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,143 - ERROR - ❌ Failed to insert record 698: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 699: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 700: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 701: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 702: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 703: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - WARNING - No clinic location ID available for record 704; setting clinicLocationId to NULL
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 704: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 705: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - WARNING - No clinic location ID available for record 706; setting clinicLocationId to NULL
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 706: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 707: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 708: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 709: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 710: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 711: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 712: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,144 - ERROR - ❌ Failed to insert record 713: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 714: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 715: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 716: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 717: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 718: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 719: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - WARNING - No clinic location ID available for record 720; setting clinicLocationId to NULL
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 720: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 721: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 722: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 723: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 724: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 725: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 726: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 727: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - WARNING - No clinic location ID available for record 728; setting clinicLocationId to NULL
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 728: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,145 - ERROR - ❌ Failed to insert record 729: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 730: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 731: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 732: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 733: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 734: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - WARNING - No clinic location ID available for record 735; setting clinicLocationId to NULL
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 735: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 736: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 737: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 738: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 739: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - WARNING - No clinic location ID available for record 740; setting clinicLocationId to NULL
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 740: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 741: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 742: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 743: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 744: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,146 - ERROR - ❌ Failed to insert record 745: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 746: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 747: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 748: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 749: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 750: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 751: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 752: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 753: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 754: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 755: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 756: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 757: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 758: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,147 - ERROR - ❌ Failed to insert record 759: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 760: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 761: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 762: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - WARNING - No clinic location ID available for record 763; setting clinicLocationId to NULL
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 763: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 764: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 765: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - WARNING - No clinic location ID available for record 766; setting clinicLocationId to NULL
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 766: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - WARNING - No clinic location ID available for record 767; setting clinicLocationId to NULL
+2026-01-06 16:22:57,148 - ERROR - ❌ Failed to insert record 767: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,148 - INFO - Progress: 700/700 records processed
+2026-01-06 16:22:57,148 - INFO - ✅ Transaction committed successfully
+2026-01-06 16:22:57,148 - INFO - Re-enabling triggers on Invoices table...
+2026-01-06 16:22:57,149 - INFO - 
+============================================================
+2026-01-06 16:22:57,149 - INFO - LIVE MIGRATION SUMMARY
+2026-01-06 16:22:57,149 - INFO - ============================================================
+2026-01-06 16:22:57,149 - INFO - Total records in source: 700
+2026-01-06 16:22:57,149 - INFO - Successfully processed: 0
+2026-01-06 16:22:57,149 - INFO - Skipped records: 0
+2026-01-06 16:22:57,149 - INFO - Failed records: 700
+2026-01-06 16:22:57,149 - INFO - Total warnings: 97
+2026-01-06 16:22:57,149 - INFO - Total errors: 700
+2026-01-06 16:22:57,149 - INFO - 
+First 5 warnings:
+2026-01-06 16:22:57,149 - INFO - 1. No clinic location ID available for record 67; setting clinicLocationId to NULL
+2026-01-06 16:22:57,149 - INFO - 2. Unknown invoice_type 'ADHOC' mapped to 'PAY_AS_YOU_GO'
+2026-01-06 16:22:57,149 - INFO - 3. No clinic location ID available for record 68; setting clinicLocationId to NULL
+2026-01-06 16:22:57,149 - INFO - 4. No clinic location ID available for record 69; setting clinicLocationId to NULL
+2026-01-06 16:22:57,149 - INFO - 5. No clinic location ID available for record 70; setting clinicLocationId to NULL
+2026-01-06 16:22:57,149 - INFO - ... and 92 more warnings
+2026-01-06 16:22:57,149 - INFO - 
+First 5 errors:
+2026-01-06 16:22:57,149 - INFO - 1. Failed to insert record 67: duplicate key value violates unique constraint "Invoices_pkey"
+DETAIL:  Key ("iId")=(67) already exists.
+
+2026-01-06 16:22:57,149 - INFO - 2. Failed to insert record 68: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,149 - INFO - 3. Failed to insert record 69: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,149 - INFO - 4. Failed to insert record 70: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,149 - INFO - 5. Failed to insert record 71: current transaction is aborted, commands ignored until end of transaction block
+
+2026-01-06 16:22:57,149 - INFO - ... and 695 more errors
+2026-01-06 16:22:57,149 - INFO - ============================================================
+2026-01-06 16:22:57,149 - INFO - 🎉 Migration completed successfully!
+2026-01-06 16:22:57,149 - INFO - MySQL connection closed
+2026-01-06 16:22:57,149 - INFO - PostgreSQL connection closed

@@ -1,0 +1,144 @@
+2025-07-29 10:06:12,694 - INFO - Starting tbl_radiologist oldUserId update process
+2025-07-29 10:06:12,720 - INFO - Database connections established successfully
+2025-07-29 10:06:12,727 - INFO - Found 12 radiologists in PostgreSQL Users table
+2025-07-29 10:06:12,733 - INFO - Fetched 9 radiologists from MySQL
+2025-07-29 10:06:12,734 - INFO - Searching for radiologist in Users table with email: 'akddskc@gmail.com' (original: 'akddskc@gmail.com')
+2025-07-29 10:06:12,735 - INFO - Radiologist akddskc@gmail.com found in Users table with uId: 193, current oldUserId: None
+2025-07-29 10:06:12,735 - INFO - Updating oldUserId for uId: 193 from None to 41
+2025-07-29 10:06:12,736 - INFO - Attempting to update oldUserId for email: 'akddskc@gmail.com', uId: 193, oldUserId: 41
+2025-07-29 10:06:12,737 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,737 - INFO - Successfully updated radiologist akddskc@gmail.com (uId: 193) with oldUserId: 41
+2025-07-29 10:06:12,738 - INFO - Searching for radiologist in Users table with email: 'usetest20201@gmail.com' (original: 'usetest20201@gmail.com')
+2025-07-29 10:06:12,740 - INFO - Radiologist usetest20201@gmail.com found in Users table with uId: 194, current oldUserId: None
+2025-07-29 10:06:12,740 - INFO - Updating oldUserId for uId: 194 from None to 42
+2025-07-29 10:06:12,740 - INFO - Attempting to update oldUserId for email: 'usetest20201@gmail.com', uId: 194, oldUserId: 42
+2025-07-29 10:06:12,741 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,741 - INFO - Successfully updated radiologist usetest20201@gmail.com (uId: 194) with oldUserId: 42
+2025-07-29 10:06:12,742 - INFO - Searching for radiologist in Users table with email: 'akshit@eternalsoftsolutions.com' (original: 'akshit@eternalsoftsolutions.com')
+2025-07-29 10:06:12,742 - INFO - Radiologist akshit@eternalsoftsolutions.com found in Users table with uId: 195, current oldUserId: None
+2025-07-29 10:06:12,742 - INFO - Updating oldUserId for uId: 195 from None to 48
+2025-07-29 10:06:12,742 - INFO - Attempting to update oldUserId for email: 'akshit@eternalsoftsolutions.com', uId: 195, oldUserId: 48
+2025-07-29 10:06:12,743 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,743 - INFO - Successfully updated radiologist akshit@eternalsoftsolutions.com (uId: 195) with oldUserId: 48
+2025-07-29 10:06:12,744 - INFO - Searching for radiologist in Users table with email: 'vandanadds@gmail.com' (original: 'vandanadds@gmail.com')
+2025-07-29 10:06:12,745 - INFO - Radiologist vandanadds@gmail.com found in Users table with uId: 196, current oldUserId: None
+2025-07-29 10:06:12,745 - INFO - Updating oldUserId for uId: 196 from None to 50
+2025-07-29 10:06:12,745 - INFO - Attempting to update oldUserId for email: 'vandanadds@gmail.com', uId: 196, oldUserId: 50
+2025-07-29 10:06:12,745 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,746 - INFO - Successfully updated radiologist vandanadds@gmail.com (uId: 196) with oldUserId: 50
+2025-07-29 10:06:12,747 - INFO - Searching for radiologist in Users table with email: 'mayankpahadiaomr@gmail.com' (original: 'mayankpahadiaomr@gmail.com')
+2025-07-29 10:06:12,747 - INFO - Radiologist mayankpahadiaomr@gmail.com found in Users table with uId: 197, current oldUserId: None
+2025-07-29 10:06:12,747 - INFO - Updating oldUserId for uId: 197 from None to 51
+2025-07-29 10:06:12,747 - INFO - Attempting to update oldUserId for email: 'mayankpahadiaomr@gmail.com', uId: 197, oldUserId: 51
+2025-07-29 10:06:12,748 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,748 - INFO - Successfully updated radiologist mayankpahadiaomr@gmail.com (uId: 197) with oldUserId: 51
+2025-07-29 10:06:12,749 - INFO - Searching for radiologist in Users table with email: 'Hemaudupa@gmail.com' (original: 'Hemaudupa@gmail.com')
+2025-07-29 10:06:12,750 - INFO - Radiologist Hemaudupa@gmail.com found in Users table with uId: 198, current oldUserId: None
+2025-07-29 10:06:12,750 - INFO - Updating oldUserId for uId: 198 from None to 52
+2025-07-29 10:06:12,750 - INFO - Attempting to update oldUserId for email: 'Hemaudupa@gmail.com', uId: 198, oldUserId: 52
+2025-07-29 10:06:12,750 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,750 - INFO - Successfully updated radiologist Hemaudupa@gmail.com (uId: 198) with oldUserId: 52
+2025-07-29 10:06:12,751 - INFO - Searching for radiologist in Users table with email: 'cloudradx@gmail.com' (original: 'cloudradx@gmail.com')
+2025-07-29 10:06:12,752 - INFO - Radiologist cloudradx@gmail.com found in Users table with uId: 199, current oldUserId: None
+2025-07-29 10:06:12,753 - INFO - Updating oldUserId for uId: 199 from None to 55
+2025-07-29 10:06:12,753 - INFO - Attempting to update oldUserId for email: 'cloudradx@gmail.com', uId: 199, oldUserId: 55
+2025-07-29 10:06:12,754 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,755 - INFO - Successfully updated radiologist cloudradx@gmail.com (uId: 199) with oldUserId: 55
+2025-07-29 10:06:12,756 - INFO - Searching for radiologist in Users table with email: 'Tpabla2005@hotmail.com' (original: 'Tpabla2005@hotmail.com')
+2025-07-29 10:06:12,758 - INFO - Radiologist Tpabla2005@hotmail.com found in Users table with uId: 200, current oldUserId: None
+2025-07-29 10:06:12,758 - INFO - Updating oldUserId for uId: 200 from None to 56
+2025-07-29 10:06:12,759 - INFO - Attempting to update oldUserId for email: 'Tpabla2005@hotmail.com', uId: 200, oldUserId: 56
+2025-07-29 10:06:12,759 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,759 - INFO - Successfully updated radiologist Tpabla2005@hotmail.com (uId: 200) with oldUserId: 56
+2025-07-29 10:06:12,761 - INFO - Searching for radiologist in Users table with email: 'nandini@eternalsoftsolutions.com' (original: 'nandini@eternalsoftsolutions.com')
+2025-07-29 10:06:12,761 - INFO - Radiologist nandini@eternalsoftsolutions.com found in Users table with uId: 201, current oldUserId: None
+2025-07-29 10:06:12,762 - INFO - Updating oldUserId for uId: 201 from None to 57
+2025-07-29 10:06:12,762 - INFO - Attempting to update oldUserId for email: 'nandini@eternalsoftsolutions.com', uId: 201, oldUserId: 57
+2025-07-29 10:06:12,763 - INFO - Rows affected by update: 1
+2025-07-29 10:06:12,763 - INFO - Successfully updated radiologist nandini@eternalsoftsolutions.com (uId: 201) with oldUserId: 57
+2025-07-29 10:06:12,764 - INFO - Update process completed!
+2025-07-29 10:06:12,764 - INFO - Total MySQL records: 9
+2025-07-29 10:06:12,764 - INFO - Total PostgreSQL radiologists: 12
+2025-07-29 10:06:12,764 - INFO - Successfully updated: 9
+2025-07-29 10:06:12,764 - INFO - Not found in PostgreSQL: 0
+2025-07-29 10:06:12,764 - INFO - Errors: 0
+2025-07-29 10:06:12,765 - INFO - Database connections closed
+2025-07-29 10:06:12,765 - INFO - Validating update...
+2025-07-29 10:06:12,789 - INFO - Database connections established successfully
+2025-07-29 10:06:12,795 - INFO - MySQL tbl_radiologist count: 9
+2025-07-29 10:06:12,796 - INFO - PostgreSQL Users (RADIOLOGIST) total: 12
+2025-07-29 10:06:12,796 - INFO - PostgreSQL Users (RADIOLOGIST) with oldUserId: 10
+2025-07-29 10:06:12,796 - WARNING - ⚠️ Partial update: 10/9 radiologists updated
+2025-07-29 10:06:12,797 - INFO - Database connections closed
+2026-01-06 16:22:55,714 - INFO - Starting tbl_radiologist oldUserId update process
+2026-01-06 16:22:55,752 - INFO - Database connections established successfully
+2026-01-06 16:22:55,754 - INFO - Found 15 radiologists in PostgreSQL Users table
+2026-01-06 16:22:55,763 - INFO - Fetched 9 radiologists from MySQL
+2026-01-06 16:22:55,763 - INFO - Searching for radiologist in Users table with email: 'akddskc@gmail.com' (original: 'akddskc@gmail.com')
+2026-01-06 16:22:55,763 - INFO - Radiologist akddskc@gmail.com found in Users table with uId: 193, current oldUserId: None
+2026-01-06 16:22:55,764 - INFO - Updating oldUserId for uId: 193 from None to 41
+2026-01-06 16:22:55,764 - INFO - Attempting to update oldUserId for email: 'akddskc@gmail.com', uId: 193, oldUserId: 41
+2026-01-06 16:22:55,764 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,764 - INFO - Successfully updated radiologist akddskc@gmail.com (uId: 193) with oldUserId: 41
+2026-01-06 16:22:55,764 - INFO - Searching for radiologist in Users table with email: 'usetest20201@gmail.com' (original: 'usetest20201@gmail.com')
+2026-01-06 16:22:55,765 - INFO - Radiologist usetest20201@gmail.com found in Users table with uId: 194, current oldUserId: None
+2026-01-06 16:22:55,765 - INFO - Updating oldUserId for uId: 194 from None to 42
+2026-01-06 16:22:55,765 - INFO - Attempting to update oldUserId for email: 'usetest20201@gmail.com', uId: 194, oldUserId: 42
+2026-01-06 16:22:55,766 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,766 - INFO - Successfully updated radiologist usetest20201@gmail.com (uId: 194) with oldUserId: 42
+2026-01-06 16:22:55,769 - INFO - Searching for radiologist in Users table with email: 'akshit@eternalsoftsolutions.com' (original: 'akshit@eternalsoftsolutions.com')
+2026-01-06 16:22:55,769 - INFO - Radiologist akshit@eternalsoftsolutions.com found in Users table with uId: 195, current oldUserId: None
+2026-01-06 16:22:55,769 - INFO - Updating oldUserId for uId: 195 from None to 48
+2026-01-06 16:22:55,769 - INFO - Attempting to update oldUserId for email: 'akshit@eternalsoftsolutions.com', uId: 195, oldUserId: 48
+2026-01-06 16:22:55,770 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,770 - INFO - Successfully updated radiologist akshit@eternalsoftsolutions.com (uId: 195) with oldUserId: 48
+2026-01-06 16:22:55,770 - INFO - Searching for radiologist in Users table with email: 'vandanadds@gmail.com' (original: 'vandanadds@gmail.com')
+2026-01-06 16:22:55,770 - INFO - Radiologist vandanadds@gmail.com found in Users table with uId: 196, current oldUserId: None
+2026-01-06 16:22:55,770 - INFO - Updating oldUserId for uId: 196 from None to 50
+2026-01-06 16:22:55,770 - INFO - Attempting to update oldUserId for email: 'vandanadds@gmail.com', uId: 196, oldUserId: 50
+2026-01-06 16:22:55,770 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,770 - INFO - Successfully updated radiologist vandanadds@gmail.com (uId: 196) with oldUserId: 50
+2026-01-06 16:22:55,771 - INFO - Searching for radiologist in Users table with email: 'mayankpahadiaomr@gmail.com' (original: 'mayankpahadiaomr@gmail.com')
+2026-01-06 16:22:55,771 - INFO - Radiologist mayankpahadiaomr@gmail.com found in Users table with uId: 197, current oldUserId: None
+2026-01-06 16:22:55,771 - INFO - Updating oldUserId for uId: 197 from None to 51
+2026-01-06 16:22:55,771 - INFO - Attempting to update oldUserId for email: 'mayankpahadiaomr@gmail.com', uId: 197, oldUserId: 51
+2026-01-06 16:22:55,771 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,771 - INFO - Successfully updated radiologist mayankpahadiaomr@gmail.com (uId: 197) with oldUserId: 51
+2026-01-06 16:22:55,771 - INFO - Searching for radiologist in Users table with email: 'Hemaudupa@gmail.com' (original: 'Hemaudupa@gmail.com')
+2026-01-06 16:22:55,771 - INFO - Radiologist Hemaudupa@gmail.com found in Users table with uId: 198, current oldUserId: None
+2026-01-06 16:22:55,771 - INFO - Updating oldUserId for uId: 198 from None to 52
+2026-01-06 16:22:55,772 - INFO - Attempting to update oldUserId for email: 'Hemaudupa@gmail.com', uId: 198, oldUserId: 52
+2026-01-06 16:22:55,772 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,772 - INFO - Successfully updated radiologist Hemaudupa@gmail.com (uId: 198) with oldUserId: 52
+2026-01-06 16:22:55,772 - INFO - Searching for radiologist in Users table with email: 'cloudradx@gmail.com' (original: 'cloudradx@gmail.com')
+2026-01-06 16:22:55,772 - INFO - Radiologist cloudradx@gmail.com found in Users table with uId: 199, current oldUserId: None
+2026-01-06 16:22:55,772 - INFO - Updating oldUserId for uId: 199 from None to 55
+2026-01-06 16:22:55,772 - INFO - Attempting to update oldUserId for email: 'cloudradx@gmail.com', uId: 199, oldUserId: 55
+2026-01-06 16:22:55,772 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,772 - INFO - Successfully updated radiologist cloudradx@gmail.com (uId: 199) with oldUserId: 55
+2026-01-06 16:22:55,772 - INFO - Searching for radiologist in Users table with email: 'Tpabla2005@hotmail.com' (original: 'Tpabla2005@hotmail.com')
+2026-01-06 16:22:55,773 - INFO - Radiologist Tpabla2005@hotmail.com found in Users table with uId: 200, current oldUserId: None
+2026-01-06 16:22:55,773 - INFO - Updating oldUserId for uId: 200 from None to 56
+2026-01-06 16:22:55,773 - INFO - Attempting to update oldUserId for email: 'Tpabla2005@hotmail.com', uId: 200, oldUserId: 56
+2026-01-06 16:22:55,773 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,773 - INFO - Successfully updated radiologist Tpabla2005@hotmail.com (uId: 200) with oldUserId: 56
+2026-01-06 16:22:55,773 - INFO - Searching for radiologist in Users table with email: 'nandini@eternalsoftsolutions.com' (original: 'nandini@eternalsoftsolutions.com')
+2026-01-06 16:22:55,773 - INFO - Radiologist nandini@eternalsoftsolutions.com found in Users table with uId: 201, current oldUserId: None
+2026-01-06 16:22:55,773 - INFO - Updating oldUserId for uId: 201 from None to 57
+2026-01-06 16:22:55,773 - INFO - Attempting to update oldUserId for email: 'nandini@eternalsoftsolutions.com', uId: 201, oldUserId: 57
+2026-01-06 16:22:55,774 - INFO - Rows affected by update: 1
+2026-01-06 16:22:55,774 - INFO - Successfully updated radiologist nandini@eternalsoftsolutions.com (uId: 201) with oldUserId: 57
+2026-01-06 16:22:55,774 - INFO - Update process completed!
+2026-01-06 16:22:55,774 - INFO - Total MySQL records: 9
+2026-01-06 16:22:55,774 - INFO - Total PostgreSQL radiologists: 15
+2026-01-06 16:22:55,774 - INFO - Successfully updated: 9
+2026-01-06 16:22:55,774 - INFO - Not found in PostgreSQL: 0
+2026-01-06 16:22:55,774 - INFO - Errors: 0
+2026-01-06 16:22:55,774 - INFO - Database connections closed
+2026-01-06 16:22:55,774 - INFO - Validating update...
+2026-01-06 16:22:55,789 - INFO - Database connections established successfully
+2026-01-06 16:22:55,794 - INFO - MySQL tbl_radiologist count: 9
+2026-01-06 16:22:55,794 - INFO - PostgreSQL Users (RADIOLOGIST) total: 15
+2026-01-06 16:22:55,794 - INFO - PostgreSQL Users (RADIOLOGIST) with oldUserId: 10
+2026-01-06 16:22:55,794 - WARNING - ⚠️ Partial update: 10/9 radiologists updated
+2026-01-06 16:22:55,794 - INFO - Database connections closed

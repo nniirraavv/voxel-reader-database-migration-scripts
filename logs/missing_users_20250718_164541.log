@@ -1,0 +1,61 @@
+2025-07-18 16:45:41,174 - INFO - Logging initialized. Log file: /home/eternal/Desktop/voxel_order_1/logs/missing_users_20250718_164541.log
+2025-07-18 16:45:41,175 - INFO - 🔍 Starting missing users analysis...
+2025-07-18 16:45:41,175 - INFO - Fetching users from old MySQL database...
+2025-07-18 16:45:41,229 - INFO - Found 122 users in tbl_users
+2025-07-18 16:45:41,233 - INFO - Found 9 radiologists in tbl_radiologist
+2025-07-18 16:45:41,234 - INFO - Total unique users in old database: 131
+2025-07-18 16:45:41,234 - INFO - Fetching users from new PostgreSQL database...
+2025-07-18 16:45:41,321 - INFO - Total users in new database: 140
+2025-07-18 16:45:41,321 - INFO - Users with olduserid: 94
+2025-07-18 16:45:41,321 - INFO - Comparing users between old and new databases...
+2025-07-18 16:45:41,322 - INFO - Old database user IDs: 131
+2025-07-18 16:45:41,322 - INFO - New database uIds: 140
+2025-07-18 16:45:41,322 - INFO - New database olduserids: 93
+2025-07-18 16:45:41,322 - INFO - Missing users: 38
+2025-07-18 16:45:41,322 - INFO - ❌ Found 38 missing users:
+2025-07-18 16:45:41,322 - INFO - ================================================================================
+2025-07-18 16:45:41,322 - INFO - 
+📋 Missing users from tbl_users (38 users):
+2025-07-18 16:45:41,322 - INFO - ------------------------------------------------------------
+2025-07-18 16:45:41,323 - INFO - ID:   1152 | test december | amitdds11@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1153 | hello world | akddskc@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1155 | Kelley Thompson | dkthompy@aol.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1156 | Elizabeth Ward | elizabeth821@icloud.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1157 | Grain Valley Family Dental | dentistry@grainvalleyfamilydental.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1158 | Test Testo | vandanadds@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1159 | radio radiol | akddskc@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1160 | demo demo | cewomok646@netjook.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1161 | test tester | samadrita.job@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1162 | Ram Raam | usetest20201@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,323 - INFO - ID:   1163 | Sangeeta Goel | sangeeta0311@yahoo.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1164 | Kenneth Mogell | drmogell@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1165 | wim wim | watse.roorda@vertimart.nl | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1166 | VALERIE WADDELL | drvaleriewaddelldds@yahoo.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1174 | iman elhussein | iman.tageldeen@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1175 | Parth Shah | parth.s@eternalsolutions.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1176 | Parth Shah | parth.s@eternalsoftsolutions.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1177 | Test Mak | mak+1@eternalsoftsolutions.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1179 | Mak Ans | mak+2@eternalsoftsolutions.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1182 | p patel | poonam.pratik.p@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1185 | Pratik Patel | poonam@eternalsoftsolutions.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1187 | Gina Pinamonti | kelsey@smileoutloud.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1191 | Gina Pinamonti | vxl@smileoutloud.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1199 | Brian Hollabaugh | Brianhollabaugh@kcfos.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,324 - INFO - ID:   1244 | Dmitry Smirnov | dnsmir@yandex.ru | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1261 | Edward Shamieh | eddieshamieh@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1262 | Nandini P | nandini@eternalsoftsolutions.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1263 | Nancy Newhouse | info@newhouseperiodontics.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1264 | Axit Shah | akshitshah888@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1265 | Alicia Finney | finney.alicia@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1266 | Noemi Taguinod | noemifamilydentistry@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1267 | Victor Koval | frontdesk_dr.koval@yahoo.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1268 | Cyrus Mistry | info@modernofs.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1144 | Sid test | sid.tester@mailinator.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1148 | Amit Kumar | pisenaj498@5y5u.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1149 | vandana kumar | vandanaum@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1150 | Amit Kumar | usetest20201@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,325 - INFO - ID:   1151 | test December | amitjgd@gmail.com | Type: CLINIC_USERS
+2025-07-18 16:45:41,326 - INFO - 
+📄 Detailed report saved to: /home/eternal/Desktop/voxel_order_1/missing_users_summary_20250718_164541.txt
+2025-07-18 16:45:41,327 - INFO - 📊 CSV export saved to: /home/eternal/Desktop/voxel_order_1/missing_users_20250718_164541.csv
+2025-07-18 16:45:41,327 - INFO - ✅ Missing users analysis completed!
