@@ -113,6 +113,92 @@ This script will:
 - Connect to PostgreSQL and list all tables
 - Display connection status with colored output
 
+## Pre-Migration Setup (MANDATORY)
+
+**⚠️ IMPORTANT:** These steps must be performed on the PostgreSQL database **BEFORE** running any migration scripts. Execute these SQL commands in your PostgreSQL database.
+
+### Step 1: Clear Existing Data
+
+Clear existing data from tables (delete child records first to respect foreign key constraints):
+
+```sql
+-- Clear existing tables:
+-- 1. Delete child records first (they reference others)
+DELETE FROM "InvoiceCaseServices";
+DELETE FROM "PaymentPlatformAccessTokens";
+DELETE FROM "PaymentTransactions";
+DELETE FROM "CaseFiles";
+DELETE FROM "CaseServices";
+DELETE FROM "CaseStudyPurposes";
+DELETE FROM "CasePatients";
+DELETE FROM "Cases";  -- FK to RadiologistInvoices
+DELETE FROM "RadiologistInvoiceCaseServices";
+DELETE FROM "Invoices";
+DELETE FROM "RadiologistInvoices";
+```
+
+### Step 2: Schema Modifications for Users
+
+Add required columns and enum values for the Users table:
+
+```sql
+-- Phase 1: For Users
+ALTER TABLE "Users" ADD COLUMN olduserid INTEGER;
+ALTER TYPE "enum_Users_userType" ADD VALUE 'CLINIC_USERS';
+```
+
+### Step 3: Schema Modifications for Invoices
+
+Add required enum value for Invoices:
+
+```sql
+-- Phase 2: For Invoices
+ALTER TYPE "enum_Invoices_invoiceType" ADD VALUE IF NOT EXISTS 'ADHOC';
+```
+
+### Step 4: Data Standardization
+
+Update name titles to standardized format:
+
+```sql
+UPDATE "Users" SET "nameTitle"='Mr.' where "nameTitle"='Mr';
+UPDATE "Users" SET "nameTitle"='Dr.' where "nameTitle"='Dr';
+UPDATE "Users" SET "nameTitle"='Mrs.' where "nameTitle"='Mrs';
+UPDATE "Users" SET "nameTitle"='Ms.' where "nameTitle"='Ms';
+```
+
+### Step 5: Insert Required System Users
+
+Insert mandatory CMS users:
+
+```sql
+INSERT INTO public."Users" ("userType","email","sub","nameTitle","firstName","status","olduserid") 
+VALUES ('CMS','nirav.shah@eternalsoftsolutions.com','34983428-e031-7001-00e9-ff56c1b7a274','Mr.','Admin',TRUE, 1002);
+
+INSERT INTO public."Users" ("userType","email","sub","nameTitle","firstName","status","olduserid")
+VALUES ('CMS','info@voxelreaders.com','444814a8-70e1-7007-6e80-6601cd63c766','Mr','CMS',TRUE,1001);
+```
+
+### Step 6: Update Existing User Mapping
+
+Update specific user mapping:
+
+```sql
+UPDATE public."Users" set "olduserid"=1191 where "uId"=124;
+```
+
+### Step 7: Update Master Services
+
+Ensure MasterServices are not marked as deleted:
+
+```sql
+UPDATE "MasterServices" SET "isDeleted"=false;
+```
+
+```
+
+**Note:** Make sure to replace `your_postgres_db` with your actual PostgreSQL database name.
+
 ## Migration Process
 
 The migration is organized into separate modules, each handling specific entity types. Each module contains numbered scripts that run in sequential order.
@@ -182,12 +268,21 @@ Run the complete migration process using the main orchestrator:
 python migrate_all.py
 ```
 
-This will execute migrations in the following order:
-1. **Users** module (2 tables)
-2. **Invoices** module (5 tables)
-3. **Cases** module (5 tables)
+This will execute migrations in the following specific order:
+1. **Users/migrate.py** - Runs all Users scripts (2 tables)
+2. **Clinics/1_tbl_practice__Clinics_ClinicLocations.py** - Creates Clinics and ClinicLocations
+3. **Invoices/1_tbl_radiologist_invoices_&_tbl_radiologist_invoice_details__RadiologistInvoices.py**
+4. **Cases/1_tbl_cases__Cases.py**
+5. **Invoices/2_tbl_radiologist_invoices_&_tbl_radiologist_invoice_details__RadiologistInvoiceCaseServices.py**
+6. **Invoices/3_tbl_client_invoices__Invoices.py**
+7. **Invoices/4_tbl_client_invoice_details_&_tbl_client_invoice_reports__InvoiceCaseServices.py**
+8. **Invoices/5_tbl_user_service_charge__ClinicLocationServiceCharges.py**
+9. **Cases/2_tbl_cases_files_new__CaseFiles.py**
+10. **Cases/3_tbl_study_purposes__CaseStudyPurposes.py**
+11. **Cases/4_tbl_cases__ClinicPatient_CasePatients.py**
+12. **Cases/5_tbl_cases_report_CaseServices.py**
 
-**Note:** The Clinics module is not currently integrated into `migrate_all.py`. If needed, run it separately.
+**Note:** The order is critical due to foreign key dependencies. The script will stop if any step fails.
 
 ### Option 2: Run Individual Modules
 
@@ -231,20 +326,25 @@ python Cases/1_tbl_cases__Cases.py
 
 ## Migration Execution Flow
 
-When you run `migrate_all.py`, the following happens:
+When you run `migrate_all.py`, the following happens in this exact order:
 
 1. **Users Module:**
-   - Executes `1_tbl_users__Users_.py`
-   - Executes `2_tbl_radiologist__Users.py`
+   - Executes `Users/migrate.py` which runs:
+     - `1_tbl_users__Users_.py`
+     - `2_tbl_radiologist__Users.py`
    - Logs are written to `Users/user_log/`
 
-2. **Invoices Module:**
-   - Executes all 5 invoice-related scripts in order
-   - Logs are written to `Invoices/invoice_logs/`
+2. **Clinics Module:**
+   - Executes `1_tbl_practice__Clinics_ClinicLocations.py`
+   - Creates Clinics and ClinicLocations tables
+   - Logs are written to `Clinics/clinic_logs/`
 
-3. **Cases Module:**
-   - Executes all 5 case-related scripts in order
-   - Logs are written to `Cases/cases_logs/`
+3. **Interleaved Invoices and Cases:**
+   - Executes Invoices script 1
+   - Executes Cases script 1
+   - Executes Invoices scripts 2-5
+   - Executes Cases scripts 2-5
+   - Logs are written to respective `*_logs/` directories
 
 Each script:
 - Connects to both MySQL (source) and PostgreSQL (target) databases
