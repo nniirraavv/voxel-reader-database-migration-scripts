@@ -195,8 +195,6 @@ Ensure MasterServices are not marked as deleted:
 UPDATE "MasterServices" SET "isDeleted"=false;
 ```
 
-```
-
 **Note:** Make sure to replace `your_postgres_db` with your actual PostgreSQL database name.
 
 ## Migration Process
