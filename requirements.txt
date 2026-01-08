@@ -1,0 +1,6 @@
+mysql-connector-python
+psycopg2
+psycopg2-binary
+typing-extensions
+colorama
+python-dotenv
